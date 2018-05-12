@@ -15,17 +15,12 @@
         <signal name="XLXN_40(4:7)" />
         <signal name="XLXN_40(3:0)" />
         <signal name="RamAddr(4:0)" />
-        <signal name="XLXN_88(7:0)" />
-        <signal name="XLXN_90(4:0)" />
-        <signal name="InstOrData" />
         <signal name="XLXN_128" />
         <signal name="WriteCLK" />
         <signal name="WriteMem" />
         <signal name="XLXN_135" />
         <signal name="XLXN_138" />
         <signal name="XLXN_139" />
-        <signal name="XLXN_148(4:0)" />
-        <signal name="XLXN_150(7:0)" />
         <signal name="XLXN_151" />
         <signal name="XLXN_152" />
         <signal name="XLXN_153" />
@@ -44,18 +39,22 @@
         <signal name="XLXN_172" />
         <signal name="XLXN_173" />
         <signal name="XLXN_175" />
-        <signal name="XLXN_176(3:0)" />
+        <signal name="XLXN_177" />
+        <signal name="XLXN_178(4:0)" />
+        <signal name="XLXN_179(7:0)" />
+        <signal name="InstOrData" />
+        <signal name="XLXN_182" />
         <port polarity="Input" name="RowIn(3:0)" />
         <port polarity="Input" name="KeyCLK" />
         <port polarity="Input" name="AddrOrData" />
         <port polarity="Output" name="RamAddr(4:0)" />
-        <port polarity="Input" name="InstOrData" />
         <port polarity="Input" name="WriteCLK" />
         <port polarity="Input" name="WriteMem" />
         <port polarity="Input" name="ReadMem" />
         <port polarity="Output" name="DataRam(7:0)" />
         <port polarity="Output" name="InstRam(7:0)" />
         <port polarity="Output" name="ColO(3:0)" />
+        <port polarity="Input" name="InstOrData" />
         <blockdef name="keypad">
             <timestamp>2018-5-8T17:46:43</timestamp>
             <rect width="256" x="64" y="-192" height="192" />
@@ -85,28 +84,6 @@
             <line x2="0" y1="-32" y2="-32" x1="64" />
             <rect width="64" x="320" y="-236" height="24" />
             <line x2="384" y1="-224" y2="-224" x1="320" />
-            <rect width="64" x="320" y="-44" height="24" />
-            <line x2="384" y1="-32" y2="-32" x1="320" />
-        </blockdef>
-        <blockdef name="eightBitDemux">
-            <timestamp>2018-5-8T17:54:22</timestamp>
-            <rect width="256" x="64" y="-128" height="128" />
-            <rect width="64" x="0" y="-108" height="24" />
-            <line x2="0" y1="-96" y2="-96" x1="64" />
-            <line x2="0" y1="-32" y2="-32" x1="64" />
-            <rect width="64" x="320" y="-108" height="24" />
-            <line x2="384" y1="-96" y2="-96" x1="320" />
-            <rect width="64" x="320" y="-44" height="24" />
-            <line x2="384" y1="-32" y2="-32" x1="320" />
-        </blockdef>
-        <blockdef name="fiveBitDemux">
-            <timestamp>2018-5-12T19:15:42</timestamp>
-            <rect width="256" x="64" y="-128" height="128" />
-            <rect width="64" x="0" y="-108" height="24" />
-            <line x2="0" y1="-96" y2="-96" x1="64" />
-            <line x2="0" y1="-32" y2="-32" x1="64" />
-            <rect width="64" x="320" y="-108" height="24" />
-            <line x2="384" y1="-96" y2="-96" x1="320" />
             <rect width="64" x="320" y="-44" height="24" />
             <line x2="384" y1="-32" y2="-32" x1="320" />
         </blockdef>
@@ -239,37 +216,21 @@
             <blockpin signalname="XLXN_40(4:7)" name="bOUT2(3:0)" />
             <blockpin signalname="XLXN_40(3:0)" name="bOUT1(3:0)" />
         </block>
-        <block symbolname="fiveBitDemux" name="XLXI_12">
-            <blockpin signalname="RamAddr(4:0)" name="aIn(4:0)" />
-            <blockpin signalname="XLXN_135" name="sel" />
-            <blockpin signalname="XLXN_90(4:0)" name="outA(4:0)" />
-            <blockpin signalname="XLXN_148(4:0)" name="outB(4:0)" />
-        </block>
-        <block symbolname="eightBitDemux" name="XLXI_13">
-            <blockpin signalname="XLXN_40(7:0)" name="aIn(7:0)" />
-            <blockpin signalname="XLXN_135" name="sel" />
-            <blockpin signalname="XLXN_88(7:0)" name="outA(7:0)" />
-            <blockpin signalname="XLXN_150(7:0)" name="outB(7:0)" />
-        </block>
         <block symbolname="sRAM32x8_ex_pgm_instr" name="XLXI_15">
             <blockpin name="nCS" />
             <blockpin signalname="XLXN_153" name="nWE" />
             <blockpin signalname="XLXN_139" name="WCLK" />
-            <blockpin signalname="XLXN_148(4:0)" name="A(4:0)" />
-            <blockpin signalname="XLXN_150(7:0)" name="D(7:0)" />
+            <blockpin signalname="RamAddr(4:0)" name="A(4:0)" />
+            <blockpin signalname="XLXN_40(7:0)" name="D(7:0)" />
             <blockpin signalname="InstRam(7:0)" name="Q(7:0)" />
         </block>
         <block symbolname="sRAM32x8_ex_pgm_data" name="XLXI_16">
             <blockpin name="nCS" />
             <blockpin signalname="XLXN_154" name="nWE" />
             <blockpin signalname="XLXN_138" name="WCLK" />
-            <blockpin signalname="XLXN_90(4:0)" name="A(4:0)" />
-            <blockpin signalname="XLXN_88(7:0)" name="D(7:0)" />
+            <blockpin signalname="RamAddr(4:0)" name="A(4:0)" />
+            <blockpin signalname="XLXN_40(7:0)" name="D(7:0)" />
             <blockpin signalname="DataRam(7:0)" name="Q(7:0)" />
-        </block>
-        <block symbolname="inv" name="XLXI_21">
-            <blockpin signalname="InstOrData" name="I" />
-            <blockpin signalname="XLXN_135" name="O" />
         </block>
         <block symbolname="oneBitDemux" name="XLXI_23">
             <blockpin signalname="XLXN_167" name="Ain" />
@@ -315,6 +276,10 @@
             <blockpin signalname="XLXN_172" name="outA" />
             <blockpin signalname="XLXN_173" name="outB" />
         </block>
+        <block symbolname="inv" name="XLXI_21">
+            <blockpin signalname="InstOrData" name="I" />
+            <blockpin signalname="XLXN_135" name="O" />
+        </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
         <branch name="RowIn(3:0)">
@@ -358,56 +323,37 @@
             <wire x2="2176" y1="688" y2="688" x1="2144" />
         </branch>
         <branch name="RamAddr(4:0)">
-            <wire x2="2832" y1="1168" y2="1168" x1="2512" />
+            <wire x2="2000" y1="1600" y2="1600" x1="1360" />
+            <wire x2="2000" y1="1104" y2="1104" x1="1392" />
+            <wire x2="2000" y1="1104" y2="1168" x1="2000" />
+            <wire x2="2832" y1="1168" y2="1168" x1="2000" />
             <wire x2="2912" y1="1168" y2="1168" x1="2832" />
+            <wire x2="2000" y1="1168" y2="1600" x1="2000" />
             <wire x2="2832" y1="208" y2="288" x1="2832" />
             <wire x2="2832" y1="288" y2="480" x1="2832" />
             <wire x2="2832" y1="480" y2="1168" x1="2832" />
-        </branch>
-        <branch name="XLXN_88(7:0)">
-            <wire x2="2000" y1="1536" y2="1536" x1="1360" />
-            <wire x2="2000" y1="1408" y2="1536" x1="2000" />
-            <wire x2="2144" y1="1408" y2="1408" x1="2000" />
-        </branch>
-        <branch name="XLXN_90(4:0)">
-            <wire x2="1744" y1="1600" y2="1600" x1="1360" />
-            <wire x2="1744" y1="1168" y2="1600" x1="1744" />
-            <wire x2="2128" y1="1168" y2="1168" x1="1744" />
         </branch>
         <instance x="1360" y="1504" name="XLXI_16" orien="R180">
         </instance>
         <instance x="1392" y="1008" name="XLXI_15" orien="R180">
         </instance>
-        <instance x="2528" y="1312" name="XLXI_13" orien="R180">
-        </instance>
         <branch name="XLXN_40(7:0)">
+            <wire x2="1936" y1="1536" y2="1536" x1="1360" />
+            <wire x2="1936" y1="1040" y2="1040" x1="1392" />
+            <wire x2="1936" y1="1040" y2="1408" x1="1936" />
+            <wire x2="1936" y1="1408" y2="1536" x1="1936" />
+            <wire x2="2592" y1="1408" y2="1408" x1="1936" />
             <wire x2="2272" y1="640" y2="688" x1="2272" />
             <wire x2="2272" y1="688" y2="880" x1="2272" />
             <wire x2="2272" y1="880" y2="896" x1="2272" />
             <wire x2="2592" y1="896" y2="896" x1="2272" />
             <wire x2="2592" y1="896" y2="1408" x1="2592" />
-            <wire x2="2592" y1="1408" y2="1408" x1="2528" />
         </branch>
-        <branch name="InstOrData">
-            <wire x2="2992" y1="1344" y2="1344" x1="2928" />
-        </branch>
-        <instance x="2928" y="1312" name="XLXI_21" orien="R180" />
-        <iomarker fontsize="28" x="2992" y="1344" name="InstOrData" orien="R0" />
         <branch name="WriteCLK">
             <wire x2="3280" y1="1808" y2="1808" x1="3248" />
         </branch>
         <branch name="WriteMem">
             <wire x2="3280" y1="1872" y2="1872" x1="3248" />
-        </branch>
-        <branch name="XLXN_135">
-            <wire x2="2688" y1="1104" y2="1104" x1="2512" />
-            <wire x2="2688" y1="1104" y2="1344" x1="2688" />
-            <wire x2="2704" y1="1344" y2="1344" x1="2688" />
-            <wire x2="2688" y1="1344" y2="1744" x1="2688" />
-            <wire x2="2688" y1="1744" y2="1984" x1="2688" />
-            <wire x2="2688" y1="1344" y2="1344" x1="2528" />
-            <wire x2="2688" y1="1744" y2="1744" x1="2576" />
-            <wire x2="2688" y1="1984" y2="1984" x1="2592" />
         </branch>
         <instance x="2576" y="1712" name="XLXI_23" orien="R180">
         </instance>
@@ -424,19 +370,9 @@
         </branch>
         <iomarker fontsize="28" x="3280" y="1872" name="WriteMem" orien="R0" />
         <iomarker fontsize="28" x="3280" y="1808" name="WriteCLK" orien="R0" />
-        <branch name="XLXN_148(4:0)">
-            <wire x2="2128" y1="1104" y2="1104" x1="1392" />
-        </branch>
         <branch name="XLXN_139">
             <wire x2="1424" y1="1168" y2="1168" x1="1392" />
         </branch>
-        <branch name="XLXN_150(7:0)">
-            <wire x2="2000" y1="1040" y2="1040" x1="1392" />
-            <wire x2="2000" y1="1040" y2="1344" x1="2000" />
-            <wire x2="2144" y1="1344" y2="1344" x1="2000" />
-        </branch>
-        <instance x="2512" y="1072" name="XLXI_12" orien="R180">
-        </instance>
         <instance x="1680" y="1072" name="XLXI_36" orien="R180" />
         <branch name="XLXN_151">
             <wire x2="1920" y1="1136" y2="1136" x1="1680" />
@@ -444,9 +380,9 @@
             <wire x2="2192" y1="1744" y2="1744" x1="1920" />
         </branch>
         <branch name="XLXN_152">
-            <wire x2="1904" y1="1632" y2="1632" x1="1648" />
-            <wire x2="1904" y1="1632" y2="1808" x1="1904" />
-            <wire x2="2192" y1="1808" y2="1808" x1="1904" />
+            <wire x2="1888" y1="1632" y2="1632" x1="1648" />
+            <wire x2="1888" y1="1632" y2="1808" x1="1888" />
+            <wire x2="2192" y1="1808" y2="1808" x1="1888" />
         </branch>
         <branch name="XLXN_153">
             <wire x2="1808" y1="1232" y2="1232" x1="1392" />
@@ -498,8 +434,6 @@
         <branch name="XLXN_167">
             <wire x2="2864" y1="1808" y2="1808" x1="2576" />
         </branch>
-        <text style="fontsize:32;fontname:Arial" x="2924" y="1428">0 write to Instruction Ram</text>
-        <text style="fontsize:32;fontname:Arial" x="2924" y="1488">1 write to Data Ram</text>
         <instance x="2592" y="1952" name="XLXI_24" orien="R180">
         </instance>
         <branch name="XLXN_154">
@@ -551,10 +485,24 @@
             <wire x2="1664" y1="416" y2="448" x1="1664" />
         </branch>
         <branch name="AddrOrData">
-            <wire x2="1120" y1="896" y2="896" x1="1104" />
+            <wire x2="1120" y1="592" y2="592" x1="1072" />
+            <wire x2="1120" y1="592" y2="816" x1="1120" />
             <wire x2="1136" y1="816" y2="816" x1="1120" />
-            <wire x2="1120" y1="816" y2="896" x1="1120" />
         </branch>
-        <iomarker fontsize="28" x="1104" y="896" name="AddrOrData" orien="R180" />
+        <iomarker fontsize="28" x="1072" y="592" name="AddrOrData" orien="R180" />
+        <branch name="InstOrData">
+            <wire x2="2992" y1="1696" y2="1696" x1="2960" />
+        </branch>
+        <iomarker fontsize="28" x="2992" y="1696" name="InstOrData" orien="R0" />
+        <instance x="2960" y="1664" name="XLXI_21" orien="R180" />
+        <branch name="XLXN_135">
+            <wire x2="2688" y1="1744" y2="1744" x1="2576" />
+            <wire x2="2688" y1="1744" y2="1984" x1="2688" />
+            <wire x2="2688" y1="1984" y2="1984" x1="2592" />
+            <wire x2="2736" y1="1696" y2="1696" x1="2688" />
+            <wire x2="2688" y1="1696" y2="1744" x1="2688" />
+        </branch>
+        <text style="fontsize:32;fontname:Arial" x="2868" y="1560">1 write to Data Ram</text>
+        <text style="fontsize:32;fontname:Arial" x="2868" y="1500">0 write to Instruction Ram</text>
     </sheet>
 </drawing>

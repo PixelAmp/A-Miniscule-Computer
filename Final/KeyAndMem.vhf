@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : KeyAndMem.vhf
--- /___/   /\     Timestamp : 05/12/2018 13:27:19
+-- /___/   /\     Timestamp : 05/12/2018 13:39:37
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -318,139 +318,6 @@ use ieee.numeric_std.ALL;
 library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
-entity fourBitDemux_MUSER_KeyAndMem is
-   port ( aIn  : in    std_logic_vector (3 downto 0); 
-          sel  : in    std_logic; 
-          outA : out   std_logic_vector (3 downto 0); 
-          outB : out   std_logic_vector (3 downto 0));
-end fourBitDemux_MUSER_KeyAndMem;
-
-architecture BEHAVIORAL of fourBitDemux_MUSER_KeyAndMem is
-   component oneBitDemux_MUSER_KeyAndMem
-      port ( Ain  : in    std_logic; 
-             sel  : in    std_logic; 
-             outA : out   std_logic; 
-             outB : out   std_logic);
-   end component;
-   
-begin
-   XLXI_1 : oneBitDemux_MUSER_KeyAndMem
-      port map (Ain=>aIn(0),
-                sel=>sel,
-                outA=>outA(0),
-                outB=>outB(0));
-   
-   XLXI_2 : oneBitDemux_MUSER_KeyAndMem
-      port map (Ain=>aIn(1),
-                sel=>sel,
-                outA=>outA(1),
-                outB=>outB(1));
-   
-   XLXI_3 : oneBitDemux_MUSER_KeyAndMem
-      port map (Ain=>aIn(2),
-                sel=>sel,
-                outA=>outA(2),
-                outB=>outB(2));
-   
-   XLXI_4 : oneBitDemux_MUSER_KeyAndMem
-      port map (Ain=>aIn(3),
-                sel=>sel,
-                outA=>outA(3),
-                outB=>outB(3));
-   
-end BEHAVIORAL;
-
-
-
-library ieee;
-use ieee.std_logic_1164.ALL;
-use ieee.numeric_std.ALL;
-library UNISIM;
-use UNISIM.Vcomponents.ALL;
-
-entity eightBitDemux_MUSER_KeyAndMem is
-   port ( aIn  : in    std_logic_vector (7 downto 0); 
-          sel  : in    std_logic; 
-          outA : out   std_logic_vector (7 downto 0); 
-          outB : out   std_logic_vector (7 downto 0));
-end eightBitDemux_MUSER_KeyAndMem;
-
-architecture BEHAVIORAL of eightBitDemux_MUSER_KeyAndMem is
-   component fourBitDemux_MUSER_KeyAndMem
-      port ( aIn  : in    std_logic_vector (3 downto 0); 
-             sel  : in    std_logic; 
-             outA : out   std_logic_vector (3 downto 0); 
-             outB : out   std_logic_vector (3 downto 0));
-   end component;
-   
-begin
-   XLXI_1 : fourBitDemux_MUSER_KeyAndMem
-      port map (aIn(3 downto 0)=>aIn(3 downto 0),
-                sel=>sel,
-                outA(3 downto 0)=>outA(3 downto 0),
-                outB(3 downto 0)=>outB(3 downto 0));
-   
-   XLXI_2 : fourBitDemux_MUSER_KeyAndMem
-      port map (aIn(3 downto 0)=>aIn(7 downto 4),
-                sel=>sel,
-                outA(3 downto 0)=>outA(7 downto 4),
-                outB(3 downto 0)=>outB(7 downto 4));
-   
-end BEHAVIORAL;
-
-
-
-library ieee;
-use ieee.std_logic_1164.ALL;
-use ieee.numeric_std.ALL;
-library UNISIM;
-use UNISIM.Vcomponents.ALL;
-
-entity fiveBitDemux_MUSER_KeyAndMem is
-   port ( aIn  : in    std_logic_vector (4 downto 0); 
-          sel  : in    std_logic; 
-          outA : out   std_logic_vector (4 downto 0); 
-          outB : out   std_logic_vector (4 downto 0));
-end fiveBitDemux_MUSER_KeyAndMem;
-
-architecture BEHAVIORAL of fiveBitDemux_MUSER_KeyAndMem is
-   component fourBitDemux_MUSER_KeyAndMem
-      port ( aIn  : in    std_logic_vector (3 downto 0); 
-             sel  : in    std_logic; 
-             outA : out   std_logic_vector (3 downto 0); 
-             outB : out   std_logic_vector (3 downto 0));
-   end component;
-   
-   component oneBitDemux_MUSER_KeyAndMem
-      port ( Ain  : in    std_logic; 
-             sel  : in    std_logic; 
-             outA : out   std_logic; 
-             outB : out   std_logic);
-   end component;
-   
-begin
-   XLXI_1 : fourBitDemux_MUSER_KeyAndMem
-      port map (aIn(3 downto 0)=>aIn(3 downto 0),
-                sel=>sel,
-                outA(3 downto 0)=>outA(3 downto 0),
-                outB(3 downto 0)=>outB(3 downto 0));
-   
-   XLXI_3 : oneBitDemux_MUSER_KeyAndMem
-      port map (Ain=>aIn(4),
-                sel=>sel,
-                outA=>outA(4),
-                outB=>outB(4));
-   
-end BEHAVIORAL;
-
-
-
-library ieee;
-use ieee.std_logic_1164.ALL;
-use ieee.numeric_std.ALL;
-library UNISIM;
-use UNISIM.Vcomponents.ALL;
-
 entity keypad_MUSER_KeyAndMem is
    port ( CLK_IN : in    std_logic; 
           rowIn  : in    std_logic_vector (3 downto 0); 
@@ -552,14 +419,10 @@ architecture BEHAVIORAL of KeyAndMem is
    signal XLXN_9                 : std_logic;
    signal XLXN_38                : std_logic;
    signal XLXN_40                : std_logic_vector (7 downto 0);
-   signal XLXN_88                : std_logic_vector (7 downto 0);
-   signal XLXN_90                : std_logic_vector (4 downto 0);
    signal XLXN_128               : std_logic;
    signal XLXN_135               : std_logic;
    signal XLXN_138               : std_logic;
    signal XLXN_139               : std_logic;
-   signal XLXN_148               : std_logic_vector (4 downto 0);
-   signal XLXN_150               : std_logic_vector (7 downto 0);
    signal XLXN_151               : std_logic;
    signal XLXN_152               : std_logic;
    signal XLXN_153               : std_logic;
@@ -595,20 +458,6 @@ architecture BEHAVIORAL of KeyAndMem is
              bIN   : in    std_logic_vector (3 downto 0); 
              bOUT2 : out   std_logic_vector (3 downto 0); 
              bOUT1 : inout std_logic_vector (3 downto 0));
-   end component;
-   
-   component fiveBitDemux_MUSER_KeyAndMem
-      port ( aIn  : in    std_logic_vector (4 downto 0); 
-             sel  : in    std_logic; 
-             outA : out   std_logic_vector (4 downto 0); 
-             outB : out   std_logic_vector (4 downto 0));
-   end component;
-   
-   component eightBitDemux_MUSER_KeyAndMem
-      port ( aIn  : in    std_logic_vector (7 downto 0); 
-             sel  : in    std_logic; 
-             outA : out   std_logic_vector (7 downto 0); 
-             outB : out   std_logic_vector (7 downto 0));
    end component;
    
    component sRAM32x8_ex_pgm_instr
@@ -705,29 +554,17 @@ begin
                 bOUT2(0)=>XLXN_40(7),
                 bOUT1(3 downto 0)=>XLXN_40(3 downto 0));
    
-   XLXI_12 : fiveBitDemux_MUSER_KeyAndMem
-      port map (aIn(4 downto 0)=>RamAddr_DUMMY(4 downto 0),
-                sel=>XLXN_135,
-                outA(4 downto 0)=>XLXN_90(4 downto 0),
-                outB(4 downto 0)=>XLXN_148(4 downto 0));
-   
-   XLXI_13 : eightBitDemux_MUSER_KeyAndMem
-      port map (aIn(7 downto 0)=>XLXN_40(7 downto 0),
-                sel=>XLXN_135,
-                outA(7 downto 0)=>XLXN_88(7 downto 0),
-                outB(7 downto 0)=>XLXN_150(7 downto 0));
-   
    XLXI_15 : sRAM32x8_ex_pgm_instr
-      port map (A(4 downto 0)=>XLXN_148(4 downto 0),
-                D(7 downto 0)=>XLXN_150(7 downto 0),
+      port map (A(4 downto 0)=>RamAddr_DUMMY(4 downto 0),
+                D(7 downto 0)=>XLXN_40(7 downto 0),
                 nCS=>XLXI_15_nCS_openSignal,
                 nWE=>XLXN_153,
                 WCLK=>XLXN_139,
                 Q(7 downto 0)=>InstRam(7 downto 0));
    
    XLXI_16 : sRAM32x8_ex_pgm_data
-      port map (A(4 downto 0)=>XLXN_90(4 downto 0),
-                D(7 downto 0)=>XLXN_88(7 downto 0),
+      port map (A(4 downto 0)=>RamAddr_DUMMY(4 downto 0),
+                D(7 downto 0)=>XLXN_40(7 downto 0),
                 nCS=>XLXI_16_nCS_openSignal,
                 nWE=>XLXN_154,
                 WCLK=>XLXN_138,

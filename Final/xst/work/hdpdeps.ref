@@ -1,15 +1,15 @@
 V3 188
 FL "C:/A Miniscule Computer/Final/CRenc4bin.vhd" 2017/04/25.11:38:38 P.20131013
-EN work/CRenc4bin 1526156847 FL "C:/A Miniscule Computer/Final/CRenc4bin.vhd" \
+EN work/CRenc4bin 1526157582 FL "C:/A Miniscule Computer/Final/CRenc4bin.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/CRenc4bin/Behavioral 1526156848 \
-      FL "C:/A Miniscule Computer/Final/CRenc4bin.vhd" EN work/CRenc4bin 1526156847
+AR work/CRenc4bin/Behavioral 1526157583 \
+      FL "C:/A Miniscule Computer/Final/CRenc4bin.vhd" EN work/CRenc4bin 1526157582
 FL "C:/A Miniscule Computer/Final/DCM_50M.vhd" 2018/02/22.10:41:30 P.20131013
-EN work/DCM_50M 1526156859 FL "C:/A Miniscule Computer/Final/DCM_50M.vhd" \
+EN work/DCM_50M 1526157594 FL "C:/A Miniscule Computer/Final/DCM_50M.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/DCM_50M/Behavioral 1526156860 \
-      FL "C:/A Miniscule Computer/Final/DCM_50M.vhd" EN work/DCM_50M 1526156859
+AR work/DCM_50M/Behavioral 1526157595 \
+      FL "C:/A Miniscule Computer/Final/DCM_50M.vhd" EN work/DCM_50M 1526157594
 FL "C:/A Miniscule Computer/Final/eightBitDemux.vhf" 2018/05/12.13:21:46 P.20131013
 EN work/oneBitDemux_MUSER_eightBitDemux 1526156913 \
       FL "C:/A Miniscule Computer/Final/eightBitDemux.vhf" PB ieee/std_logic_1164 1381692176 \
@@ -31,24 +31,24 @@ AR work/eightBitDemux/BEHAVIORAL 1526156918 \
       FL "C:/A Miniscule Computer/Final/eightBitDemux.vhf" EN work/eightBitDemux 1526156917 \
       CP fourBitDemux_MUSER_eightBitDemux
 FL "C:/A Miniscule Computer/Final/eightBitMux.vhf" 2018/05/12.13:21:45 P.20131013
-EN work/oneBitMux_MUSER_eightBitMux 1526156889 \
+EN work/oneBitMux_MUSER_eightBitMux 1526157618 \
       FL "C:/A Miniscule Computer/Final/eightBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/oneBitMux_MUSER_eightBitMux/BEHAVIORAL 1526156890 \
+AR work/oneBitMux_MUSER_eightBitMux/BEHAVIORAL 1526157619 \
       FL "C:/A Miniscule Computer/Final/eightBitMux.vhf" \
-      EN work/oneBitMux_MUSER_eightBitMux 1526156889 CP NAND2
-EN work/fourBitMux_MUSER_eightBitMux 1526156891 \
+      EN work/oneBitMux_MUSER_eightBitMux 1526157618 CP NAND2
+EN work/fourBitMux_MUSER_eightBitMux 1526157620 \
       FL "C:/A Miniscule Computer/Final/eightBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/fourBitMux_MUSER_eightBitMux/BEHAVIORAL 1526156892 \
+AR work/fourBitMux_MUSER_eightBitMux/BEHAVIORAL 1526157621 \
       FL "C:/A Miniscule Computer/Final/eightBitMux.vhf" \
-      EN work/fourBitMux_MUSER_eightBitMux 1526156891 \
+      EN work/fourBitMux_MUSER_eightBitMux 1526157620 \
       CP oneBitMux_MUSER_eightBitMux
-EN work/eightBitMux 1526156893 \
+EN work/eightBitMux 1526157622 \
       FL "C:/A Miniscule Computer/Final/eightBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/eightBitMux/BEHAVIORAL 1526156894 \
-      FL "C:/A Miniscule Computer/Final/eightBitMux.vhf" EN work/eightBitMux 1526156893 \
+AR work/eightBitMux/BEHAVIORAL 1526157623 \
+      FL "C:/A Miniscule Computer/Final/eightBitMux.vhf" EN work/eightBitMux 1526157622 \
       CP fourBitMux_MUSER_eightBitMux
 FL "C:/A Miniscule Computer/Final/fiveBitDemux.vhf" 2018/05/12.13:21:45 P.20131013
 EN work/oneBitDemux_MUSER_fiveBitDemux 1526156919 \
@@ -84,251 +84,231 @@ AR work/fourBitDemux/BEHAVIORAL 1526156940 \
       FL "C:/A Miniscule Computer/Final/fourBitDemux.vhf" EN work/fourBitDemux 1526156939 \
       CP oneBitDemux_MUSER_fourBitDemux
 FL "C:/A Miniscule Computer/Final/fourBitMux.vhf" 2018/05/12.13:21:46 P.20131013
-EN work/oneBitMux_MUSER_fourBitMux 1526156925 \
+EN work/oneBitMux_MUSER_fourBitMux 1526157636 \
       FL "C:/A Miniscule Computer/Final/fourBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/oneBitMux_MUSER_fourBitMux/BEHAVIORAL 1526156926 \
+AR work/oneBitMux_MUSER_fourBitMux/BEHAVIORAL 1526157637 \
       FL "C:/A Miniscule Computer/Final/fourBitMux.vhf" \
-      EN work/oneBitMux_MUSER_fourBitMux 1526156925 CP NAND2
-EN work/fourBitMux 1526156927 \
+      EN work/oneBitMux_MUSER_fourBitMux 1526157636 CP NAND2
+EN work/fourBitMux 1526157638 \
       FL "C:/A Miniscule Computer/Final/fourBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/fourBitMux/BEHAVIORAL 1526156928 \
-      FL "C:/A Miniscule Computer/Final/fourBitMux.vhf" EN work/fourBitMux 1526156927 \
+AR work/fourBitMux/BEHAVIORAL 1526157639 \
+      FL "C:/A Miniscule Computer/Final/fourBitMux.vhf" EN work/fourBitMux 1526157638 \
       CP oneBitMux_MUSER_fourBitMux
-FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" 2018/05/12.13:27:20 P.20131013
-EN work/oneBitDemux_MUSER_KeyAndMem 1526156895 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/oneBitDemux_MUSER_KeyAndMem/BEHAVIORAL 1526156896 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
-      EN work/oneBitDemux_MUSER_KeyAndMem 1526156895 CP INV CP AND2
-EN work/FTRSE_MXILINX_KeyAndMem 1526156897 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/FTRSE_MXILINX_KeyAndMem/BEHAVIORAL 1526156898 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
-      EN work/FTRSE_MXILINX_KeyAndMem 1526156897 CP XOR2 CP FDRE CP OR2
-EN work/CB2RE_MXILINX_KeyAndMem 1526156899 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/CB2RE_MXILINX_KeyAndMem/BEHAVIORAL 1526156900 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
-      EN work/CB2RE_MXILINX_KeyAndMem 1526156899 CP FTRSE_MXILINX_KeyAndMem \
-      CP AND2 CP VCC CP GND
-EN work/MemWrite_MUSER_KeyAndMem 1526156901 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/MemWrite_MUSER_KeyAndMem/BEHAVIORAL 1526156902 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
-      EN work/MemWrite_MUSER_KeyAndMem 1526156901 CP NOR2 \
-      CP CB2RE_MXILINX_KeyAndMem CP OR2
-EN work/fourBitDemux_MUSER_KeyAndMem 1526156903 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" 2018/05/12.13:39:37 P.20131013
 AR work/fourBitDemux_MUSER_KeyAndMem/BEHAVIORAL 1526156904 \
       FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
       EN work/fourBitDemux_MUSER_KeyAndMem 1526156903 \
       CP oneBitDemux_MUSER_KeyAndMem
-EN work/eightBitDemux_MUSER_KeyAndMem 1526156905 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
 AR work/eightBitDemux_MUSER_KeyAndMem/BEHAVIORAL 1526156906 \
       FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
       EN work/eightBitDemux_MUSER_KeyAndMem 1526156905 \
       CP fourBitDemux_MUSER_KeyAndMem
-EN work/fiveBitDemux_MUSER_KeyAndMem 1526156907 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
 AR work/fiveBitDemux_MUSER_KeyAndMem/BEHAVIORAL 1526156908 \
       FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
       EN work/fiveBitDemux_MUSER_KeyAndMem 1526156907 \
       CP fourBitDemux_MUSER_KeyAndMem CP oneBitDemux_MUSER_KeyAndMem
-EN work/keypad_MUSER_KeyAndMem 1526156909 \
+EN work/oneBitDemux_MUSER_KeyAndMem 1526157624 \
       FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/keypad_MUSER_KeyAndMem/BEHAVIORAL 1526156910 \
+AR work/oneBitDemux_MUSER_KeyAndMem/BEHAVIORAL 1526157625 \
       FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
-      EN work/keypad_MUSER_KeyAndMem 1526156909 CP PULLDOWN CP keyCR4b CP FD CP INV
-EN work/KeyAndMem 1526156911 \
+      EN work/oneBitDemux_MUSER_KeyAndMem 1526157624 CP INV CP AND2
+EN work/FTRSE_MXILINX_KeyAndMem 1526157626 \
       FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/KeyAndMem/BEHAVIORAL 1526156912 \
-      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" EN work/KeyAndMem 1526156911 \
+AR work/FTRSE_MXILINX_KeyAndMem/BEHAVIORAL 1526157627 \
+      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
+      EN work/FTRSE_MXILINX_KeyAndMem 1526157626 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_KeyAndMem 1526157628 \
+      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2RE_MXILINX_KeyAndMem/BEHAVIORAL 1526157629 \
+      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
+      EN work/CB2RE_MXILINX_KeyAndMem 1526157628 CP FTRSE_MXILINX_KeyAndMem \
+      CP AND2 CP VCC CP GND
+EN work/MemWrite_MUSER_KeyAndMem 1526157630 \
+      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MemWrite_MUSER_KeyAndMem/BEHAVIORAL 1526157631 \
+      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
+      EN work/MemWrite_MUSER_KeyAndMem 1526157630 CP NOR2 \
+      CP CB2RE_MXILINX_KeyAndMem CP OR2
+EN work/keypad_MUSER_KeyAndMem 1526157632 \
+      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/keypad_MUSER_KeyAndMem/BEHAVIORAL 1526157633 \
+      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" \
+      EN work/keypad_MUSER_KeyAndMem 1526157632 CP PULLDOWN CP keyCR4b CP FD CP INV
+EN work/KeyAndMem 1526157634 \
+      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/KeyAndMem/BEHAVIORAL 1526157635 \
+      FL "C:/A Miniscule Computer/Final/KeyAndMem.vhf" EN work/KeyAndMem 1526157634 \
       CP keypad_MUSER_KeyAndMem CP oneshot CP shiftreg_hex2D \
-      CP fiveBitDemux_MUSER_KeyAndMem CP eightBitDemux_MUSER_KeyAndMem \
       CP sRAM32x8_ex_pgm_instr CP sRAM32x8_ex_pgm_data CP MemWrite_MUSER_KeyAndMem \
       CP INV CP oneBitDemux_MUSER_KeyAndMem CP OR2 CP BUF CP PULLUP CP PULLDOWN
 FL "C:/A Miniscule Computer/Final/keyCR4b.vhd" 2017/04/25.11:47:52 P.20131013
-EN work/keyCR4b 1526156849 FL "C:/A Miniscule Computer/Final/keyCR4b.vhd" \
+EN work/keyCR4b 1526157584 FL "C:/A Miniscule Computer/Final/keyCR4b.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/keyCR4b/Behavioral 1526156850 \
-      FL "C:/A Miniscule Computer/Final/keyCR4b.vhd" EN work/keyCR4b 1526156849 \
+AR work/keyCR4b/Behavioral 1526157585 \
+      FL "C:/A Miniscule Computer/Final/keyCR4b.vhd" EN work/keyCR4b 1526157584 \
       CP CRenc4bin
 FL "C:/A Miniscule Computer/Final/keypad.vhf" 2018/05/12.13:21:40 P.20131013
-EN work/keypad 1526156929 FL "C:/A Miniscule Computer/Final/keypad.vhf" \
+EN work/keypad 1526157640 FL "C:/A Miniscule Computer/Final/keypad.vhf" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/keypad/BEHAVIORAL 1526156930 \
-      FL "C:/A Miniscule Computer/Final/keypad.vhf" EN work/keypad 1526156929 \
+AR work/keypad/BEHAVIORAL 1526157641 \
+      FL "C:/A Miniscule Computer/Final/keypad.vhf" EN work/keypad 1526157640 \
       CP PULLDOWN CP keyCR4b CP FD CP INV
 FL "C:/A Miniscule Computer/Final/MemWrite.vhf" 2018/05/12.13:21:41 P.20131013
-EN work/FTRSE_MXILINX_MemWrite 1526156931 \
+EN work/FTRSE_MXILINX_MemWrite 1526157642 \
       FL "C:/A Miniscule Computer/Final/MemWrite.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/FTRSE_MXILINX_MemWrite/BEHAVIORAL 1526156932 \
+AR work/FTRSE_MXILINX_MemWrite/BEHAVIORAL 1526157643 \
       FL "C:/A Miniscule Computer/Final/MemWrite.vhf" \
-      EN work/FTRSE_MXILINX_MemWrite 1526156931 CP XOR2 CP FDRE CP OR2
-EN work/CB2RE_MXILINX_MemWrite 1526156933 \
+      EN work/FTRSE_MXILINX_MemWrite 1526157642 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_MemWrite 1526157644 \
       FL "C:/A Miniscule Computer/Final/MemWrite.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/CB2RE_MXILINX_MemWrite/BEHAVIORAL 1526156934 \
+AR work/CB2RE_MXILINX_MemWrite/BEHAVIORAL 1526157645 \
       FL "C:/A Miniscule Computer/Final/MemWrite.vhf" \
-      EN work/CB2RE_MXILINX_MemWrite 1526156933 CP FTRSE_MXILINX_MemWrite CP AND2 \
+      EN work/CB2RE_MXILINX_MemWrite 1526157644 CP FTRSE_MXILINX_MemWrite CP AND2 \
       CP VCC CP GND
-EN work/MemWrite 1526156935 \
+EN work/MemWrite 1526157646 \
       FL "C:/A Miniscule Computer/Final/MemWrite.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/MemWrite/BEHAVIORAL 1526156936 \
-      FL "C:/A Miniscule Computer/Final/MemWrite.vhf" EN work/MemWrite 1526156935 \
+AR work/MemWrite/BEHAVIORAL 1526157647 \
+      FL "C:/A Miniscule Computer/Final/MemWrite.vhf" EN work/MemWrite 1526157646 \
       CP NOR2 CP CB2RE_MXILINX_MemWrite CP OR2
 FL "C:/A Miniscule Computer/Final/oneBitDemux.vhf" 2018/05/12.13:21:41 P.20131013
-EN work/oneBitDemux 1526156943 FL "C:/A Miniscule Computer/Final/oneBitDemux.vhf" \
+EN work/oneBitDemux 1526157648 FL "C:/A Miniscule Computer/Final/oneBitDemux.vhf" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/oneBitDemux/BEHAVIORAL 1526156944 \
-      FL "C:/A Miniscule Computer/Final/oneBitDemux.vhf" EN work/oneBitDemux 1526156943 \
+AR work/oneBitDemux/BEHAVIORAL 1526157649 \
+      FL "C:/A Miniscule Computer/Final/oneBitDemux.vhf" EN work/oneBitDemux 1526157648 \
       CP INV CP AND2
 FL "C:/A Miniscule Computer/Final/oneBitMux.vhf" 2018/05/12.13:21:41 P.20131013
-EN work/oneBitMux 1526156941 FL "C:/A Miniscule Computer/Final/oneBitMux.vhf" \
+EN work/oneBitMux 1526157650 FL "C:/A Miniscule Computer/Final/oneBitMux.vhf" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/oneBitMux/BEHAVIORAL 1526156942 \
-      FL "C:/A Miniscule Computer/Final/oneBitMux.vhf" EN work/oneBitMux 1526156941 \
+AR work/oneBitMux/BEHAVIORAL 1526157651 \
+      FL "C:/A Miniscule Computer/Final/oneBitMux.vhf" EN work/oneBitMux 1526157650 \
       CP NAND2
 FL "C:/A Miniscule Computer/Final/oneshot.vhd" 2018/05/10.11:02:48 P.20131013
-EN work/oneshot 1526156851 FL "C:/A Miniscule Computer/Final/oneshot.vhd" \
+EN work/oneshot 1526157586 FL "C:/A Miniscule Computer/Final/oneshot.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
       PB ieee/std_logic_arith 1381692177
-AR work/oneshot/Behavioral 1526156852 \
-      FL "C:/A Miniscule Computer/Final/oneshot.vhd" EN work/oneshot 1526156851
+AR work/oneshot/Behavioral 1526157587 \
+      FL "C:/A Miniscule Computer/Final/oneshot.vhd" EN work/oneshot 1526157586
 FL "C:/A Miniscule Computer/Final/shiftreg_hex2D.vhd" 2017/10/10.10:41:20 P.20131013
-EN work/shiftreg_hex2D 1526156853 \
+EN work/shiftreg_hex2D 1526157588 \
       FL "C:/A Miniscule Computer/Final/shiftreg_hex2D.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/shiftreg_hex2D/Behavioral 1526156854 \
+AR work/shiftreg_hex2D/Behavioral 1526157589 \
       FL "C:/A Miniscule Computer/Final/shiftreg_hex2D.vhd" \
-      EN work/shiftreg_hex2D 1526156853
+      EN work/shiftreg_hex2D 1526157588
 FL "C:/A Miniscule Computer/Final/sRAM32x8_ex_pgm_data.vhd" 2016/11/17.10:21:28 P.20131013
-EN work/sRAM32x8_ex_pgm_data 1526156857 \
+EN work/sRAM32x8_ex_pgm_data 1526157592 \
       FL "C:/A Miniscule Computer/Final/sRAM32x8_ex_pgm_data.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/sRAM32x8_ex_pgm_data/Behavioral 1526156858 \
+AR work/sRAM32x8_ex_pgm_data/Behavioral 1526157593 \
       FL "C:/A Miniscule Computer/Final/sRAM32x8_ex_pgm_data.vhd" \
-      EN work/sRAM32x8_ex_pgm_data 1526156857
+      EN work/sRAM32x8_ex_pgm_data 1526157592
 FL "C:/A Miniscule Computer/Final/sRAM32x8_ex_pgm_instr.vhd" 2016/11/17.10:21:04 P.20131013
-EN work/sRAM32x8_ex_pgm_instr 1526156855 \
+EN work/sRAM32x8_ex_pgm_instr 1526157590 \
       FL "C:/A Miniscule Computer/Final/sRAM32x8_ex_pgm_instr.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/sRAM32x8_ex_pgm_instr/Behavioral 1526156856 \
+AR work/sRAM32x8_ex_pgm_instr/Behavioral 1526157591 \
       FL "C:/A Miniscule Computer/Final/sRAM32x8_ex_pgm_instr.vhd" \
-      EN work/sRAM32x8_ex_pgm_instr 1526156855
+      EN work/sRAM32x8_ex_pgm_instr 1526157590
 FL "C:/A Miniscule Computer/Final/sseg_mux4D.vhd" 2018/03/08.10:36:14 P.20131013
-EN work/sseg_mux4D 1526156861 FL "C:/A Miniscule Computer/Final/sseg_mux4D.vhd" \
+EN work/sseg_mux4D 1526157596 FL "C:/A Miniscule Computer/Final/sseg_mux4D.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/sseg_mux4D/Behavioral 1526156862 \
-      FL "C:/A Miniscule Computer/Final/sseg_mux4D.vhd" EN work/sseg_mux4D 1526156861
-FL "C:/A Miniscule Computer/Final/TestArea.vhf" 2018/05/12.13:27:22 P.20131013
-EN work/oneBitMux_MUSER_TestArea 1526156863 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/oneBitMux_MUSER_TestArea/BEHAVIORAL 1526156864 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
-      EN work/oneBitMux_MUSER_TestArea 1526156863 CP NAND2
-EN work/fourBitMux_MUSER_TestArea 1526156865 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/fourBitMux_MUSER_TestArea/BEHAVIORAL 1526156866 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
-      EN work/fourBitMux_MUSER_TestArea 1526156865 CP oneBitMux_MUSER_TestArea
-EN work/eightBitMux_MUSER_TestArea 1526156867 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/eightBitMux_MUSER_TestArea/BEHAVIORAL 1526156868 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
-      EN work/eightBitMux_MUSER_TestArea 1526156867 CP fourBitMux_MUSER_TestArea
-EN work/oneBitDemux_MUSER_TestArea 1526156869 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/oneBitDemux_MUSER_TestArea/BEHAVIORAL 1526156870 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
-      EN work/oneBitDemux_MUSER_TestArea 1526156869 CP INV CP AND2
-EN work/FTRSE_MXILINX_TestArea 1526156871 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/FTRSE_MXILINX_TestArea/BEHAVIORAL 1526156872 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
-      EN work/FTRSE_MXILINX_TestArea 1526156871 CP XOR2 CP FDRE CP OR2
-EN work/CB2RE_MXILINX_TestArea 1526156873 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/CB2RE_MXILINX_TestArea/BEHAVIORAL 1526156874 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
-      EN work/CB2RE_MXILINX_TestArea 1526156873 CP FTRSE_MXILINX_TestArea CP AND2 \
-      CP VCC CP GND
-EN work/MemWrite_MUSER_TestArea 1526156875 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/MemWrite_MUSER_TestArea/BEHAVIORAL 1526156876 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
-      EN work/MemWrite_MUSER_TestArea 1526156875 CP NOR2 CP CB2RE_MXILINX_TestArea \
-      CP OR2
-EN work/fourBitDemux_MUSER_TestArea 1526156877 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/sseg_mux4D/Behavioral 1526157597 \
+      FL "C:/A Miniscule Computer/Final/sseg_mux4D.vhd" EN work/sseg_mux4D 1526157596
+FL "C:/A Miniscule Computer/Final/TestArea.vhf" 2018/05/12.13:39:38 P.20131013
 AR work/fourBitDemux_MUSER_TestArea/BEHAVIORAL 1526156878 \
       FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
       EN work/fourBitDemux_MUSER_TestArea 1526156877 \
       CP oneBitDemux_MUSER_TestArea
-EN work/eightBitDemux_MUSER_TestArea 1526156879 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
 AR work/eightBitDemux_MUSER_TestArea/BEHAVIORAL 1526156880 \
       FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
       EN work/eightBitDemux_MUSER_TestArea 1526156879 \
       CP fourBitDemux_MUSER_TestArea
-EN work/fiveBitDemux_MUSER_TestArea 1526156881 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
-      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
 AR work/fiveBitDemux_MUSER_TestArea/BEHAVIORAL 1526156882 \
       FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
       EN work/fiveBitDemux_MUSER_TestArea 1526156881 \
       CP fourBitDemux_MUSER_TestArea CP oneBitDemux_MUSER_TestArea
-EN work/keypad_MUSER_TestArea 1526156883 \
+EN work/oneBitMux_MUSER_TestArea 1526157598 \
       FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/keypad_MUSER_TestArea/BEHAVIORAL 1526156884 \
+AR work/oneBitMux_MUSER_TestArea/BEHAVIORAL 1526157599 \
       FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
-      EN work/keypad_MUSER_TestArea 1526156883 CP PULLDOWN CP keyCR4b CP FD CP INV
-EN work/KeyAndMem_MUSER_TestArea 1526156885 \
+      EN work/oneBitMux_MUSER_TestArea 1526157598 CP NAND2
+EN work/fourBitMux_MUSER_TestArea 1526157600 \
       FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/KeyAndMem_MUSER_TestArea/BEHAVIORAL 1526156886 \
+AR work/fourBitMux_MUSER_TestArea/BEHAVIORAL 1526157601 \
       FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
-      EN work/KeyAndMem_MUSER_TestArea 1526156885 CP keypad_MUSER_TestArea \
-      CP oneshot CP shiftreg_hex2D CP fiveBitDemux_MUSER_TestArea \
-      CP eightBitDemux_MUSER_TestArea CP sRAM32x8_ex_pgm_instr \
-      CP sRAM32x8_ex_pgm_data CP MemWrite_MUSER_TestArea CP INV \
-      CP oneBitDemux_MUSER_TestArea CP OR2 CP BUF CP PULLUP CP PULLDOWN
-EN work/TestArea 1526156887 \
+      EN work/fourBitMux_MUSER_TestArea 1526157600 CP oneBitMux_MUSER_TestArea
+EN work/eightBitMux_MUSER_TestArea 1526157602 \
       FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
       PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/TestArea/BEHAVIORAL 1526156888 \
-      FL "C:/A Miniscule Computer/Final/TestArea.vhf" EN work/TestArea 1526156887 \
+AR work/eightBitMux_MUSER_TestArea/BEHAVIORAL 1526157603 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
+      EN work/eightBitMux_MUSER_TestArea 1526157602 CP fourBitMux_MUSER_TestArea
+EN work/oneBitDemux_MUSER_TestArea 1526157604 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitDemux_MUSER_TestArea/BEHAVIORAL 1526157605 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
+      EN work/oneBitDemux_MUSER_TestArea 1526157604 CP INV CP AND2
+EN work/FTRSE_MXILINX_TestArea 1526157606 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTRSE_MXILINX_TestArea/BEHAVIORAL 1526157607 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
+      EN work/FTRSE_MXILINX_TestArea 1526157606 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_TestArea 1526157608 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2RE_MXILINX_TestArea/BEHAVIORAL 1526157609 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
+      EN work/CB2RE_MXILINX_TestArea 1526157608 CP FTRSE_MXILINX_TestArea CP AND2 \
+      CP VCC CP GND
+EN work/MemWrite_MUSER_TestArea 1526157610 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MemWrite_MUSER_TestArea/BEHAVIORAL 1526157611 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
+      EN work/MemWrite_MUSER_TestArea 1526157610 CP NOR2 CP CB2RE_MXILINX_TestArea \
+      CP OR2
+EN work/keypad_MUSER_TestArea 1526157612 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/keypad_MUSER_TestArea/BEHAVIORAL 1526157613 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
+      EN work/keypad_MUSER_TestArea 1526157612 CP PULLDOWN CP keyCR4b CP FD CP INV
+EN work/KeyAndMem_MUSER_TestArea 1526157614 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/KeyAndMem_MUSER_TestArea/BEHAVIORAL 1526157615 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" \
+      EN work/KeyAndMem_MUSER_TestArea 1526157614 CP keypad_MUSER_TestArea \
+      CP oneshot CP shiftreg_hex2D CP sRAM32x8_ex_pgm_instr CP sRAM32x8_ex_pgm_data \
+      CP MemWrite_MUSER_TestArea CP INV CP oneBitDemux_MUSER_TestArea CP OR2 CP BUF \
+      CP PULLUP CP PULLDOWN
+EN work/TestArea 1526157616 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TestArea/BEHAVIORAL 1526157617 \
+      FL "C:/A Miniscule Computer/Final/TestArea.vhf" EN work/TestArea 1526157616 \
       CP DCM_50M CP sseg_mux4D CP KeyAndMem_MUSER_TestArea \
       CP eightBitMux_MUSER_TestArea CP BUF
 FL "C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/CRenc4bin.vhd" 2017/04/25.11:38:38 P.20131013

@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.56 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.56 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: TestArea.prj
 
@@ -135,12 +135,6 @@ Entity <cb2re_mxilinx_testarea> compiled.
 Entity <cb2re_mxilinx_testarea> (Architecture <behavioral>) compiled.
 Entity <memwrite_muser_testarea> compiled.
 Entity <memwrite_muser_testarea> (Architecture <behavioral>) compiled.
-Entity <fourbitdemux_muser_testarea> compiled.
-Entity <fourbitdemux_muser_testarea> (Architecture <behavioral>) compiled.
-Entity <eightbitdemux_muser_testarea> compiled.
-Entity <eightbitdemux_muser_testarea> (Architecture <behavioral>) compiled.
-Entity <fivebitdemux_muser_testarea> compiled.
-Entity <fivebitdemux_muser_testarea> (Architecture <behavioral>) compiled.
 Entity <keypad_muser_testarea> compiled.
 Entity <keypad_muser_testarea> (Architecture <behavioral>) compiled.
 Entity <keyandmem_muser_testarea> compiled.
@@ -160,24 +154,10 @@ Entity <cb2re_mxilinx_keyandmem> compiled.
 Entity <cb2re_mxilinx_keyandmem> (Architecture <behavioral>) compiled.
 Entity <memwrite_muser_keyandmem> compiled.
 Entity <memwrite_muser_keyandmem> (Architecture <behavioral>) compiled.
-Entity <fourbitdemux_muser_keyandmem> compiled.
-Entity <fourbitdemux_muser_keyandmem> (Architecture <behavioral>) compiled.
-Entity <eightbitdemux_muser_keyandmem> compiled.
-Entity <eightbitdemux_muser_keyandmem> (Architecture <behavioral>) compiled.
-Entity <fivebitdemux_muser_keyandmem> compiled.
-Entity <fivebitdemux_muser_keyandmem> (Architecture <behavioral>) compiled.
 Entity <keypad_muser_keyandmem> compiled.
 Entity <keypad_muser_keyandmem> (Architecture <behavioral>) compiled.
 Entity <keyandmem> compiled.
 Entity <keyandmem> (Architecture <behavioral>) compiled.
-Compiling vhdl file "C:/A Miniscule Computer/Final/eightBitDemux.vhf" in Library work.
-Architecture behavioral of Entity onebitdemux_muser_eightbitdemux is up to date.
-Architecture behavioral of Entity fourbitdemux_muser_eightbitdemux is up to date.
-Architecture behavioral of Entity eightbitdemux is up to date.
-Compiling vhdl file "C:/A Miniscule Computer/Final/fiveBitDemux.vhf" in Library work.
-Architecture behavioral of Entity onebitdemux_muser_fivebitdemux is up to date.
-Architecture behavioral of Entity fourbitdemux_muser_fivebitdemux is up to date.
-Architecture behavioral of Entity fivebitdemux is up to date.
 Compiling vhdl file "C:/A Miniscule Computer/Final/fourBitMux.vhf" in Library work.
 Architecture behavioral of Entity onebitmux_muser_fourbitmux is up to date.
 Architecture behavioral of Entity fourbitmux is up to date.
@@ -187,13 +167,10 @@ Compiling vhdl file "C:/A Miniscule Computer/Final/MemWrite.vhf" in Library work
 Architecture behavioral of Entity ftrse_mxilinx_memwrite is up to date.
 Architecture behavioral of Entity cb2re_mxilinx_memwrite is up to date.
 Architecture behavioral of Entity memwrite is up to date.
-Compiling vhdl file "C:/A Miniscule Computer/Final/fourBitDemux.vhf" in Library work.
-Architecture behavioral of Entity onebitdemux_muser_fourbitdemux is up to date.
-Architecture behavioral of Entity fourbitdemux is up to date.
-Compiling vhdl file "C:/A Miniscule Computer/Final/oneBitMux.vhf" in Library work.
-Architecture behavioral of Entity onebitmux is up to date.
 Compiling vhdl file "C:/A Miniscule Computer/Final/oneBitDemux.vhf" in Library work.
 Architecture behavioral of Entity onebitdemux is up to date.
+Compiling vhdl file "C:/A Miniscule Computer/Final/oneBitMux.vhf" in Library work.
+Architecture behavioral of Entity onebitmux is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -220,10 +197,6 @@ Analyzing hierarchy for entity <oneshot> in library <work> (architecture <behavi
 
 Analyzing hierarchy for entity <shiftreg_hex2D> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <fiveBitDemux_MUSER_TestArea> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <eightBitDemux_MUSER_TestArea> in library <work> (architecture <behavioral>).
-
 Analyzing hierarchy for entity <sRAM32x8_ex_pgm_instr> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <sRAM32x8_ex_pgm_data> in library <work> (architecture <behavioral>).
@@ -236,21 +209,11 @@ Analyzing hierarchy for entity <fourBitMux_MUSER_TestArea> in library <work> (ar
 
 Analyzing hierarchy for entity <keyCR4b> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <fourBitDemux_MUSER_TestArea> in library <work> (architecture <behavioral>).
-
 Analyzing hierarchy for entity <CB2RE_MXILINX_TestArea> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <oneBitMux_MUSER_TestArea> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <CRenc4bin> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <oneBitDemux_MUSER_TestArea> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <oneBitDemux_MUSER_TestArea> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <oneBitDemux_MUSER_TestArea> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <oneBitDemux_MUSER_TestArea> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <FTRSE_MXILINX_TestArea> in library <work> (architecture <behavioral>) with generics.
 	INIT = '0'
@@ -260,8 +223,8 @@ Analyzing hierarchy for entity <FTRSE_MXILINX_TestArea> in library <work> (archi
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <TestArea> in library <work> (Architecture <behavioral>).
-WARNING:Xst:753 - "C:/A Miniscule Computer/Final/TestArea.vhf" line 1005: Unconnected output port 'CLK1M' of component 'DCM_50M'.
-WARNING:Xst:753 - "C:/A Miniscule Computer/Final/TestArea.vhf" line 1005: Unconnected output port 'CLK10k' of component 'DCM_50M'.
+WARNING:Xst:753 - "C:/A Miniscule Computer/Final/TestArea.vhf" line 842: Unconnected output port 'CLK1M' of component 'DCM_50M'.
+WARNING:Xst:753 - "C:/A Miniscule Computer/Final/TestArea.vhf" line 842: Unconnected output port 'CLK10k' of component 'DCM_50M'.
 Entity <TestArea> analyzed. Unit <TestArea> generated.
 
 Analyzing generic Entity <DCM_50M> in library <work> (Architecture <behavioral>).
@@ -294,15 +257,6 @@ Entity <oneshot> analyzed. Unit <oneshot> generated.
 
 Analyzing Entity <shiftreg_hex2D> in library <work> (Architecture <behavioral>).
 Entity <shiftreg_hex2D> analyzed. Unit <shiftreg_hex2D> generated.
-
-Analyzing Entity <fiveBitDemux_MUSER_TestArea> in library <work> (Architecture <behavioral>).
-Entity <fiveBitDemux_MUSER_TestArea> analyzed. Unit <fiveBitDemux_MUSER_TestArea> generated.
-
-Analyzing Entity <fourBitDemux_MUSER_TestArea> in library <work> (Architecture <behavioral>).
-Entity <fourBitDemux_MUSER_TestArea> analyzed. Unit <fourBitDemux_MUSER_TestArea> generated.
-
-Analyzing Entity <eightBitDemux_MUSER_TestArea> in library <work> (Architecture <behavioral>).
-Entity <eightBitDemux_MUSER_TestArea> analyzed. Unit <eightBitDemux_MUSER_TestArea> generated.
 
 Analyzing Entity <sRAM32x8_ex_pgm_instr> in library <work> (Architecture <behavioral>).
 Entity <sRAM32x8_ex_pgm_instr> analyzed. Unit <sRAM32x8_ex_pgm_instr> generated.
@@ -473,11 +427,6 @@ Synthesizing Unit <keypad_MUSER_TestArea>.
 Unit <keypad_MUSER_TestArea> synthesized.
 
 
-Synthesizing Unit <fourBitDemux_MUSER_TestArea>.
-    Related source file is "C:/A Miniscule Computer/Final/TestArea.vhf".
-Unit <fourBitDemux_MUSER_TestArea> synthesized.
-
-
 Synthesizing Unit <CB2RE_MXILINX_TestArea>.
     Related source file is "C:/A Miniscule Computer/Final/TestArea.vhf".
 Unit <CB2RE_MXILINX_TestArea> synthesized.
@@ -491,16 +440,6 @@ Unit <fourBitMux_MUSER_TestArea> synthesized.
 Synthesizing Unit <eightBitMux_MUSER_TestArea>.
     Related source file is "C:/A Miniscule Computer/Final/TestArea.vhf".
 Unit <eightBitMux_MUSER_TestArea> synthesized.
-
-
-Synthesizing Unit <fiveBitDemux_MUSER_TestArea>.
-    Related source file is "C:/A Miniscule Computer/Final/TestArea.vhf".
-Unit <fiveBitDemux_MUSER_TestArea> synthesized.
-
-
-Synthesizing Unit <eightBitDemux_MUSER_TestArea>.
-    Related source file is "C:/A Miniscule Computer/Final/TestArea.vhf".
-Unit <eightBitDemux_MUSER_TestArea> synthesized.
 
 
 Synthesizing Unit <MemWrite_MUSER_TestArea>.
@@ -689,11 +628,11 @@ Design Statistics
 # IOs                              : 25
 
 Cell Usage :
-# BELS                             : 1542
-#      AND2                        : 34
+# BELS                             : 1503
+#      AND2                        : 8
 #      BUF                         : 2
 #      GND                         : 2
-#      INV                         : 38
+#      INV                         : 25
 #      LUT1                        : 131
 #      LUT2                        : 81
 #      LUT3                        : 403
@@ -736,7 +675,7 @@ Selected Device : 3s100ecp132-4
 
  Number of Slices:                      625  out of    960    65%  
  Number of Slice Flip Flops:            685  out of   1920    35%  
- Number of 4 input LUTs:                739  out of   1920    38%  
+ Number of 4 input LUTs:                726  out of   1920    37%  
  Number of IOs:                          25
  Number of bonded IOBs:                  25  out of     83    30%  
  Number of GCLKs:                         5  out of     24    20%  
@@ -790,9 +729,9 @@ Timing Summary:
 Speed Grade: -4
 
    Minimum period: 12.220ns (Maximum Frequency: 81.834MHz)
-   Minimum input arrival time before clock: 11.224ns
-   Maximum output required time after clock: 16.065ns
-   Maximum combinational path delay: 20.455ns
+   Minimum input arrival time before clock: 9.915ns
+   Maximum output required time after clock: 14.818ns
+   Maximum combinational path delay: 13.307ns
 
 Timing Detail:
 --------------
@@ -1152,50 +1091,50 @@ Delay:               4.230ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_3/XLXN_1391'
-  Total number of paths / destination ports: 1792 / 512
+  Total number of paths / destination ports: 256 / 256
 -------------------------------------------------------------------------
-Offset:              9.960ns (Levels of Logic = 5)
+Offset:              8.651ns (Levels of Logic = 5)
   Source:            InstOrData (PAD)
-  Destination:       XLXI_3/XLXI_15/mem_1_7 (FF)
+  Destination:       XLXI_3/XLXI_15/mem_29_7 (FF)
   Destination Clock: XLXI_3/XLXN_1391 rising
 
-  Data Path: InstOrData to XLXI_3/XLXI_15/mem_1_7
+  Data Path: InstOrData to XLXI_3/XLXI_15/mem_29_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            25   1.218   1.260  InstOrData_IBUF (InstOrData_IBUF)
-     INV:I->O             30   0.704   1.262  XLXI_3/XLXI_21 (XLXI_3/XLXN_135)
-     AND2:I1->O          136   0.704   1.470  XLXI_3/XLXI_12/XLXI_1/XLXI_1/XLXI_3 (XLXI_3/XLXN_148<0>)
-     LUT4:I0->O            4   0.704   0.622  XLXI_3/XLXI_15/mem_13_and000021 (XLXI_3/XLXI_15/N13)
-     LUT3:I2->O            8   0.704   0.757  XLXI_3/XLXI_15/mem_9_and00001 (XLXI_3/XLXI_15/mem_9_and0000)
-     FDE:CE                    0.555          XLXI_3/XLXI_15/mem_9_0
+     INV:I->O              4   0.704   0.587  XLXI_3/XLXI_21 (XLXI_3/XLXN_135)
+     AND2:I1->O            8   0.704   0.836  XLXI_3/XLXI_24/XLXI_3 (XLXI_3/XLXN_153)
+     LUT4:I1->O            4   0.704   0.622  XLXI_3/XLXI_15/mem_19_and000011 (XLXI_3/XLXI_15/N8)
+     LUT3:I2->O            8   0.704   0.757  XLXI_3/XLXI_15/mem_31_and00001 (XLXI_3/XLXI_15/mem_31_and0000)
+     FDE:CE                    0.555          XLXI_3/XLXI_15/mem_31_0
     ----------------------------------------
-    Total                      9.960ns (4.589ns logic, 5.371ns route)
-                                       (46.1% logic, 53.9% route)
+    Total                      8.651ns (4.589ns logic, 4.062ns route)
+                                       (53.0% logic, 47.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_3/XLXN_1381'
-  Total number of paths / destination ports: 1792 / 512
+  Total number of paths / destination ports: 256 / 256
 -------------------------------------------------------------------------
-Offset:              11.224ns (Levels of Logic = 6)
+Offset:              9.915ns (Levels of Logic = 6)
   Source:            InstOrData (PAD)
-  Destination:       XLXI_3/XLXI_16/mem_29_7 (FF)
+  Destination:       XLXI_3/XLXI_16/mem_27_7 (FF)
   Destination Clock: XLXI_3/XLXN_1381 rising
 
-  Data Path: InstOrData to XLXI_3/XLXI_16/mem_29_7
+  Data Path: InstOrData to XLXI_3/XLXI_16/mem_27_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            25   1.218   1.260  InstOrData_IBUF (InstOrData_IBUF)
-     INV:I->O             30   0.704   1.262  XLXI_3/XLXI_21 (XLXI_3/XLXN_135)
-     INV:I->O              1   0.704   0.420  XLXI_3/XLXI_12/XLXI_1/XLXI_1/XLXI_2 (XLXI_3/XLXI_12/XLXI_1/XLXI_1/XLXN_1)
-     AND2:I1->O          136   0.704   1.470  XLXI_3/XLXI_12/XLXI_1/XLXI_1/XLXI_4 (XLXI_3/XLXN_90<0>)
-     LUT4:I0->O            4   0.704   0.762  XLXI_3/XLXI_16/mem_19_and000011 (XLXI_3/XLXI_16/N8)
+     INV:I->O              4   0.704   0.587  XLXI_3/XLXI_21 (XLXI_3/XLXN_135)
+     INV:I->O              1   0.704   0.420  XLXI_3/XLXI_24/XLXI_2 (XLXI_3/XLXI_24/XLXN_1)
+     AND2:I1->O            8   0.704   0.836  XLXI_3/XLXI_24/XLXI_4 (XLXI_3/XLXN_154)
+     LUT4:I1->O            4   0.704   0.762  XLXI_3/XLXI_16/mem_19_and000011 (XLXI_3/XLXI_16/N8)
      LUT3:I0->O            8   0.704   0.757  XLXI_3/XLXI_16/mem_31_and00001 (XLXI_3/XLXI_16/mem_31_and0000)
      FDE:CE                    0.555          XLXI_3/XLXI_16/mem_31_0
     ----------------------------------------
-    Total                     11.224ns (5.293ns logic, 5.931ns route)
-                                       (47.2% logic, 52.8% route)
+    Total                      9.915ns (5.293ns logic, 4.622ns route)
+                                       (53.4% logic, 46.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_1/clk_1'
@@ -1271,7 +1210,7 @@ Offset:              9.599ns (Levels of Logic = 6)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_3/XLXN_172'
   Total number of paths / destination ports: 3969 / 7
 -------------------------------------------------------------------------
-Offset:              16.065ns (Levels of Logic = 12)
+Offset:              14.818ns (Levels of Logic = 11)
   Source:            XLXI_3/XLXI_5/bOUT1_0 (FF)
   Destination:       SSEG<4> (PAD)
   Source Clock:      XLXI_3/XLXN_172 rising
@@ -1280,22 +1219,21 @@ Offset:              16.065ns (Levels of Logic = 12)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              4   0.591   0.587  XLXI_3/XLXI_5/bOUT1_0 (XLXI_3/XLXI_5/bOUT1_0)
-     AND2:I0->O          136   0.704   1.470  XLXI_3/XLXI_12/XLXI_1/XLXI_1/XLXI_4 (XLXI_3/XLXN_90<0>)
-     LUT3:I0->O            1   0.704   0.000  XLXI_3/XLXI_16/Mmux_Q_mux0000_61 (XLXI_3/XLXI_16/Mmux_Q_mux0000_61)
-     MUXF5:I1->O           1   0.321   0.000  XLXI_3/XLXI_16/Mmux_Q_mux0000_5_f5_0 (XLXI_3/XLXI_16/Mmux_Q_mux0000_5_f51)
-     MUXF6:I1->O           1   0.521   0.000  XLXI_3/XLXI_16/Mmux_Q_mux0000_4_f6_0 (XLXI_3/XLXI_16/Mmux_Q_mux0000_4_f61)
-     MUXF7:I1->O           1   0.521   0.000  XLXI_3/XLXI_16/Mmux_Q_mux0000_3_f7_0 (XLXI_3/XLXI_16/Mmux_Q_mux0000_3_f71)
-     MUXF8:I1->O           1   0.521   0.420  XLXI_3/XLXI_16/Mmux_Q_mux0000_2_f8_0 (XLXN_28<1>)
-     NAND2:I0->O           1   0.704   0.420  XLXI_6/XLXI_2/XLXI_198/XLXI_2 (XLXI_6/XLXI_2/XLXI_198/XLXN_5)
-     NAND2:I0->O           1   0.704   0.595  XLXI_6/XLXI_2/XLXI_198/XLXI_4 (XLXN_30<1>)
+     FDE:C->Q            274   0.591   1.514  XLXI_3/XLXI_5/bOUT1_0 (XLXI_3/XLXI_5/bOUT1_0)
+     LUT3:I0->O            1   0.704   0.000  XLXI_3/XLXI_15/Mmux_Q_mux0000_61 (XLXI_3/XLXI_15/Mmux_Q_mux0000_61)
+     MUXF5:I1->O           1   0.321   0.000  XLXI_3/XLXI_15/Mmux_Q_mux0000_5_f5_0 (XLXI_3/XLXI_15/Mmux_Q_mux0000_5_f51)
+     MUXF6:I1->O           1   0.521   0.000  XLXI_3/XLXI_15/Mmux_Q_mux0000_4_f6_0 (XLXI_3/XLXI_15/Mmux_Q_mux0000_4_f61)
+     MUXF7:I1->O           1   0.521   0.000  XLXI_3/XLXI_15/Mmux_Q_mux0000_3_f7_0 (XLXI_3/XLXI_15/Mmux_Q_mux0000_3_f71)
+     MUXF8:I1->O           1   0.521   0.420  XLXI_3/XLXI_15/Mmux_Q_mux0000_2_f8_0 (XLXN_27<1>)
+     NAND2:I1->O           1   0.704   0.420  XLXI_6/XLXI_2/XLXI_198/XLXI_1 (XLXI_6/XLXI_2/XLXI_198/XLXN_4)
+     NAND2:I1->O           1   0.704   0.595  XLXI_6/XLXI_2/XLXI_198/XLXI_4 (XLXN_30<1>)
      LUT4:I0->O            1   0.704   0.595  XLXI_2/hexO<1>_SW0 (N6)
      LUT3:I0->O            7   0.704   0.883  XLXI_2/hexO<1> (XLXI_2/hexO<1>)
      LUT4:I0->O            1   0.704   0.420  XLXI_2/Mrom_hexO_rom000021 (SSEG_4_OBUF)
      OBUF:I->O                 3.272          SSEG_4_OBUF (SSEG<4>)
     ----------------------------------------
-    Total                     16.065ns (10.675ns logic, 5.390ns route)
-                                       (66.4% logic, 33.6% route)
+    Total                     14.818ns (9.971ns logic, 4.847ns route)
+                                       (67.3% logic, 32.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_3/XLXN_1381'
@@ -1357,9 +1295,9 @@ Offset:              13.803ns (Levels of Logic = 11)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 4095 / 7
+  Total number of paths / destination ports: 189 / 7
 -------------------------------------------------------------------------
-Delay:               20.455ns (Levels of Logic = 15)
+Delay:               13.307ns (Levels of Logic = 8)
   Source:            InstOrData (PAD)
   Destination:       SSEG<4> (PAD)
 
@@ -1368,33 +1306,26 @@ Delay:               20.455ns (Levels of Logic = 15)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            25   1.218   1.260  InstOrData_IBUF (InstOrData_IBUF)
-     INV:I->O             30   0.704   1.262  XLXI_3/XLXI_21 (XLXI_3/XLXN_135)
-     INV:I->O              1   0.704   0.420  XLXI_3/XLXI_12/XLXI_1/XLXI_1/XLXI_2 (XLXI_3/XLXI_12/XLXI_1/XLXI_1/XLXN_1)
-     AND2:I1->O          136   0.704   1.470  XLXI_3/XLXI_12/XLXI_1/XLXI_1/XLXI_4 (XLXI_3/XLXN_90<0>)
-     LUT3:I0->O            1   0.704   0.000  XLXI_3/XLXI_16/Mmux_Q_mux0000_61 (XLXI_3/XLXI_16/Mmux_Q_mux0000_61)
-     MUXF5:I1->O           1   0.321   0.000  XLXI_3/XLXI_16/Mmux_Q_mux0000_5_f5_0 (XLXI_3/XLXI_16/Mmux_Q_mux0000_5_f51)
-     MUXF6:I1->O           1   0.521   0.000  XLXI_3/XLXI_16/Mmux_Q_mux0000_4_f6_0 (XLXI_3/XLXI_16/Mmux_Q_mux0000_4_f61)
-     MUXF7:I1->O           1   0.521   0.000  XLXI_3/XLXI_16/Mmux_Q_mux0000_3_f7_0 (XLXI_3/XLXI_16/Mmux_Q_mux0000_3_f71)
-     MUXF8:I1->O           1   0.521   0.420  XLXI_3/XLXI_16/Mmux_Q_mux0000_2_f8_0 (XLXN_28<1>)
-     NAND2:I0->O           1   0.704   0.420  XLXI_6/XLXI_2/XLXI_198/XLXI_2 (XLXI_6/XLXI_2/XLXI_198/XLXN_5)
-     NAND2:I0->O           1   0.704   0.595  XLXI_6/XLXI_2/XLXI_198/XLXI_4 (XLXN_30<1>)
-     LUT4:I0->O            1   0.704   0.595  XLXI_2/hexO<1>_SW0 (N6)
-     LUT3:I0->O            7   0.704   0.883  XLXI_2/hexO<1> (XLXI_2/hexO<1>)
-     LUT4:I0->O            1   0.704   0.420  XLXI_2/Mrom_hexO_rom000021 (SSEG_4_OBUF)
-     OBUF:I->O                 3.272          SSEG_4_OBUF (SSEG<4>)
+     NAND2:I0->O           1   0.704   0.420  XLXI_6/XLXI_2/XLXI_200/XLXI_3 (XLXI_6/XLXI_2/XLXI_200/XLXN_3)
+     NAND2:I0->O           1   0.704   0.420  XLXI_6/XLXI_2/XLXI_200/XLXI_1 (XLXI_6/XLXI_2/XLXI_200/XLXN_4)
+     NAND2:I1->O           1   0.704   0.595  XLXI_6/XLXI_2/XLXI_200/XLXI_4 (XLXN_30<3>)
+     LUT4:I0->O            1   0.704   0.595  XLXI_2/hexO<3>_SW0 (N2)
+     LUT3:I0->O            7   0.704   0.883  XLXI_2/hexO<3> (XLXI_2/hexO<3>)
+     LUT4:I0->O            1   0.704   0.420  XLXI_2/Mrom_hexO_rom000041 (SSEG_2_OBUF)
+     OBUF:I->O                 3.272          SSEG_2_OBUF (SSEG<2>)
     ----------------------------------------
-    Total                     20.455ns (12.710ns logic, 7.745ns route)
-                                       (62.1% logic, 37.9% route)
+    Total                     13.307ns (8.714ns logic, 4.593ns route)
+                                       (65.5% logic, 34.5% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 16.92 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.78 secs
  
 --> 
 
-Total memory usage is 377280 kilobytes
+Total memory usage is 377260 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   61 (   0 filtered)

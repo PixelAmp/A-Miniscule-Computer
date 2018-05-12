@@ -67,7 +67,7 @@
             <line x2="384" y1="-32" y2="-32" x1="320" />
         </blockdef>
         <blockdef name="KeyAndMem">
-            <timestamp>2018-5-12T20:26:53</timestamp>
+            <timestamp>2018-5-12T20:39:16</timestamp>
             <rect width="288" x="64" y="-448" height="448" />
             <rect width="64" x="0" y="-428" height="24" />
             <line x2="0" y1="-416" y2="-416" x1="64" />
@@ -128,10 +128,10 @@
             <blockpin signalname="RowIn(3:0)" name="RowIn(3:0)" />
             <blockpin signalname="XLXN_21" name="KeyCLK" />
             <blockpin signalname="AddrOrData" name="AddrOrData" />
-            <blockpin signalname="InstOrData" name="InstOrData" />
             <blockpin signalname="XLXN_22" name="WriteCLK" />
             <blockpin signalname="WriteMem" name="WriteMem" />
             <blockpin signalname="ReadMem" name="ReadMem" />
+            <blockpin signalname="InstOrData" name="InstOrData" />
             <blockpin signalname="XLXN_23(4:0)" name="RamAddr(4:0)" />
             <blockpin signalname="XLXN_28(7:0)" name="DataRam(7:0)" />
             <blockpin signalname="XLXN_27(7:0)" name="InstRam(7:0)" />
