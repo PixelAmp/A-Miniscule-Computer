@@ -1,0 +1,2 @@
+vhdtdtfi -lib work DCM_50M.vhd -prj Final -o DCM_50M.spl -module DCM_50M -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DCM_50M.spl {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/DCM_50M.sym} 

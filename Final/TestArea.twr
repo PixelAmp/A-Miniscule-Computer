@@ -1,0 +1,157 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml TestArea.twx TestArea.ncd -o TestArea.twr TestArea.pcf
+-ucf TestArea.ucf
+
+Design file:              TestArea.ncd
+Physical constraint file: TestArea.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock AddrOrData to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+SSEG<0>     |   24.167(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<1>     |   24.397(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<2>     |   24.224(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<3>     |   24.155(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<4>     |   24.815(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<5>     |   24.088(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<6>     |   24.004(R)|XLXI_3/XLXN_172   |   0.000|
+------------+------------+------------------+--------+
+
+Clock InstOrData to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+SSEG<0>     |   21.207(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.415(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<1>     |   21.437(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.854(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<2>     |   21.264(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.290(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<3>     |   21.462(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.746(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<4>     |   21.855(R)|XLXI_3/XLXN_138   |   0.000|
+            |   22.065(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<5>     |   21.126(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.679(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<6>     |   21.044(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.559(R)|XLXI_3/XLXN_139   |   0.000|
+------------+------------+------------------+--------+
+
+Clock ReadMem to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+SSEG<0>     |   18.655(R)|XLXI_3/XLXN_138   |   0.000|
+            |   18.888(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<1>     |   18.885(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.327(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<2>     |   18.712(R)|XLXI_3/XLXN_138   |   0.000|
+            |   18.763(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<3>     |   18.910(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.219(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<4>     |   19.303(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.538(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<5>     |   18.574(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.152(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<6>     |   18.492(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.032(R)|XLXI_3/XLXN_139   |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock AddrOrData
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+AddrOrData     |    1.489|    1.055|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |   11.623|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock InstOrData
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+AddrOrData     |   11.115|         |         |         |
+InstOrData     |    5.805|    5.805|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ReadMem
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+AddrOrData     |   11.115|         |         |         |
+InstOrData     |    7.826|    7.826|         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+InstOrData     |SSEG<0>        |   19.947|
+InstOrData     |SSEG<1>        |   20.177|
+InstOrData     |SSEG<2>        |   20.004|
+InstOrData     |SSEG<3>        |   19.935|
+InstOrData     |SSEG<4>        |   20.595|
+InstOrData     |SSEG<5>        |   19.868|
+InstOrData     |SSEG<6>        |   19.784|
+---------------+---------------+---------+
+
+
+Analysis completed Sat May 12 12:17:29 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 228 MB
+
+
+

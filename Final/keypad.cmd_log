@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym keypad {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/keypad.sch} {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/keypad.sym} 

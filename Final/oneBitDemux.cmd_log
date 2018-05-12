@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -refsym oneBitDemux {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/oneBitDemux.sch} {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/oneBitDemux.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym oneBitDemux {C:/A Miniscule Computer/Final/oneBitDemux.sch} {C:/A Miniscule Computer/Final/oneBitDemux.sym} 

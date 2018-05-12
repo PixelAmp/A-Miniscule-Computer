@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym fourBitMux {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/fourBitMux.sch} {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/fourBitMux.sym} 
