@@ -13,10 +13,6 @@
         <signal name="b" />
         <signal name="a" />
         <signal name="Mout" />
-        <signal name="XLXN_6" />
-        <signal name="XLXN_7" />
-        <signal name="XLXN_8" />
-        <signal name="XLXN_9" />
         <port polarity="Input" name="sel" />
         <port polarity="Input" name="b" />
         <port polarity="Input" name="a" />

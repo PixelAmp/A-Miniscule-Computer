@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : fourBitMux.vhf
--- /___/   /\     Timestamp : 05/10/2018 11:12:05
+-- /___/   /\     Timestamp : 05/12/2018 13:21:46
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/fourBitMux.vhf" -w "C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/fourBitMux.sch"
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/A Miniscule Computer/Final/fourBitMux.vhf" -w "C:/A Miniscule Computer/Final/fourBitMux.sch"
 --Design Name: fourBitMux
 --Device: spartan3e
 --Purpose:

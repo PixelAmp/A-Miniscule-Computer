@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : MemWrite.vhf
--- /___/   /\     Timestamp : 05/10/2018 11:12:05
+-- /___/   /\     Timestamp : 05/12/2018 13:21:41
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/MemWrite.vhf" -w "C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/MemWrite.sch"
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/A Miniscule Computer/Final/MemWrite.vhf" -w "C:/A Miniscule Computer/Final/MemWrite.sch"
 --Design Name: MemWrite
 --Device: spartan3e
 --Purpose:
@@ -147,8 +147,8 @@ architecture BEHAVIORAL of CB2RE_MXILINX_MemWrite is
    end component;
    attribute BOX_TYPE of GND : component is "BLACK_BOX";
    
-   attribute HU_SET of I_Q0 : label is "I_Q0_3";
-   attribute HU_SET of I_Q1 : label is "I_Q1_4";
+   attribute HU_SET of I_Q0 : label is "I_Q0_6";
+   attribute HU_SET of I_Q1 : label is "I_Q1_7";
 begin
    Q0 <= Q0_DUMMY;
    Q1 <= Q1_DUMMY;
@@ -233,7 +233,7 @@ architecture BEHAVIORAL of MemWrite is
    end component;
    attribute BOX_TYPE of OR2 : component is "BLACK_BOX";
    
-   attribute HU_SET of XLXI_16 : label is "XLXI_16_5";
+   attribute HU_SET of XLXI_16 : label is "XLXI_16_8";
 begin
    rPush <= rPush_DUMMY;
    XLXI_1 : NOR2

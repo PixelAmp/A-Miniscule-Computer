@@ -10,8 +10,6 @@
         <signal name="RowIn(3:0)" />
         <signal name="KeyCLK" />
         <signal name="AddrOrData" />
-        <signal name="XLXN_19(3:0)" />
-        <signal name="XLXN_20(3:0)" />
         <signal name="XLXN_38" />
         <signal name="XLXN_40(7:0)" />
         <signal name="XLXN_40(4:7)" />
@@ -46,6 +44,7 @@
         <signal name="XLXN_172" />
         <signal name="XLXN_173" />
         <signal name="XLXN_175" />
+        <signal name="XLXN_176(3:0)" />
         <port polarity="Input" name="RowIn(3:0)" />
         <port polarity="Input" name="KeyCLK" />
         <port polarity="Input" name="AddrOrData" />
@@ -91,17 +90,6 @@
         </blockdef>
         <blockdef name="eightBitDemux">
             <timestamp>2018-5-8T17:54:22</timestamp>
-            <rect width="256" x="64" y="-128" height="128" />
-            <rect width="64" x="0" y="-108" height="24" />
-            <line x2="0" y1="-96" y2="-96" x1="64" />
-            <line x2="0" y1="-32" y2="-32" x1="64" />
-            <rect width="64" x="320" y="-108" height="24" />
-            <line x2="384" y1="-96" y2="-96" x1="320" />
-            <rect width="64" x="320" y="-44" height="24" />
-            <line x2="384" y1="-32" y2="-32" x1="320" />
-        </blockdef>
-        <blockdef name="fourBitDemux">
-            <timestamp>2018-5-12T19:13:32</timestamp>
             <rect width="256" x="64" y="-128" height="128" />
             <rect width="64" x="0" y="-108" height="24" />
             <line x2="0" y1="-96" y2="-96" x1="64" />
@@ -239,7 +227,7 @@
             <blockpin signalname="XLXN_38" name="CE" />
             <blockpin signalname="XLXN_168" name="RST" />
             <blockpin signalname="XLXN_172" name="CLK" />
-            <blockpin signalname="XLXN_19(3:0)" name="bIN(3:0)" />
+            <blockpin signalname="XLXN_169(3:0)" name="bIN(3:0)" />
             <blockpin signalname="XLXN_162(3:0)" name="bOUT2(3:0)" />
             <blockpin signalname="RamAddr(3:0)" name="bOUT1(3:0)" />
         </block>
@@ -247,7 +235,7 @@
             <blockpin signalname="XLXN_38" name="CE" />
             <blockpin signalname="XLXN_168" name="RST" />
             <blockpin signalname="XLXN_173" name="CLK" />
-            <blockpin signalname="XLXN_20(3:0)" name="bIN(3:0)" />
+            <blockpin signalname="XLXN_169(3:0)" name="bIN(3:0)" />
             <blockpin signalname="XLXN_40(4:7)" name="bOUT2(3:0)" />
             <blockpin signalname="XLXN_40(3:0)" name="bOUT1(3:0)" />
         </block>
@@ -315,12 +303,6 @@
             <blockpin signalname="XLXN_162(0)" name="I" />
             <blockpin signalname="RamAddr(4)" name="O" />
         </block>
-        <block symbolname="fourBitDemux" name="XLXI_10">
-            <blockpin signalname="XLXN_169(3:0)" name="aIn(3:0)" />
-            <blockpin signalname="AddrOrData" name="sel" />
-            <blockpin signalname="XLXN_19(3:0)" name="outA(3:0)" />
-            <blockpin signalname="XLXN_20(3:0)" name="outB(3:0)" />
-        </block>
         <block symbolname="pullup" name="XLXI_39">
             <blockpin signalname="XLXN_38" name="O" />
         </block>
@@ -343,14 +325,6 @@
             <wire x2="400" y1="544" y2="544" x1="336" />
             <wire x2="336" y1="544" y2="816" x1="336" />
             <wire x2="464" y1="816" y2="816" x1="336" />
-        </branch>
-        <branch name="XLXN_19(3:0)">
-            <wire x2="1664" y1="480" y2="480" x1="1504" />
-        </branch>
-        <branch name="XLXN_20(3:0)">
-            <wire x2="1632" y1="544" y2="544" x1="1504" />
-            <wire x2="1632" y1="544" y2="880" x1="1632" />
-            <wire x2="1680" y1="880" y2="880" x1="1632" />
         </branch>
         <instance x="1680" y="912" name="XLXI_6" orien="R0">
         </instance>
@@ -517,8 +491,6 @@
             <wire x2="2208" y1="288" y2="288" x1="2176" />
             <wire x2="2272" y1="288" y2="288" x1="2208" />
         </branch>
-        <instance x="1120" y="576" name="XLXI_10" orien="R0">
-        </instance>
         <instance x="400" y="576" name="XLXI_1" orien="R0">
         </instance>
         <iomarker fontsize="28" x="352" y="416" name="RowIn(3:0)" orien="R180" />
@@ -546,26 +518,12 @@
             <wire x2="1616" y1="352" y2="752" x1="1616" />
             <wire x2="1680" y1="752" y2="752" x1="1616" />
         </branch>
-        <branch name="XLXN_169(3:0)">
-            <wire x2="1008" y1="416" y2="416" x1="784" />
-            <wire x2="1008" y1="416" y2="480" x1="1008" />
-            <wire x2="1120" y1="480" y2="480" x1="1008" />
-        </branch>
         <branch name="ColO(3:0)">
             <wire x2="816" y1="480" y2="480" x1="784" />
         </branch>
         <iomarker fontsize="28" x="816" y="480" name="ColO(3:0)" orien="R0" />
         <text style="fontsize:32;fontname:Arial" x="852" y="324">0 write to address</text>
         <text style="fontsize:32;fontname:Arial" x="852" y="372">1 write to Data</text>
-        <branch name="AddrOrData">
-            <wire x2="1056" y1="704" y2="704" x1="976" />
-            <wire x2="1088" y1="704" y2="704" x1="1056" />
-            <wire x2="1056" y1="704" y2="816" x1="1056" />
-            <wire x2="1136" y1="816" y2="816" x1="1056" />
-            <wire x2="1120" y1="544" y2="544" x1="1088" />
-            <wire x2="1088" y1="544" y2="704" x1="1088" />
-        </branch>
-        <iomarker fontsize="28" x="976" y="704" name="AddrOrData" orien="R180" />
         <instance x="1136" y="848" name="XLXI_41" orien="R0">
         </instance>
         <branch name="XLXN_175">
@@ -573,14 +531,30 @@
             <wire x2="1136" y1="752" y2="752" x1="864" />
             <wire x2="864" y1="752" y2="816" x1="864" />
         </branch>
-        <branch name="XLXN_172">
-            <wire x2="1584" y1="752" y2="752" x1="1520" />
-            <wire x2="1584" y1="752" y2="768" x1="1584" />
-            <wire x2="1664" y1="768" y2="768" x1="1584" />
-            <wire x2="1664" y1="416" y2="768" x1="1664" />
-        </branch>
         <branch name="XLXN_173">
             <wire x2="1680" y1="816" y2="816" x1="1520" />
         </branch>
+        <branch name="XLXN_169(3:0)">
+            <wire x2="1008" y1="416" y2="416" x1="784" />
+            <wire x2="1008" y1="416" y2="480" x1="1008" />
+            <wire x2="1632" y1="480" y2="480" x1="1008" />
+            <wire x2="1664" y1="480" y2="480" x1="1632" />
+            <wire x2="1632" y1="480" y2="880" x1="1632" />
+            <wire x2="1680" y1="880" y2="880" x1="1632" />
+        </branch>
+        <branch name="XLXN_172">
+            <wire x2="1584" y1="752" y2="752" x1="1520" />
+            <wire x2="1584" y1="752" y2="768" x1="1584" />
+            <wire x2="1664" y1="448" y2="448" x1="1536" />
+            <wire x2="1536" y1="448" y2="768" x1="1536" />
+            <wire x2="1584" y1="768" y2="768" x1="1536" />
+            <wire x2="1664" y1="416" y2="448" x1="1664" />
+        </branch>
+        <branch name="AddrOrData">
+            <wire x2="1120" y1="896" y2="896" x1="1104" />
+            <wire x2="1136" y1="816" y2="816" x1="1120" />
+            <wire x2="1120" y1="816" y2="896" x1="1120" />
+        </branch>
+        <iomarker fontsize="28" x="1104" y="896" name="AddrOrData" orien="R180" />
     </sheet>
 </drawing>

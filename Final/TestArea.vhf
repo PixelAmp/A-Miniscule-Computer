@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : TestArea.vhf
--- /___/   /\     Timestamp : 05/12/2018 12:16:28
+-- /___/   /\     Timestamp : 05/12/2018 13:27:20
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -200,56 +200,6 @@ begin
       port map (I0=>Ain,
                 I1=>XLXN_1,
                 O=>outA);
-   
-end BEHAVIORAL;
-
-
-
-library ieee;
-use ieee.std_logic_1164.ALL;
-use ieee.numeric_std.ALL;
-library UNISIM;
-use UNISIM.Vcomponents.ALL;
-
-entity fourBitDemux_MUSER_TestArea is
-   port ( aIn  : in    std_logic_vector (3 downto 0); 
-          sel  : in    std_logic; 
-          outA : out   std_logic_vector (3 downto 0); 
-          outB : out   std_logic_vector (3 downto 0));
-end fourBitDemux_MUSER_TestArea;
-
-architecture BEHAVIORAL of fourBitDemux_MUSER_TestArea is
-   component oneBitDemux_MUSER_TestArea
-      port ( Ain  : in    std_logic; 
-             sel  : in    std_logic; 
-             outA : out   std_logic; 
-             outB : out   std_logic);
-   end component;
-   
-begin
-   XLXI_1 : oneBitDemux_MUSER_TestArea
-      port map (Ain=>aIn(0),
-                sel=>sel,
-                outA=>outA(0),
-                outB=>outB(0));
-   
-   XLXI_2 : oneBitDemux_MUSER_TestArea
-      port map (Ain=>aIn(1),
-                sel=>sel,
-                outA=>outA(1),
-                outB=>outB(1));
-   
-   XLXI_3 : oneBitDemux_MUSER_TestArea
-      port map (Ain=>aIn(2),
-                sel=>sel,
-                outA=>outA(2),
-                outB=>outB(2));
-   
-   XLXI_4 : oneBitDemux_MUSER_TestArea
-      port map (Ain=>aIn(3),
-                sel=>sel,
-                outA=>outA(3),
-                outB=>outB(3));
    
 end BEHAVIORAL;
 
@@ -506,6 +456,56 @@ use ieee.numeric_std.ALL;
 library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
+entity fourBitDemux_MUSER_TestArea is
+   port ( aIn  : in    std_logic_vector (3 downto 0); 
+          sel  : in    std_logic; 
+          outA : out   std_logic_vector (3 downto 0); 
+          outB : out   std_logic_vector (3 downto 0));
+end fourBitDemux_MUSER_TestArea;
+
+architecture BEHAVIORAL of fourBitDemux_MUSER_TestArea is
+   component oneBitDemux_MUSER_TestArea
+      port ( Ain  : in    std_logic; 
+             sel  : in    std_logic; 
+             outA : out   std_logic; 
+             outB : out   std_logic);
+   end component;
+   
+begin
+   XLXI_1 : oneBitDemux_MUSER_TestArea
+      port map (Ain=>aIn(0),
+                sel=>sel,
+                outA=>outA(0),
+                outB=>outB(0));
+   
+   XLXI_2 : oneBitDemux_MUSER_TestArea
+      port map (Ain=>aIn(1),
+                sel=>sel,
+                outA=>outA(1),
+                outB=>outB(1));
+   
+   XLXI_3 : oneBitDemux_MUSER_TestArea
+      port map (Ain=>aIn(2),
+                sel=>sel,
+                outA=>outA(2),
+                outB=>outB(2));
+   
+   XLXI_4 : oneBitDemux_MUSER_TestArea
+      port map (Ain=>aIn(3),
+                sel=>sel,
+                outA=>outA(3),
+                outB=>outB(3));
+   
+end BEHAVIORAL;
+
+
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+library UNISIM;
+use UNISIM.Vcomponents.ALL;
+
 entity eightBitDemux_MUSER_TestArea is
    port ( aIn  : in    std_logic_vector (7 downto 0); 
           sel  : in    std_logic; 
@@ -688,8 +688,6 @@ end KeyAndMem_MUSER_TestArea;
 architecture BEHAVIORAL of KeyAndMem_MUSER_TestArea is
    attribute BOX_TYPE   : string ;
    signal XLXN_9                 : std_logic;
-   signal XLXN_19                : std_logic_vector (3 downto 0);
-   signal XLXN_20                : std_logic_vector (3 downto 0);
    signal XLXN_38                : std_logic;
    signal XLXN_40                : std_logic_vector (7 downto 0);
    signal XLXN_88                : std_logic_vector (7 downto 0);
@@ -735,13 +733,6 @@ architecture BEHAVIORAL of KeyAndMem_MUSER_TestArea is
              bIN   : in    std_logic_vector (3 downto 0); 
              bOUT2 : out   std_logic_vector (3 downto 0); 
              bOUT1 : inout std_logic_vector (3 downto 0));
-   end component;
-   
-   component fourBitDemux_MUSER_TestArea
-      port ( aIn  : in    std_logic_vector (3 downto 0); 
-             sel  : in    std_logic; 
-             outA : out   std_logic_vector (3 downto 0); 
-             outB : out   std_logic_vector (3 downto 0));
    end component;
    
    component fiveBitDemux_MUSER_TestArea
@@ -834,7 +825,7 @@ begin
                 P=>XLXN_175);
    
    XLXI_5 : shiftreg_hex2D
-      port map (bIN(3 downto 0)=>XLXN_19(3 downto 0),
+      port map (bIN(3 downto 0)=>XLXN_169(3 downto 0),
                 CE=>XLXN_38,
                 CLK=>XLXN_172,
                 RST=>XLXN_168,
@@ -842,7 +833,7 @@ begin
                 bOUT1(3 downto 0)=>RamAddr_DUMMY(3 downto 0));
    
    XLXI_6 : shiftreg_hex2D
-      port map (bIN(3 downto 0)=>XLXN_20(3 downto 0),
+      port map (bIN(3 downto 0)=>XLXN_169(3 downto 0),
                 CE=>XLXN_38,
                 CLK=>XLXN_173,
                 RST=>XLXN_168,
@@ -851,12 +842,6 @@ begin
                 bOUT2(1)=>XLXN_40(6),
                 bOUT2(0)=>XLXN_40(7),
                 bOUT1(3 downto 0)=>XLXN_40(3 downto 0));
-   
-   XLXI_10 : fourBitDemux_MUSER_TestArea
-      port map (aIn(3 downto 0)=>XLXN_169(3 downto 0),
-                sel=>AddrOrData,
-                outA(3 downto 0)=>XLXN_19(3 downto 0),
-                outB(3 downto 0)=>XLXN_20(3 downto 0));
    
    XLXI_12 : fiveBitDemux_MUSER_TestArea
       port map (aIn(4 downto 0)=>RamAddr_DUMMY(4 downto 0),

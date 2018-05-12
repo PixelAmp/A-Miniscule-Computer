@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : eightBitMux.vhf
--- /___/   /\     Timestamp : 05/10/2018 11:12:05
+-- /___/   /\     Timestamp : 05/12/2018 13:21:45
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/eightBitMux.vhf" -w "C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/eightBitMux.sch"
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl "C:/A Miniscule Computer/Final/eightBitMux.vhf" -w "C:/A Miniscule Computer/Final/eightBitMux.sch"
 --Design Name: eightBitMux
 --Device: spartan3e
 --Purpose:

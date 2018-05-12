@@ -7,7 +7,6 @@
     </attr>
     <netlist>
         <signal name="XLXN_1" />
-        <signal name="XLXN_3" />
         <signal name="Ain" />
         <signal name="sel" />
         <signal name="outA" />

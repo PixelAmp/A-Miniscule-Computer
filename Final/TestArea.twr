@@ -45,13 +45,13 @@ Clock AddrOrData to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-SSEG<0>     |   24.167(R)|XLXI_3/XLXN_172   |   0.000|
-SSEG<1>     |   24.397(R)|XLXI_3/XLXN_172   |   0.000|
-SSEG<2>     |   24.224(R)|XLXI_3/XLXN_172   |   0.000|
-SSEG<3>     |   24.155(R)|XLXI_3/XLXN_172   |   0.000|
-SSEG<4>     |   24.815(R)|XLXI_3/XLXN_172   |   0.000|
-SSEG<5>     |   24.088(R)|XLXI_3/XLXN_172   |   0.000|
-SSEG<6>     |   24.004(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<0>     |   22.847(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<1>     |   22.396(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<2>     |   22.945(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<3>     |   22.532(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<4>     |   22.860(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<5>     |   22.894(R)|XLXI_3/XLXN_172   |   0.000|
+SSEG<6>     |   22.252(R)|XLXI_3/XLXN_172   |   0.000|
 ------------+------------+------------------+--------+
 
 Clock InstOrData to Pad
@@ -59,20 +59,20 @@ Clock InstOrData to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-SSEG<0>     |   21.207(R)|XLXI_3/XLXN_138   |   0.000|
-            |   21.415(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<1>     |   21.437(R)|XLXI_3/XLXN_138   |   0.000|
-            |   21.854(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<2>     |   21.264(R)|XLXI_3/XLXN_138   |   0.000|
-            |   21.290(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<3>     |   21.462(R)|XLXI_3/XLXN_138   |   0.000|
-            |   21.746(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<4>     |   21.855(R)|XLXI_3/XLXN_138   |   0.000|
-            |   22.065(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<5>     |   21.126(R)|XLXI_3/XLXN_138   |   0.000|
-            |   21.679(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<6>     |   21.044(R)|XLXI_3/XLXN_138   |   0.000|
-            |   21.559(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<0>     |   21.177(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.991(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<1>     |   20.676(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.194(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<2>     |   21.275(R)|XLXI_3/XLXN_138   |   0.000|
+            |   22.089(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<3>     |   20.815(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.663(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<4>     |   21.112(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.991(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<5>     |   21.174(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.649(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<6>     |   20.532(R)|XLXI_3/XLXN_138   |   0.000|
+            |   21.038(R)|XLXI_3/XLXN_139   |   0.000|
 ------------+------------+------------------+--------+
 
 Clock ReadMem to Pad
@@ -80,20 +80,20 @@ Clock ReadMem to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-SSEG<0>     |   18.655(R)|XLXI_3/XLXN_138   |   0.000|
-            |   18.888(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<1>     |   18.885(R)|XLXI_3/XLXN_138   |   0.000|
-            |   19.327(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<2>     |   18.712(R)|XLXI_3/XLXN_138   |   0.000|
-            |   18.763(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<3>     |   18.910(R)|XLXI_3/XLXN_138   |   0.000|
-            |   19.219(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<4>     |   19.303(R)|XLXI_3/XLXN_138   |   0.000|
-            |   19.538(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<5>     |   18.574(R)|XLXI_3/XLXN_138   |   0.000|
-            |   19.152(R)|XLXI_3/XLXN_139   |   0.000|
-SSEG<6>     |   18.492(R)|XLXI_3/XLXN_138   |   0.000|
-            |   19.032(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<0>     |   18.961(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.770(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<1>     |   18.460(R)|XLXI_3/XLXN_138   |   0.000|
+            |   18.973(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<2>     |   19.059(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.868(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<3>     |   18.599(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.442(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<4>     |   18.896(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.770(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<5>     |   18.958(R)|XLXI_3/XLXN_138   |   0.000|
+            |   19.428(R)|XLXI_3/XLXN_139   |   0.000|
+SSEG<6>     |   18.316(R)|XLXI_3/XLXN_138   |   0.000|
+            |   18.817(R)|XLXI_3/XLXN_139   |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock AddrOrData
@@ -101,7 +101,7 @@ Clock to Setup on destination clock AddrOrData
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-AddrOrData     |    1.489|    1.055|         |         |
+AddrOrData     |    1.643|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock CLK
@@ -109,7 +109,7 @@ Clock to Setup on destination clock CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |   11.623|         |         |         |
+CLK            |   11.915|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock InstOrData
@@ -117,8 +117,8 @@ Clock to Setup on destination clock InstOrData
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-AddrOrData     |   11.115|         |         |         |
-InstOrData     |    5.805|    5.805|         |         |
+AddrOrData     |   10.328|         |         |         |
+InstOrData     |    5.536|    5.536|         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock ReadMem
@@ -126,25 +126,25 @@ Clock to Setup on destination clock ReadMem
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-AddrOrData     |   11.115|         |         |         |
-InstOrData     |    7.826|    7.826|         |         |
+AddrOrData     |   10.328|         |         |         |
+InstOrData     |    7.308|    7.308|         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-InstOrData     |SSEG<0>        |   19.947|
-InstOrData     |SSEG<1>        |   20.177|
-InstOrData     |SSEG<2>        |   20.004|
-InstOrData     |SSEG<3>        |   19.935|
-InstOrData     |SSEG<4>        |   20.595|
-InstOrData     |SSEG<5>        |   19.868|
-InstOrData     |SSEG<6>        |   19.784|
+InstOrData     |SSEG<0>        |   19.639|
+InstOrData     |SSEG<1>        |   18.907|
+InstOrData     |SSEG<2>        |   19.737|
+InstOrData     |SSEG<3>        |   19.277|
+InstOrData     |SSEG<4>        |   19.582|
+InstOrData     |SSEG<5>        |   19.405|
+InstOrData     |SSEG<6>        |   18.763|
 ---------------+---------------+---------+
 
 
-Analysis completed Sat May 12 12:17:29 2018 
+Analysis completed Sat May 12 13:28:22 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:
