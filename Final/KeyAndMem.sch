@@ -39,11 +39,7 @@
         <signal name="XLXN_172" />
         <signal name="XLXN_173" />
         <signal name="XLXN_175" />
-        <signal name="XLXN_177" />
-        <signal name="XLXN_178(4:0)" />
-        <signal name="XLXN_179(7:0)" />
         <signal name="InstOrData" />
-        <signal name="XLXN_182" />
         <port polarity="Input" name="RowIn(3:0)" />
         <port polarity="Input" name="KeyCLK" />
         <port polarity="Input" name="AddrOrData" />
@@ -476,14 +472,6 @@
             <wire x2="1632" y1="480" y2="880" x1="1632" />
             <wire x2="1680" y1="880" y2="880" x1="1632" />
         </branch>
-        <branch name="XLXN_172">
-            <wire x2="1584" y1="752" y2="752" x1="1520" />
-            <wire x2="1584" y1="752" y2="768" x1="1584" />
-            <wire x2="1664" y1="448" y2="448" x1="1536" />
-            <wire x2="1536" y1="448" y2="768" x1="1536" />
-            <wire x2="1584" y1="768" y2="768" x1="1536" />
-            <wire x2="1664" y1="416" y2="448" x1="1664" />
-        </branch>
         <branch name="AddrOrData">
             <wire x2="1120" y1="592" y2="592" x1="1072" />
             <wire x2="1120" y1="592" y2="816" x1="1120" />
@@ -504,5 +492,10 @@
         </branch>
         <text style="fontsize:32;fontname:Arial" x="2868" y="1560">1 write to Data Ram</text>
         <text style="fontsize:32;fontname:Arial" x="2868" y="1500">0 write to Instruction Ram</text>
+        <branch name="XLXN_172">
+            <wire x2="1536" y1="752" y2="752" x1="1520" />
+            <wire x2="1664" y1="416" y2="416" x1="1536" />
+            <wire x2="1536" y1="416" y2="752" x1="1536" />
+        </branch>
     </sheet>
 </drawing>
