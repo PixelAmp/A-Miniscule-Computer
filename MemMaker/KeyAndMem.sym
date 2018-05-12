@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="KeyAndMem">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2018-5-12T21:45:12</timestamp>
+    <pin polarity="Input" x="64" y="63" name="RowIn(3:0)" />
+    <pin polarity="Input" x="64" y="127" name="KeyCLK" />
+    <pin polarity="Input" x="64" y="191" name="AddrOrData" />
+    <pin polarity="Input" x="64" y="255" name="InstOrData" />
+    <pin polarity="Input" x="64" y="319" name="ReadMem" />
+    <pin polarity="Input" x="64" y="383" name="WriteMem" />
+    <pin polarity="Input" x="64" y="447" name="WriteCLK" />
+    <pin polarity="Output" x="320" y="63" name="colO(3:0)" />
+    <pin polarity="Output" x="320" y="127" name="AddrO(4:0)" />
+    <pin polarity="Output" x="320" y="191" name="InstData(7:0)" />
+    <pin polarity="Output" x="320" y="255" name="PrgmData(7:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-8" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="63" type="pin RowIn(3:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="127" type="pin KeyCLK" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="191" type="pin AddrOrData" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="255" type="pin InstOrData" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="319" type="pin ReadMem" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="383" type="pin WriteMem" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="447" type="pin WriteCLK" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="63" type="pin colO(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="127" type="pin AddrO(4:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="191" type="pin InstData(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="255" type="pin PrgmData(7:0)" />
+        <rect width="0" x="64" y="51" height="24" />
+        <line x2="64" y1="63" y2="63" x1="64" />
+        <line x2="64" y1="127" y2="127" x1="64" />
+        <line x2="64" y1="191" y2="191" x1="64" />
+        <line x2="64" y1="255" y2="255" x1="64" />
+        <line x2="64" y1="319" y2="319" x1="64" />
+        <line x2="64" y1="383" y2="383" x1="64" />
+        <line x2="64" y1="447" y2="447" x1="64" />
+        <rect width="0" x="320" y="51" height="24" />
+        <line x2="320" y1="63" y2="63" x1="320" />
+        <rect width="0" x="320" y="115" height="24" />
+        <line x2="320" y1="127" y2="127" x1="320" />
+        <rect width="0" x="320" y="179" height="24" />
+        <line x2="320" y1="191" y2="191" x1="320" />
+        <rect width="0" x="320" y="243" height="24" />
+        <line x2="320" y1="255" y2="255" x1="320" />
+        <rect width="256" x="64" y="0" height="448" />
+    </graph>
+</symbol>
