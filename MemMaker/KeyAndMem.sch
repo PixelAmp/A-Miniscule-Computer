@@ -8,14 +8,11 @@
     <netlist>
         <signal name="RowIn(3:0)" />
         <signal name="KeyCLK" />
-        <signal name="XLXN_3" />
         <signal name="XLXN_4" />
-        <signal name="XLXN_5" />
         <signal name="XLXN_7" />
         <signal name="XLXN_9" />
         <signal name="XLXN_10" />
         <signal name="XLXN_11(3:0)" />
-        <signal name="XLXN_12(3:0)" />
         <signal name="AddrOrData" />
         <signal name="colO(3:0)" />
         <signal name="AddrO(4:0)" />

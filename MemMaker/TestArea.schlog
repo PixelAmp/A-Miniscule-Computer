@@ -1,3 +1,0 @@
-add instance KeyAndMem 1120 1376 R180 -sn=1
-select figure at 921 1284 8 -branches -sn=1
-delete selection -sn=1

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="KeyAndMem">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2018-5-12T21:45:12</timestamp>
+    <timestamp>2018-5-12T21:50:2</timestamp>
     <pin polarity="Input" x="64" y="63" name="RowIn(3:0)" />
     <pin polarity="Input" x="64" y="127" name="KeyCLK" />
     <pin polarity="Input" x="64" y="191" name="AddrOrData" />

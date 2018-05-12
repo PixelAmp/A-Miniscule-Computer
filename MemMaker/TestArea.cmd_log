@@ -1,0 +1,34 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TestArea_drc.vhf -w {C:/A Miniscule Computer/MemMaker/TestArea.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TestArea_drc.vhf -w {C:/A Miniscule Computer/MemMaker/TestArea.sch} 
+xst -intstyle ise -ifn "C:/A Miniscule Computer/MemMaker/TestArea.xst" -ofn "C:/A Miniscule Computer/MemMaker/TestArea.syr" 
+xst -intstyle ise -ifn "C:/A Miniscule Computer/MemMaker/TestArea.xst" -ofn "C:/A Miniscule Computer/MemMaker/TestArea.syr" 
+xst -intstyle ise -ifn "C:/A Miniscule Computer/MemMaker/TestArea.xst" -ofn "C:/A Miniscule Computer/MemMaker/TestArea.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TestArea.ucf -bm NewKeyAndMem.bmm -p xc3s100e-cp132-4 "TestArea.ngc" TestArea.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TestArea_map.ncd TestArea.ngd TestArea.pcf 
+par -w -intstyle ise -ol high -t 1 TestArea_map.ncd TestArea.ncd TestArea.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TestArea.twx TestArea.ncd -o TestArea.twr TestArea.pcf -ucf TestArea.ucf 
+bitgen -intstyle ise -f TestArea.ut TestArea.ncd 
+xst -intstyle ise -ifn "C:/A Miniscule Computer/MemMaker/TestArea.xst" -ofn "C:/A Miniscule Computer/MemMaker/TestArea.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TestArea.ucf -bm NewKeyAndMem.bmm -p xc3s100e-cp132-4 "TestArea.ngc" TestArea.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TestArea_map.ncd TestArea.ngd TestArea.pcf 
+par -w -intstyle ise -ol high -t 1 TestArea_map.ncd TestArea.ncd TestArea.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TestArea.twx TestArea.ncd -o TestArea.twr TestArea.pcf -ucf TestArea.ucf 
+bitgen -intstyle ise -f TestArea.ut TestArea.ncd 
+xst -intstyle ise -ifn "C:/A Miniscule Computer/MemMaker/TestArea.xst" -ofn "C:/A Miniscule Computer/MemMaker/TestArea.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TestArea.ucf -bm NewKeyAndMem.bmm -p xc3s100e-cp132-4 "TestArea.ngc" TestArea.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TestArea_map.ncd TestArea.ngd TestArea.pcf 
+par -w -intstyle ise -ol high -t 1 TestArea_map.ncd TestArea.ncd TestArea.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TestArea.twx TestArea.ncd -o TestArea.twr TestArea.pcf -ucf TestArea.ucf 
+bitgen -intstyle ise -f TestArea.ut TestArea.ncd 
+xst -intstyle ise -ifn "C:/A Miniscule Computer/MemMaker/TestArea.xst" -ofn "C:/A Miniscule Computer/MemMaker/TestArea.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TestArea.ucf -bm NewKeyAndMem.bmm -p xc3s100e-cp132-4 "TestArea.ngc" TestArea.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TestArea_map.ncd TestArea.ngd TestArea.pcf 
+par -w -intstyle ise -ol high -t 1 TestArea_map.ncd TestArea.ncd TestArea.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TestArea.twx TestArea.ncd -o TestArea.twr TestArea.pcf -ucf TestArea.ucf 
+bitgen -intstyle ise -f TestArea.ut TestArea.ncd 
+xst -intstyle ise -ifn "C:/A Miniscule Computer/MemMaker/TestArea.xst" -ofn "C:/A Miniscule Computer/MemMaker/TestArea.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TestArea.ucf -bm NewKeyAndMem.bmm -p xc3s100e-cp132-4 "TestArea.ngc" TestArea.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TestArea_map.ncd TestArea.ngd TestArea.pcf 
+par -w -intstyle ise -ol high -t 1 TestArea_map.ncd TestArea.ncd TestArea.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TestArea.twx TestArea.ncd -o TestArea.twr TestArea.pcf -ucf TestArea.ucf 
+bitgen -intstyle ise -f TestArea.ut TestArea.ncd 
