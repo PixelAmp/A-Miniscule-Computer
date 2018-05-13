@@ -1,6 +1,0 @@
-select figure at 868 1737 8 -wires -sn=1
-move wire at 864 1664 864 2304 to 928 1664 928 2304 -keepConn -sn=1
-select figure at 1424 2082 8 -wires -sn=1
-select figure at 1424 1466 8 -wires -sn=1
-select all in -47 103 1424 1466 -wires -enclosed -sn=1
-select figure at 1755 1569 8 -wires -sn=1

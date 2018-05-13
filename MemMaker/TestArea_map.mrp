@@ -9,7 +9,7 @@ Target Device  : xc3s100e
 Target Package : cp132
 Target Speed   : -4
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Sat May 12 16:05:26 2018
+Mapped Date    : Sat May 12 20:38:45 2018
 
 Design Summary
 --------------
@@ -36,8 +36,8 @@ Logic Distribution:
   Number of RPM macros:            2
 Average Fanout of Non-Clock Nets:                2.70
 
-Peak Memory Usage:  329 MB
-Total REAL time to MAP completion:  2 secs 
+Peak Memory Usage:  4423 MB
+Total REAL time to MAP completion:  3 secs 
 Total CPU time to MAP completion:   2 secs 
 
 NOTES:
@@ -176,8 +176,8 @@ Section 6 - IOB Properties
 
 Section 7 - RPMs
 ----------------
-XLXI_6/XLXI_14/XLXI_16/XLXI_6/XLXI_14/XLXI_16_I_Q0_6
-XLXI_6/XLXI_14/XLXI_16/XLXI_6/XLXI_14/XLXI_16_I_Q1_7
+XLXI_6/XLXI_14/XLXI_16/XLXI_6/XLXI_14/XLXI_16_I_Q0_0
+XLXI_6/XLXI_14/XLXI_16/XLXI_6/XLXI_14/XLXI_16_I_Q1_1
 
 Section 8 - Guide Report
 ------------------------

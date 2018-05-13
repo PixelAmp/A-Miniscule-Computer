@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.44 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.44 secs
  
 --> Reading design: TestArea.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -118,6 +118,13 @@ Compiling vhdl file "C:/A Miniscule Computer/MemMaker/DCM_50M.vhd" in Library wo
 Architecture behavioral of Entity dcm_50m is up to date.
 Compiling vhdl file "C:/A Miniscule Computer/MemMaker/sseg_mux4D.vhd" in Library work.
 Architecture behavioral of Entity sseg_mux4d is up to date.
+Compiling vhdl file "C:/A Miniscule Computer/MemMaker/fourBitDemux.vhf" in Library work.
+Architecture behavioral of Entity onebitdemux_muser_fourbitdemux is up to date.
+Architecture behavioral of Entity fourbitdemux is up to date.
+Compiling vhdl file "C:/A Miniscule Computer/MemMaker/eightBitDemux.vhf" in Library work.
+Architecture behavioral of Entity onebitdemux_muser_eightbitdemux is up to date.
+Architecture behavioral of Entity fourbitdemux_muser_eightbitdemux is up to date.
+Architecture behavioral of Entity eightbitdemux is up to date.
 Compiling vhdl file "C:/A Miniscule Computer/MemMaker/TestArea.vhf" in Library work.
 Entity <onebitmux_muser_testarea> compiled.
 Entity <onebitmux_muser_testarea> (Architecture <behavioral>) compiled.
@@ -144,18 +151,12 @@ Architecture behavioral of Entity onebitmux_muser_eightbitmux is up to date.
 Architecture behavioral of Entity fourbitmux_muser_eightbitmux is up to date.
 Architecture behavioral of Entity eightbitmux is up to date.
 Compiling vhdl file "C:/A Miniscule Computer/MemMaker/KeyAndMemory.vhf" in Library work.
-Entity <onebitdemux_muser_keyandmemory> compiled.
-Entity <onebitdemux_muser_keyandmemory> (Architecture <behavioral>) compiled.
-Entity <ftrse_mxilinx_keyandmemory> compiled.
-Entity <ftrse_mxilinx_keyandmemory> (Architecture <behavioral>) compiled.
-Entity <cb2re_mxilinx_keyandmemory> compiled.
-Entity <cb2re_mxilinx_keyandmemory> (Architecture <behavioral>) compiled.
-Entity <memwrite_muser_keyandmemory> compiled.
-Entity <memwrite_muser_keyandmemory> (Architecture <behavioral>) compiled.
-Entity <keypad_muser_keyandmemory> compiled.
-Entity <keypad_muser_keyandmemory> (Architecture <behavioral>) compiled.
-Entity <keyandmemory> compiled.
-Entity <keyandmemory> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity onebitdemux_muser_keyandmemory is up to date.
+Architecture behavioral of Entity ftrse_mxilinx_keyandmemory is up to date.
+Architecture behavioral of Entity cb2re_mxilinx_keyandmemory is up to date.
+Architecture behavioral of Entity memwrite_muser_keyandmemory is up to date.
+Architecture behavioral of Entity keypad_muser_keyandmemory is up to date.
+Architecture behavioral of Entity keyandmemory is up to date.
 Compiling vhdl file "C:/A Miniscule Computer/MemMaker/fourBitMux.vhf" in Library work.
 Architecture behavioral of Entity onebitmux_muser_fourbitmux is up to date.
 Architecture behavioral of Entity fourbitmux is up to date.
@@ -263,12 +264,12 @@ Entity <sRAM32x8_generic> analyzed. Unit <sRAM32x8_generic> generated.
 Analyzing Entity <MemWrite_MUSER_TestArea> in library <work> (Architecture <behavioral>).
 WARNING:Xst:753 - "C:/A Miniscule Computer/MemMaker/TestArea.vhf" line 435: Unconnected output port 'CEO' of component 'CB2RE_MXILINX_TestArea'.
 WARNING:Xst:753 - "C:/A Miniscule Computer/MemMaker/TestArea.vhf" line 435: Unconnected output port 'TC' of component 'CB2RE_MXILINX_TestArea'.
-    Set user-defined property "HU_SET =  XLXI_16_8" for instance <XLXI_16> in unit <MemWrite_MUSER_TestArea>.
+    Set user-defined property "HU_SET =  XLXI_16_2" for instance <XLXI_16> in unit <MemWrite_MUSER_TestArea>.
 Entity <MemWrite_MUSER_TestArea> analyzed. Unit <MemWrite_MUSER_TestArea> generated.
 
 Analyzing Entity <CB2RE_MXILINX_TestArea> in library <work> (Architecture <behavioral>).
-    Set user-defined property "HU_SET =  I_Q0_6" for instance <I_Q0> in unit <CB2RE_MXILINX_TestArea>.
-    Set user-defined property "HU_SET =  I_Q1_7" for instance <I_Q1> in unit <CB2RE_MXILINX_TestArea>.
+    Set user-defined property "HU_SET =  I_Q0_0" for instance <I_Q0> in unit <CB2RE_MXILINX_TestArea>.
+    Set user-defined property "HU_SET =  I_Q1_1" for instance <I_Q1> in unit <CB2RE_MXILINX_TestArea>.
 Entity <CB2RE_MXILINX_TestArea> analyzed. Unit <CB2RE_MXILINX_TestArea> generated.
 
 Analyzing generic Entity <FTRSE_MXILINX_TestArea> in library <work> (Architecture <behavioral>).
@@ -1302,11 +1303,11 @@ Delay:               13.308ns (Levels of Logic = 8)
 
 
 Total REAL time to Xst completion: 14.00 secs
-Total CPU time to Xst completion: 13.31 secs
+Total CPU time to Xst completion: 14.85 secs
  
 --> 
 
-Total memory usage is 377208 kilobytes
+Total memory usage is 4567884 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   63 (   0 filtered)

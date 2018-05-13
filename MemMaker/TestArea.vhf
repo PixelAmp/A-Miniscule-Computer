@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : TestArea.vhf
--- /___/   /\     Timestamp : 05/12/2018 16:05:00
+-- /___/   /\     Timestamp : 05/12/2018 20:38:15
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -333,8 +333,8 @@ architecture BEHAVIORAL of CB2RE_MXILINX_TestArea is
    end component;
    attribute BOX_TYPE of GND : component is "BLACK_BOX";
    
-   attribute HU_SET of I_Q0 : label is "I_Q0_6";
-   attribute HU_SET of I_Q1 : label is "I_Q1_7";
+   attribute HU_SET of I_Q0 : label is "I_Q0_0";
+   attribute HU_SET of I_Q1 : label is "I_Q1_1";
 begin
    Q0 <= Q0_DUMMY;
    Q1 <= Q1_DUMMY;
@@ -419,7 +419,7 @@ architecture BEHAVIORAL of MemWrite_MUSER_TestArea is
    end component;
    attribute BOX_TYPE of OR2 : component is "BLACK_BOX";
    
-   attribute HU_SET of XLXI_16 : label is "XLXI_16_8";
+   attribute HU_SET of XLXI_16 : label is "XLXI_16_2";
 begin
    rPush <= rPush_DUMMY;
    XLXI_1 : NOR2
@@ -767,12 +767,12 @@ end TestArea;
 architecture BEHAVIORAL of TestArea is
    attribute BOX_TYPE   : string ;
    signal XLXN_1                  : std_logic;
-   signal XLXN_2                  : std_logic;
    signal XLXN_10                 : std_logic_vector (4 downto 0);
    signal XLXN_13                 : std_logic_vector (7 downto 0);
    signal XLXN_32                 : std_logic_vector (3 downto 0);
    signal XLXN_36                 : std_logic_vector (7 downto 0);
    signal XLXN_37                 : std_logic_vector (7 downto 0);
+   signal XLXN_43                 : std_logic;
    signal XLXI_1_RST_openSignal   : std_logic;
    signal XLXI_2_dp_in_openSignal : std_logic_vector (3 downto 0);
    signal XLXI_2_rb_in_openSignal : std_logic;
@@ -828,7 +828,7 @@ begin
    XLXI_1 : DCM_50M
       port map (CLK=>CLK,
                 RST=>XLXI_1_RST_openSignal,
-                CLK1=>XLXN_2,
+                CLK1=>XLXN_43,
                 CLK1k=>XLXN_1,
                 CLK1M=>open,
                 CLK10k=>open);
@@ -850,7 +850,7 @@ begin
                 KeyCLK=>XLXN_1,
                 ReadMem=>ReadMem,
                 RowIn(3 downto 0)=>RowIn(3 downto 0),
-                WriteCLK=>XLXN_2,
+                WriteCLK=>XLXN_43,
                 WriteMem=>WriteMem,
                 AddrO(4 downto 0)=>XLXN_10(4 downto 0),
                 colO(3 downto 0)=>ColO(3 downto 0),
