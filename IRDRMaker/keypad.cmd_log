@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym keypad {C:/A Miniscule Computer/IRDRMaker/keypad.sch} {C:/A Miniscule Computer/IRDRMaker/keypad.sym} 

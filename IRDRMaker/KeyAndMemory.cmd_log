@@ -1,0 +1,15 @@
+sch2sym -intstyle ise -family spartan3e -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl KeyAndMemory_drc.vhf -w {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl KeyAndMemory_drc.vhf -w {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sch} {C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.sym} 

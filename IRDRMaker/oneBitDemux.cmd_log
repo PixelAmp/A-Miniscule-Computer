@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym oneBitDemux {C:/A Miniscule Computer/IRDRMaker/oneBitDemux.sch} {C:/A Miniscule Computer/IRDRMaker/oneBitDemux.sym} 

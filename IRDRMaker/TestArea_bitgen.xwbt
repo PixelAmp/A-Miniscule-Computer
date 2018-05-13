@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\A Miniscule Computer\IRDRMaker\TestArea.ncd
+OUTFILE=C:\A Miniscule Computer\IRDRMaker\TestArea.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\A Miniscule Computer\IRDRMaker
+LICENSE=WebPack
+USER_INFO=174218040_0_0_110

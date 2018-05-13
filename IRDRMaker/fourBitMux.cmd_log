@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym fourBitMux {C:/A Miniscule Computer/IRDRMaker/fourBitMux.sch} {C:/A Miniscule Computer/IRDRMaker/fourBitMux.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym fourBitMux {C:/A Miniscule Computer/IRDRMaker/fourBitMux.sch} {C:/A Miniscule Computer/IRDRMaker/fourBitMux.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym fourBitMux {C:/A Miniscule Computer/IRDRMaker/fourBitMux.sch} {C:/A Miniscule Computer/IRDRMaker/fourBitMux.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym fourBitMux {C:/A Miniscule Computer/IRDRMaker/fourBitMux.sch} {C:/A Miniscule Computer/IRDRMaker/fourBitMux.sym} 

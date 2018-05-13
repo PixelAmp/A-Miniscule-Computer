@@ -1,0 +1,415 @@
+V3 201
+FL "C:/A Miniscule Computer/IRDRMaker/CRenc4bin.vhd" 2017/04/25.11:38:38 P.20131013
+EN work/CRenc4bin 1526189176 FL "C:/A Miniscule Computer/IRDRMaker/CRenc4bin.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CRenc4bin/Behavioral 1526189177 \
+      FL "C:/A Miniscule Computer/IRDRMaker/CRenc4bin.vhd" EN work/CRenc4bin 1526189176
+FL "C:/A Miniscule Computer/IRDRMaker/DCM_50M.vhd" 2018/02/22.10:41:30 P.20131013
+EN work/DCM_50M 1526189186 FL "C:/A Miniscule Computer/IRDRMaker/DCM_50M.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/DCM_50M/Behavioral 1526189187 \
+      FL "C:/A Miniscule Computer/IRDRMaker/DCM_50M.vhd" EN work/DCM_50M 1526189186
+FL "C:/A Miniscule Computer/IRDRMaker/eightBitMux.vhf" 2018/05/12.20:01:47 P.20131013
+EN work/oneBitMux_MUSER_eightBitMux 1526189228 \
+      FL "C:/A Miniscule Computer/IRDRMaker/eightBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux_MUSER_eightBitMux/BEHAVIORAL 1526189229 \
+      FL "C:/A Miniscule Computer/IRDRMaker/eightBitMux.vhf" \
+      EN work/oneBitMux_MUSER_eightBitMux 1526189228 CP NAND2
+EN work/fourBitMux_MUSER_eightBitMux 1526189230 \
+      FL "C:/A Miniscule Computer/IRDRMaker/eightBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/fourBitMux_MUSER_eightBitMux/BEHAVIORAL 1526189231 \
+      FL "C:/A Miniscule Computer/IRDRMaker/eightBitMux.vhf" \
+      EN work/fourBitMux_MUSER_eightBitMux 1526189230 \
+      CP oneBitMux_MUSER_eightBitMux
+EN work/eightBitMux 1526189232 \
+      FL "C:/A Miniscule Computer/IRDRMaker/eightBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux/BEHAVIORAL 1526189233 \
+      FL "C:/A Miniscule Computer/IRDRMaker/eightBitMux.vhf" EN work/eightBitMux 1526189232 \
+      CP fourBitMux_MUSER_eightBitMux
+FL "C:/A Miniscule Computer/IRDRMaker/fiveBitMux.vhf" 2018/05/12.21:08:41 P.20131013
+EN work/oneBitMux_MUSER_fiveBitMux 1526189268 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fiveBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux_MUSER_fiveBitMux/BEHAVIORAL 1526189269 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fiveBitMux.vhf" \
+      EN work/oneBitMux_MUSER_fiveBitMux 1526189268 CP NAND2
+EN work/fourBitMux_MUSER_fiveBitMux 1526189270 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fiveBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/fourBitMux_MUSER_fiveBitMux/BEHAVIORAL 1526189271 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fiveBitMux.vhf" \
+      EN work/fourBitMux_MUSER_fiveBitMux 1526189270 \
+      CP oneBitMux_MUSER_fiveBitMux
+EN work/fiveBitMux 1526189272 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fiveBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/fiveBitMux/BEHAVIORAL 1526189273 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fiveBitMux.vhf" EN work/fiveBitMux 1526189272 \
+      CP fourBitMux_MUSER_fiveBitMux CP oneBitMux_MUSER_fiveBitMux
+FL "C:/A Miniscule Computer/IRDRMaker/fourBitMux.vhf" 2018/05/12.20:00:41 P.20131013
+EN work/oneBitMux_MUSER_fourBitMux 1526189284 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fourBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux_MUSER_fourBitMux/BEHAVIORAL 1526189285 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fourBitMux.vhf" \
+      EN work/oneBitMux_MUSER_fourBitMux 1526189284 CP NAND2
+EN work/fourBitMux 1526189286 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fourBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/fourBitMux/BEHAVIORAL 1526189287 \
+      FL "C:/A Miniscule Computer/IRDRMaker/fourBitMux.vhf" EN work/fourBitMux 1526189286 \
+      CP oneBitMux_MUSER_fourBitMux
+FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" 2018/05/12.22:26:10 P.20131013
+EN work/oneBitMux_MUSER_KeyAndMemory 1526189234 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux_MUSER_KeyAndMemory/BEHAVIORAL 1526189235 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      EN work/oneBitMux_MUSER_KeyAndMemory 1526189234 CP NAND2
+EN work/fourBitMux_MUSER_KeyAndMemory 1526189236 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/fourBitMux_MUSER_KeyAndMemory/BEHAVIORAL 1526189237 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      EN work/fourBitMux_MUSER_KeyAndMemory 1526189236 \
+      CP oneBitMux_MUSER_KeyAndMemory
+EN work/fiveBitMux_MUSER_KeyAndMemory 1526189238 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/fiveBitMux_MUSER_KeyAndMemory/BEHAVIORAL 1526189239 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      EN work/fiveBitMux_MUSER_KeyAndMemory 1526189238 \
+      CP fourBitMux_MUSER_KeyAndMemory CP oneBitMux_MUSER_KeyAndMemory
+EN work/oneBitDemux_MUSER_KeyAndMemory 1526189240 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitDemux_MUSER_KeyAndMemory/BEHAVIORAL 1526189241 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      EN work/oneBitDemux_MUSER_KeyAndMemory 1526189240 CP INV CP AND2
+EN work/FTRSE_MXILINX_KeyAndMemory 1526189242 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTRSE_MXILINX_KeyAndMemory/BEHAVIORAL 1526189243 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      EN work/FTRSE_MXILINX_KeyAndMemory 1526189242 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_KeyAndMemory 1526189244 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB2RE_MXILINX_KeyAndMemory/BEHAVIORAL 1526189245 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      EN work/CB2RE_MXILINX_KeyAndMemory 1526189244 CP FTRSE_MXILINX_KeyAndMemory \
+      CP AND2 CP VCC CP GND
+EN work/MemWrite_MUSER_KeyAndMemory 1526189246 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/MemWrite_MUSER_KeyAndMemory/BEHAVIORAL 1526189247 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      EN work/MemWrite_MUSER_KeyAndMemory 1526189246 CP NOR2 \
+      CP CB2RE_MXILINX_KeyAndMemory CP OR2
+EN work/keypad_MUSER_KeyAndMemory 1526189248 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/keypad_MUSER_KeyAndMemory/BEHAVIORAL 1526189249 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      EN work/keypad_MUSER_KeyAndMemory 1526189248 CP PULLDOWN CP keyCR4b CP FD \
+      CP INV
+EN work/KeyAndMemory 1526189250 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/KeyAndMemory/BEHAVIORAL 1526189251 \
+      FL "C:/A Miniscule Computer/IRDRMaker/KeyAndMemory.vhf" \
+      EN work/KeyAndMemory 1526189250 CP keypad_MUSER_KeyAndMemory CP oneshot \
+      CP oneBitDemux_MUSER_KeyAndMemory CP shiftreg_hex2D CP BUF \
+      CP sRAM32x8_generic CP MemWrite_MUSER_KeyAndMemory CP PULLUP CP INV CP AND2B1 \
+      CP fiveBitMux_MUSER_KeyAndMemory CP OR3
+FL "C:/A Miniscule Computer/IRDRMaker/keyCR4b.vhd" 2017/04/25.11:47:52 P.20131013
+EN work/keyCR4b 1526189178 FL "C:/A Miniscule Computer/IRDRMaker/keyCR4b.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/keyCR4b/Behavioral 1526189179 \
+      FL "C:/A Miniscule Computer/IRDRMaker/keyCR4b.vhd" EN work/keyCR4b 1526189178 \
+      CP CRenc4bin
+FL "C:/A Miniscule Computer/IRDRMaker/keypad.vhf" 2018/05/12.19:56:40 P.20131013
+EN work/keypad 1526189274 FL "C:/A Miniscule Computer/IRDRMaker/keypad.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/keypad/BEHAVIORAL 1526189275 \
+      FL "C:/A Miniscule Computer/IRDRMaker/keypad.vhf" EN work/keypad 1526189274 \
+      CP PULLDOWN CP keyCR4b CP FD CP INV
+FL "C:/A Miniscule Computer/IRDRMaker/MemWrite.vhf" 2018/05/12.19:56:38 P.20131013
+EN work/FTRSE_MXILINX_MemWrite 1526189276 \
+      FL "C:/A Miniscule Computer/IRDRMaker/MemWrite.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTRSE_MXILINX_MemWrite/BEHAVIORAL 1526189277 \
+      FL "C:/A Miniscule Computer/IRDRMaker/MemWrite.vhf" \
+      EN work/FTRSE_MXILINX_MemWrite 1526189276 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_MemWrite 1526189278 \
+      FL "C:/A Miniscule Computer/IRDRMaker/MemWrite.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2RE_MXILINX_MemWrite/BEHAVIORAL 1526189279 \
+      FL "C:/A Miniscule Computer/IRDRMaker/MemWrite.vhf" \
+      EN work/CB2RE_MXILINX_MemWrite 1526189278 CP FTRSE_MXILINX_MemWrite CP AND2 \
+      CP VCC CP GND
+EN work/MemWrite 1526189280 \
+      FL "C:/A Miniscule Computer/IRDRMaker/MemWrite.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MemWrite/BEHAVIORAL 1526189281 \
+      FL "C:/A Miniscule Computer/IRDRMaker/MemWrite.vhf" EN work/MemWrite 1526189280 \
+      CP NOR2 CP CB2RE_MXILINX_MemWrite CP OR2
+FL "C:/A Miniscule Computer/IRDRMaker/oneBitDemux.vhf" 2018/05/12.19:56:40 P.20131013
+EN work/oneBitDemux 1526189282 \
+      FL "C:/A Miniscule Computer/IRDRMaker/oneBitDemux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitDemux/BEHAVIORAL 1526189283 \
+      FL "C:/A Miniscule Computer/IRDRMaker/oneBitDemux.vhf" EN work/oneBitDemux 1526189282 \
+      CP INV CP AND2
+FL "C:/A Miniscule Computer/IRDRMaker/oneBitMux.vhf" 2018/05/12.19:56:40 P.20131013
+EN work/oneBitMux 1526189288 FL "C:/A Miniscule Computer/IRDRMaker/oneBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux/BEHAVIORAL 1526189289 \
+      FL "C:/A Miniscule Computer/IRDRMaker/oneBitMux.vhf" EN work/oneBitMux 1526189288 \
+      CP NAND2
+FL "C:/A Miniscule Computer/IRDRMaker/oneshot.vhd" 2018/04/26.11:21:09 P.20131013
+EN work/oneshot 1526189180 FL "C:/A Miniscule Computer/IRDRMaker/oneshot.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177
+AR work/oneshot/Behavioral 1526189181 \
+      FL "C:/A Miniscule Computer/IRDRMaker/oneshot.vhd" EN work/oneshot 1526189180
+FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" 2018/05/12.19:56:39 P.20131013
+EN work/M2_1_MXILINX_ProgramCounter 1526189252 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_ProgramCounter/BEHAVIORAL 1526189253 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      EN work/M2_1_MXILINX_ProgramCounter 1526189252 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_ProgramCounter 1526189254 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_ProgramCounter/BEHAVIORAL 1526189255 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      EN work/FTCLEX_MXILINX_ProgramCounter 1526189254 \
+      CP M2_1_MXILINX_ProgramCounter CP XOR2 CP FDCE
+EN work/CB4CLE_MXILINX_ProgramCounter 1526189256 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLE_MXILINX_ProgramCounter/BEHAVIORAL 1526189257 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      EN work/CB4CLE_MXILINX_ProgramCounter 1526189256 \
+      CP FTCLEX_MXILINX_ProgramCounter CP VCC CP AND4 CP AND2 CP AND3 CP OR2
+EN work/FJKC_MXILINX_ProgramCounter 1526189258 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_ProgramCounter/BEHAVIORAL 1526189259 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      EN work/FJKC_MXILINX_ProgramCounter 1526189258 CP FDC CP AND3B2 CP AND3B1 \
+      CP OR3 CP AND2B1
+EN work/ProgramCounter 1526189260 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ProgramCounter/BEHAVIORAL 1526189261 \
+      FL "C:/A Miniscule Computer/IRDRMaker/ProgramCounter.vhf" \
+      EN work/ProgramCounter 1526189260 CP FJKC_MXILINX_ProgramCounter CP AND2 \
+      CP CB4CLE_MXILINX_ProgramCounter
+FL "C:/A Miniscule Computer/IRDRMaker/shiftreg_hex2D.vhd" 2017/10/10.10:41:20 P.20131013
+EN work/shiftreg_hex2D 1526189182 \
+      FL "C:/A Miniscule Computer/IRDRMaker/shiftreg_hex2D.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/shiftreg_hex2D/Behavioral 1526189183 \
+      FL "C:/A Miniscule Computer/IRDRMaker/shiftreg_hex2D.vhd" \
+      EN work/shiftreg_hex2D 1526189182
+FL "C:/A Miniscule Computer/IRDRMaker/sRAM32x8_generic.vhd" 2016/11/17.10:29:38 P.20131013
+EN work/sRAM32x8_generic 1526189184 \
+      FL "C:/A Miniscule Computer/IRDRMaker/sRAM32x8_generic.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/sRAM32x8_generic/Behavioral 1526189185 \
+      FL "C:/A Miniscule Computer/IRDRMaker/sRAM32x8_generic.vhd" \
+      EN work/sRAM32x8_generic 1526189184
+FL "C:/A Miniscule Computer/IRDRMaker/sseg_mux4D.vhd" 2018/03/08.10:36:14 P.20131013
+EN work/sseg_mux4D 1526189188 \
+      FL "C:/A Miniscule Computer/IRDRMaker/sseg_mux4D.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sseg_mux4D/Behavioral 1526189189 \
+      FL "C:/A Miniscule Computer/IRDRMaker/sseg_mux4D.vhd" EN work/sseg_mux4D 1526189188
+FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" 2018/05/12.22:26:12 P.20131013
+EN work/FTCE_MXILINX_TestArea 1526189190 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_TestArea/BEHAVIORAL 1526189191 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/FTCE_MXILINX_TestArea 1526189190 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_TestArea 1526189192 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_TestArea/BEHAVIORAL 1526189193 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/CB4CE_MXILINX_TestArea 1526189192 CP FTCE_MXILINX_TestArea CP AND4 \
+      CP AND3 CP AND2 CP VCC
+EN work/TickerTocker_MUSER_TestArea 1526189194 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TickerTocker_MUSER_TestArea/BEHAVIORAL 1526189195 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/TickerTocker_MUSER_TestArea 1526189194 CP CB4CE_MXILINX_TestArea \
+      CP AND3B3 CP AND3B2 CP AND3 CP AND3B1 CP BUF
+EN work/M2_1_MXILINX_TestArea 1526189196 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_TestArea/BEHAVIORAL 1526189197 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/M2_1_MXILINX_TestArea 1526189196 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_TestArea 1526189198 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_TestArea/BEHAVIORAL 1526189199 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/FTCLEX_MXILINX_TestArea 1526189198 CP M2_1_MXILINX_TestArea CP XOR2 \
+      CP FDCE
+EN work/CB4CLE_MXILINX_TestArea 1526189200 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLE_MXILINX_TestArea/BEHAVIORAL 1526189201 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/CB4CLE_MXILINX_TestArea 1526189200 CP FTCLEX_MXILINX_TestArea CP VCC \
+      CP AND4 CP AND2 CP AND3 CP OR2
+EN work/FJKC_MXILINX_TestArea 1526189202 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_TestArea/BEHAVIORAL 1526189203 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/FJKC_MXILINX_TestArea 1526189202 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/ProgramCounter_MUSER_TestArea 1526189204 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ProgramCounter_MUSER_TestArea/BEHAVIORAL 1526189205 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/ProgramCounter_MUSER_TestArea 1526189204 CP FJKC_MXILINX_TestArea \
+      CP AND2 CP CB4CLE_MXILINX_TestArea
+EN work/oneBitMux_MUSER_TestArea 1526189206 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux_MUSER_TestArea/BEHAVIORAL 1526189207 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/oneBitMux_MUSER_TestArea 1526189206 CP NAND2
+EN work/fourBitMux_MUSER_TestArea 1526189208 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fourBitMux_MUSER_TestArea/BEHAVIORAL 1526189209 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/fourBitMux_MUSER_TestArea 1526189208 CP oneBitMux_MUSER_TestArea
+EN work/eightBitMux_MUSER_TestArea 1526189210 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux_MUSER_TestArea/BEHAVIORAL 1526189211 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/eightBitMux_MUSER_TestArea 1526189210 CP fourBitMux_MUSER_TestArea
+EN work/fiveBitMux_MUSER_TestArea 1526189212 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fiveBitMux_MUSER_TestArea/BEHAVIORAL 1526189213 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/fiveBitMux_MUSER_TestArea 1526189212 CP fourBitMux_MUSER_TestArea \
+      CP oneBitMux_MUSER_TestArea
+EN work/oneBitDemux_MUSER_TestArea 1526189214 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitDemux_MUSER_TestArea/BEHAVIORAL 1526189215 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/oneBitDemux_MUSER_TestArea 1526189214 CP INV CP AND2
+EN work/FTRSE_MXILINX_TestArea 1526189216 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTRSE_MXILINX_TestArea/BEHAVIORAL 1526189217 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/FTRSE_MXILINX_TestArea 1526189216 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_TestArea 1526189218 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2RE_MXILINX_TestArea/BEHAVIORAL 1526189219 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/CB2RE_MXILINX_TestArea 1526189218 CP FTRSE_MXILINX_TestArea CP AND2 \
+      CP VCC CP GND
+EN work/MemWrite_MUSER_TestArea 1526189220 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MemWrite_MUSER_TestArea/BEHAVIORAL 1526189221 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/MemWrite_MUSER_TestArea 1526189220 CP NOR2 CP CB2RE_MXILINX_TestArea \
+      CP OR2
+EN work/keypad_MUSER_TestArea 1526189222 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/keypad_MUSER_TestArea/BEHAVIORAL 1526189223 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/keypad_MUSER_TestArea 1526189222 CP PULLDOWN CP keyCR4b CP FD CP INV
+EN work/KeyAndMemory_MUSER_TestArea 1526189224 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/KeyAndMemory_MUSER_TestArea/BEHAVIORAL 1526189225 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" \
+      EN work/KeyAndMemory_MUSER_TestArea 1526189224 CP keypad_MUSER_TestArea \
+      CP oneshot CP oneBitDemux_MUSER_TestArea CP shiftreg_hex2D CP BUF \
+      CP sRAM32x8_generic CP MemWrite_MUSER_TestArea CP PULLUP CP INV CP AND2B1 \
+      CP fiveBitMux_MUSER_TestArea CP OR3
+EN work/TestArea 1526189226 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TestArea/BEHAVIORAL 1526189227 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TestArea.vhf" EN work/TestArea 1526189226 \
+      CP DCM_50M CP sseg_mux4D CP ProgramCounter_MUSER_TestArea \
+      CP KeyAndMemory_MUSER_TestArea CP BUF CP eightBitMux_MUSER_TestArea \
+      CP TickerTocker_MUSER_TestArea
+FL "C:/A Miniscule Computer/IRDRMaker/TickerTocker.vhf" 2018/05/12.21:40:37 P.20131013
+EN work/FTCE_MXILINX_TickerTocker 1526189262 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TickerTocker.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_TickerTocker/BEHAVIORAL 1526189263 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TickerTocker.vhf" \
+      EN work/FTCE_MXILINX_TickerTocker 1526189262 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_TickerTocker 1526189264 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TickerTocker.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_TickerTocker/BEHAVIORAL 1526189265 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TickerTocker.vhf" \
+      EN work/CB4CE_MXILINX_TickerTocker 1526189264 CP FTCE_MXILINX_TickerTocker \
+      CP AND4 CP AND3 CP AND2 CP VCC
+EN work/TickerTocker 1526189266 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TickerTocker.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/TickerTocker/BEHAVIORAL 1526189267 \
+      FL "C:/A Miniscule Computer/IRDRMaker/TickerTocker.vhf" \
+      EN work/TickerTocker 1526189266 CP CB4CE_MXILINX_TickerTocker CP AND3B3 \
+      CP AND3B2 CP AND3 CP AND3B1 CP BUF

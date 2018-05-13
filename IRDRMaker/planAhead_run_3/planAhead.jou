@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat May 12 20:06:56 2018
+# Process ID: 3688
+# Log file: C:/A Miniscule Computer/IRDRMaker/planAhead_run_3/planAhead.log
+# Journal file: C:/A Miniscule Computer/IRDRMaker/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/A Miniscule Computer/IRDRMaker/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin P11 [get_ports PgrmOrRun]
+endgroup
+save_constraints

@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym ProgramCounter {C:/A Miniscule Computer/IRDRMaker/ProgramCounter.sch} {C:/A Miniscule Computer/IRDRMaker/ProgramCounter.sym} 
