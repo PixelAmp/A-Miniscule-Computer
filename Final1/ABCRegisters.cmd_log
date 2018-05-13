@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl ABCRegisters_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/ABCRegisters.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym ABCRegisters D:/Judah/Documents/School/PhysicsStuff/Final1/ABCRegisters.sch D:/Judah/Documents/School/PhysicsStuff/Final1/ABCRegisters.sym 

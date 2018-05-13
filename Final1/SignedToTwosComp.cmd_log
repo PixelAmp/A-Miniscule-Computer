@@ -1,0 +1,10 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl SignedToTwosComp_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl SignedToTwosComp_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch 
+sch2sym -intstyle ise -family spartan3e -refsym SignedToTwosComp D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl SignedToTwosComp_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl SignedToTwosComp_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym SignedToTwosComp D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl SignedToTwosComp_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym SignedToTwosComp D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl SignedToTwosComp_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym SignedToTwosComp D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sym 

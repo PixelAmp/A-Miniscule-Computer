@@ -1,0 +1,29 @@
+
+
+NET "Ain[7]" LOC = N3;
+NET "Ain[6]" LOC = E2;
+NET "Ain[5]" LOC = F3;
+NET "Ain[4]" LOC = G3;
+NET "Ain[3]" LOC = B4;
+NET "Ain[2]" LOC = K3;
+NET "Ain[1]" LOC = L3;
+NET "Ain[0]" LOC = P11;
+NET "anOut[3]" LOC = K14;
+NET "anOut[2]" LOC = M13;
+NET "anOut[1]" LOC = J12;
+NET "anOut[0]" LOC = F12;
+NET "SegOut[7]" LOC = N13;
+NET "SegOut[6]" LOC = L14;
+NET "SegOut[5]" LOC = H12;
+NET "SegOut[4]" LOC = N14;
+NET "SegOut[3]" LOC = N11;
+NET "SegOut[2]" LOC = P12;
+NET "SegOut[1]" LOC = L13;
+NET "SegOut[0]" LOC = M12;
+NET "ClockIn" LOC = B8;
+
+
+NET "HexLoadModeIn" LOC = G12;
+
+# PlanAhead Generated physical constraints 
+

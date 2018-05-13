@@ -1,0 +1,2 @@
+vhdtdtfi -lib work DCM_50M.vhd -prj Final1 -o DCM_50M.spl -module DCM_50M -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w DCM_50M.spl D:/Judah/Documents/School/PhysicsStuff/Final1/DCM_50M.sym 

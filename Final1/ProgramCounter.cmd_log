@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl ProgramCounter_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/ProgramCounter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym ProgramCounter D:/Judah/Documents/School/PhysicsStuff/Final1/ProgramCounter.sch D:/Judah/Documents/School/PhysicsStuff/Final1/ProgramCounter.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl ProgramCounter_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/ProgramCounter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym ProgramCounter D:/Judah/Documents/School/PhysicsStuff/Final1/ProgramCounter.sch D:/Judah/Documents/School/PhysicsStuff/Final1/ProgramCounter.sym 

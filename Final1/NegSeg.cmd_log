@@ -1,0 +1,15 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl NegSeg_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl NegSeg_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl NegSeg_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym NegSeg D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym NegSeg D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym NegSeg D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl NegSeg_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym NegSeg D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym NegSeg D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl NegSeg_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym NegSeg D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl NegSeg_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl NegSeg_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl NegSeg_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym NegSeg D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sym 

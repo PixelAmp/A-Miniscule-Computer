@@ -1,0 +1,3 @@
+MODULE HardInstructions
+	SUBMODULE eightBit16Mux
+		INSTANCE XLXI_42

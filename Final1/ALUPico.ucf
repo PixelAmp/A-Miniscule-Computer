@@ -1,0 +1,30 @@
+
+NET "A[7]" LOC = N3;
+NET "A[6]" LOC = E2;
+NET "A[5]" LOC = F3;
+NET "A[4]" LOC = G3;
+NET "A[3]" LOC = B4;
+NET "A[2]" LOC = K3;
+NET "A[1]" LOC = L3;
+NET "A[0]" LOC = P11;
+NET "SOut[7]" LOC = G1;
+NET "SOut[6]" LOC = P4;
+NET "SOut[5]" LOC = N4;
+NET "SOut[4]" LOC = N5;
+NET "SOut[3]" LOC = P6;
+NET "SOut[2]" LOC = P7;
+NET "SOut[1]" LOC = M11;
+NET "SOut[0]" LOC = M5;
+NET "SubIn" LOC = A7;
+NET "SignedIn" LOC = M4;
+
+NET "B[7]" PULLUP;
+NET "B[6]" PULLDOWN;
+NET "B[5]" PULLDOWN;
+NET "B[4]" PULLDOWN;
+NET "B[3]" PULLDOWN;
+NET "B[2]" PULLDOWN;
+NET "B[1]" PULLDOWN;
+NET "B[0]" PULLUP;
+
+

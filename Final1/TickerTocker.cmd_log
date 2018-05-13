@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TickerTocker_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/TickerTocker.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym TickerTocker D:/Judah/Documents/School/PhysicsStuff/Final1/TickerTocker.sch D:/Judah/Documents/School/PhysicsStuff/Final1/TickerTocker.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TickerTocker_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/TickerTocker.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym TickerTocker D:/Judah/Documents/School/PhysicsStuff/Final1/TickerTocker.sch D:/Judah/Documents/School/PhysicsStuff/Final1/TickerTocker.sym 

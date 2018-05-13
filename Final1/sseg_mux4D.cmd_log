@@ -1,0 +1,2 @@
+vhdtdtfi -lib work sseg_mux4D.vhd -prj Final1 -o sseg_mux4D.spl -module sseg_mux4D -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w sseg_mux4D.spl D:/Judah/Documents/School/PhysicsStuff/Final1/sseg_mux4D.sym 

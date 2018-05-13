@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl StatusRegWriter_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/StatusRegWriter.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl StatusRegWriter_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/StatusRegWriter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym StatusRegWriter D:/Judah/Documents/School/PhysicsStuff/Final1/StatusRegWriter.sch D:/Judah/Documents/School/PhysicsStuff/Final1/StatusRegWriter.sym 
