@@ -1,0 +1,71 @@
+select figure at 535 473 8 -branches -sn=1
+move instance at 240 576 to 336 560 R0 -keepConn -sn=1
+move instance at 336 560 to 336 576 R0 -keepConn -sn=1
+select figure at 166 343 8 -branches -sn=1
+move iomarker at 208 352 to 304 352 R180 -keepConn -sn=1
+undo
+undo
+select figure at 1138 902 8 -branches -sn=1
+select figure at 1102 767 8 -branches -sn=1
+select figure at 810 1061 8 -branches -sn=1
+select figure at 1049 1021 8 -branches -sn=1
+select figure at 1041 1019 8 -branches -sn=1
+delete selection -sn=1
+undo
+undo
+undo
+redo
+redo
+select figure at 785 524 8 -branches -toggle -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+redo
+redo
+redo
+redo
+redo
+redo
+select figure at 1041 620 8 -branches -sn=1
+select figure at 1049 931 8 -branches -sn=1
+select figure at 1031 933 8 -branches -sn=1
+select figure at 1039 933 8 -branches -sn=1
+delete selection -sn=1
+select figure at 933 600 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1106 800 8 -branches -sn=1
+delete selection -sn=1
+add autowire 1120 608 1040 608 8 -sn=1
+add autowire 1120 800 720 544 8 -sn=1
+add autowire 1040 608 1792 1088 8 -sn=1
+select figure at 901 635 8 -branches -sn=1
+move wire at 896 608 896 1088 to 1104 608 1104 1088 -keepConn -sn=1
+add autowire 1104 608 1056 608 8 -sn=1
+add iomarker 1056 608 0 Unknown Unknown -sn=1
+select figure at 1021 620 8 -branches -sn=1
+select figure at 994 818 8 -branches -sn=1
+select figure at 1102 644 8 -branches -sn=1
+select figure at 891 610 8 -branches -sn=1
+select figure at 878 612 8 -branches -sn=1
+select figure at 976 976 8 -branches -sn=1
+select figure at 1132 600 8 -branches -sn=1
+select figure at 1101 610 8 -branches -sn=1
+select figure at 1029 602 8 -branches -sn=1
+select figure at 1029 602 8 -branches -all -sn=1
+select figure at 1094 607 8 -branches -sn=1
+select figure at 989 958 8 -branches -sn=1
+select figure at 994 1001 8 -branches -sn=1
+select figure at 455 1066 8 -branches -sn=1
+select figure at 455 1066 8 -branches -sn=1
+select figure at 643 1015 8 -branches -sn=1
+select figure at 728 883 8 -branches -sn=1
+select figure at 968 600 8 -branches -sn=1
+name branch at 1056 608 8 InstOrData -sn=1
+select figure at 630 710 8 -branches -sn=1
+select figure at 966 605 8 -branches -sn=1
+move iomarker at 1056 608 to 1072 608 R180 -keepConn -sn=1
+select figure at 785 703 8 -branches -sn=1
+select figure at 1846 1247 8 -branches -sn=1

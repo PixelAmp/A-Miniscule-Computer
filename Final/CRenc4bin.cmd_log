@@ -1,2 +1,0 @@
-vhdtdtfi -lib work CRenc4bin.vhd -prj Final -o CRenc4bin.spl -module CRenc4bin -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e CRenc4bin.spl {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/CRenc4bin.sym} 

@@ -1,4 +1,0 @@
-vhdtdtfi -lib work keyCR4b.vhd -prj Final -o keyCR4b.spl -module keyCR4b -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e keyCR4b.spl {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/keyCR4b.sym} 
-vhdtdtfi -lib work CRenc4bin.vhd -lib work keyCR4b.vhd -prj Final -o keyCR4b.spl -module keyCR4b -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e keyCR4b.spl {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/keyCR4b.sym} 

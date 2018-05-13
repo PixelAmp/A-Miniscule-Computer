@@ -1,4 +1,0 @@
-vhdtdtfi -lib work sseg_mux4D.vhd -prj Final -o sseg_mux4D.spl -module sseg_mux4D -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e sseg_mux4D.spl {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/sseg_mux4D.sym} 
-vhdtdtfi -lib work sseg_mux4D.vhd -prj Final -o sseg_mux4D.spl -module sseg_mux4D -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e sseg_mux4D.spl {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/sseg_mux4D.sym} 

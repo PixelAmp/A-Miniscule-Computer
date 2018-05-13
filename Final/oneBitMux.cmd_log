@@ -1,2 +1,0 @@
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl oneBitMux_drc.vhf -w {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/oneBitMux.sch} 
-sch2sym -intstyle ise -family spartan3e -refsym oneBitMux {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/oneBitMux.sch} {C:/Google Drive/San Marcos/PHYS 301 Digital Electronics/ISE Projects/Final/oneBitMux.sym} 
