@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TickCombine_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/TickCombine.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym TickCombine D:/Judah/Documents/School/PhysicsStuff/Final1/TickCombine.sch D:/Judah/Documents/School/PhysicsStuff/Final1/TickCombine.sym 

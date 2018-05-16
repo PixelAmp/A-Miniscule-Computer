@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl fourBitMux_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/fourBitMux.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym fourBitMux D:/Judah/Documents/School/PhysicsStuff/Final1/fourBitMux.sch D:/Judah/Documents/School/PhysicsStuff/Final1/fourBitMux.sym 

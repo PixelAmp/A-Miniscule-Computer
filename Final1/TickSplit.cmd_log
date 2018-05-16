@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TickSplit_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/TickSplit.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym TickSplit D:/Judah/Documents/School/PhysicsStuff/Final1/TickSplit.sch D:/Judah/Documents/School/PhysicsStuff/Final1/TickSplit.sym 

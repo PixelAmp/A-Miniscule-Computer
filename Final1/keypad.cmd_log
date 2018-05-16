@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl keypad_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/keypad.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym keypad D:/Judah/Documents/School/PhysicsStuff/Final1/keypad.sch D:/Judah/Documents/School/PhysicsStuff/Final1/keypad.sym 

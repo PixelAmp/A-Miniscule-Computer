@@ -20,7 +20,7 @@
         <signal name="S6" />
         <signal name="S7" />
         <signal name="TickOut" />
-        <signal name="XLXN_10" />
+        <signal name="ClearIn" />
         <port polarity="Input" name="ClockEnable" />
         <port polarity="Input" name="ClockIn" />
         <port polarity="Output" name="S0" />
@@ -32,6 +32,7 @@
         <port polarity="Output" name="S6" />
         <port polarity="Output" name="S7" />
         <port polarity="Output" name="TickOut" />
+        <port polarity="Input" name="ClearIn" />
         <blockdef name="cb4ce">
             <timestamp>2000-1-1T10:10:10</timestamp>
             <rect width="256" x="64" y="-512" height="448" />
@@ -110,7 +111,7 @@
         <block symbolname="cb4ce" name="XLXI_1">
             <blockpin signalname="ClockIn" name="C" />
             <blockpin signalname="ClockEnable" name="CE" />
-            <blockpin name="CLR" />
+            <blockpin signalname="ClearIn" name="CLR" />
             <blockpin name="CEO" />
             <blockpin signalname="XLXN_4" name="Q0" />
             <blockpin signalname="XLXN_8" name="Q1" />
@@ -290,5 +291,9 @@
             <wire x2="1904" y1="96" y2="128" x1="1904" />
         </branch>
         <iomarker fontsize="28" x="1952" y="96" name="TickOut" orien="R0" />
+        <branch name="ClearIn">
+            <wire x2="784" y1="1216" y2="1216" x1="752" />
+        </branch>
+        <iomarker fontsize="28" x="752" y="1216" name="ClearIn" orien="R180" />
     </sheet>
 </drawing>

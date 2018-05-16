@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl MemWrite_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/MemWrite.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym MemWrite D:/Judah/Documents/School/PhysicsStuff/Final1/MemWrite.sch D:/Judah/Documents/School/PhysicsStuff/Final1/MemWrite.sym 

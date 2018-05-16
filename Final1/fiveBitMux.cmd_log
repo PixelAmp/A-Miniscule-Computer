@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl fiveBitMux_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/fiveBitMux.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl fiveBitMux_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/fiveBitMux.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym fiveBitMux D:/Judah/Documents/School/PhysicsStuff/Final1/fiveBitMux.sch D:/Judah/Documents/School/PhysicsStuff/Final1/fiveBitMux.sym 

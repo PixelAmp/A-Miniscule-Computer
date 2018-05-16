@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl eightBitMux4Way_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/eightBitMux4Way.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym eightBitMux4Way D:/Judah/Documents/School/PhysicsStuff/Final1/eightBitMux4Way.sch D:/Judah/Documents/School/PhysicsStuff/Final1/eightBitMux4Way.sym 

@@ -42,13 +42,9 @@
         <signal name="XLXN_120(7:0)" />
         <signal name="XLXN_58(7:0)" />
         <signal name="XLXN_71(0)" />
-        <signal name="XLXN_121" />
         <signal name="XLXN_122" />
         <signal name="XLXN_123" />
         <signal name="XLXN_124" />
-        <signal name="XLXN_125" />
-        <signal name="XLXN_126" />
-        <signal name="XLXN_127" />
         <signal name="SubIn" />
         <signal name="XLXN_129" />
         <port polarity="Input" name="ClockIn" />
@@ -145,12 +141,13 @@
             <line x2="32" y1="-128" y2="-128" x1="96" />
         </blockdef>
         <blockdef name="ProgramCounter">
-            <timestamp>2018-5-1T18:1:36</timestamp>
-            <rect width="320" x="64" y="-128" height="128" />
+            <timestamp>2018-5-12T22:56:3</timestamp>
+            <line x2="0" y1="32" y2="32" x1="64" />
             <line x2="0" y1="-96" y2="-96" x1="64" />
             <line x2="0" y1="-32" y2="-32" x1="64" />
             <rect width="64" x="384" y="-108" height="24" />
             <line x2="448" y1="-96" y2="-96" x1="384" />
+            <rect width="320" x="64" y="-128" height="192" />
         </blockdef>
         <blockdef name="ABCRegisters">
             <timestamp>2018-5-8T16:36:18</timestamp>
@@ -302,6 +299,7 @@
             <blockpin name="ClockIn" />
             <blockpin name="ClockEnable" />
             <blockpin name="CounterOut(4:0)" />
+            <blockpin name="ClearIn" />
         </block>
         <block symbolname="ABCRegisters" name="XLXI_15">
             <blockpin name="Cin(7:0)" />

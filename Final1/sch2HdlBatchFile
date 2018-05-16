@@ -1,13 +1,1 @@
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/InsDecoder.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/InsDecoder.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/ProgramCounter.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/ProgramCounter.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/ALUPico.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/ALUPico.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/SignedToTwosComp.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/eightBitMux.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/eightBitMux.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/NegSeg.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/TickerTocker.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/TickerTocker.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/ABCRegisters.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/ABCRegisters.sch
 sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/picocomputer.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/picocomputer.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/HardInstructions.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/HardInstructions.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/eightBit16Mux.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/eightBit16Mux.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/StatusRegReader.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/StatusRegReader.sch
-sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/Judah/Documents/School/PhysicsStuff/Final1/StatusRegWriter.vhf,-w,D:/Judah/Documents/School/PhysicsStuff/Final1/StatusRegWriter.sch

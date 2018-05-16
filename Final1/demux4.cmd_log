@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl demux4_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/demux4.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym demux4 D:/Judah/Documents/School/PhysicsStuff/Final1/demux4.sch D:/Judah/Documents/School/PhysicsStuff/Final1/demux4.sym 

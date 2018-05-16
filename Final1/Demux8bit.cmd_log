@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Demux8bit_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/Demux8bit.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Demux8bit D:/Judah/Documents/School/PhysicsStuff/Final1/Demux8bit.sch D:/Judah/Documents/School/PhysicsStuff/Final1/Demux8bit.sym 
