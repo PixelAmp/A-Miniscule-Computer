@@ -1,0 +1,86 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1658 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/A Miniscule Computer/Final1/pa.fromNetlist.tcl}
+# create_project -name Final1 -dir "C:/A Miniscule Computer/Final1/planAhead_run_1" -part xc3s100ecp132-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/A Miniscule Computer/Final1/GivenRam.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/A Miniscule Computer/Final1} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "GivenRam.ucf" [current_fileset -constrset]
+Adding file 'C:/A Miniscule Computer/Final1/GivenRam.ucf' to fileset 'constrs_1'
+# add_files [list {GivenRam.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design GivenRam.ngc ...
+WARNING:NetListWriters:298 - No output is written to GivenRam.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt10k_cmp_gt0000_lut<11
+   : 0> on block GivenRam is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt1_cmp_gt0000_lut<11 :
+   0> on block GivenRam is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt1k_cmp_gt0000_lut<11 :
+   0> on block GivenRam is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_104/XLXN_90<2 : 0> on block
+   GivenRam is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   XLXI_118/XLXI_2/Mcompar_arm_cmp_gt0000_lut<11 : 0> on block GivenRam is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   XLXI_118/XLXI_2/Mcompar_pls_cmp_lt0000_lut<11 : 1> on block GivenRam is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_118/XLXI_2/cnt_mux0000<30 : 0> on
+   block GivenRam is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file GivenRam.edif ...
+ngc2edif: Total memory usage is 81864 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Final1.data/cache/GivenRam_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Final1.data/cache/GivenRam_ngc_zx.edif]
+CRITICAL WARNING: [Designutils 20-1022] Could not resolve non-primitive black box cell 'FMAP' instantiated in module 'XLXI_104/XLXI_10/XLXI_5/XLXI_21/I_36_16'.
+Resolution: File names need to match cell names: an EDIF definition will be found in FMAP.edf; a HDL definition may be placed in any Verilog/VHDL file.
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+WARNING: [Netlist 29-43] Netlist 'GivenRam' is not ideal for floorplanning, since the cellview 'GivenRam' defined in file 'GivenRam.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/A Miniscule Computer/Final1/GivenRam.ucf]
+Finished Parsing UCF File [C:/A Miniscule Computer/Final1/GivenRam.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: af566069
+link_design: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 443.785 ; gain = 79.313
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed May 16 12:41:03 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

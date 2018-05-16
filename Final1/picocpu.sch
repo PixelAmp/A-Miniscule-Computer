@@ -59,7 +59,6 @@
         <signal name="Lda" />
         <signal name="OverflowV" />
         <signal name="Zero" />
-        <signal name="XLXN_217" />
         <port polarity="Output" name="CRegOut(7:0)" />
         <port polarity="Output" name="Hlt" />
         <port polarity="Output" name="Lca" />
@@ -840,5 +839,7 @@
         </branch>
         <iomarker fontsize="28" x="5120" y="1680" name="Zero" orien="R0" />
         <iomarker fontsize="28" x="2976" y="4432" name="ARegOut(7:0)" orien="R0" />
+        <text style="fontsize:32;fontname:Arial" x="1120" y="3060">Working Registers?</text>
+        <text style="fontsize:32;fontname:Arial" x="2352" y="1084">ABCRegisters</text>
     </sheet>
 </drawing>

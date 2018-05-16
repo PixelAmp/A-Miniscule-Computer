@@ -109,3 +109,34 @@ WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt1k_cmp_gt0000_lut<11 :
 Writing EDIF netlist file TinyTester.edif ...
 ngc2edif: Total memory usage is 115608 kilobytes
 
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design GivenRam.ngc ...
+WARNING:NetListWriters:298 - No output is written to GivenRam.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt10k_cmp_gt0000_lut<11
+   : 0> on block GivenRam is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt1_cmp_gt0000_lut<11 :
+   0> on block GivenRam is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt1k_cmp_gt0000_lut<11 :
+   0> on block GivenRam is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_104/XLXN_90<2 : 0> on block
+   GivenRam is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   XLXI_118/XLXI_2/Mcompar_arm_cmp_gt0000_lut<11 : 0> on block GivenRam is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   XLXI_118/XLXI_2/Mcompar_pls_cmp_lt0000_lut<11 : 1> on block GivenRam is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_118/XLXI_2/cnt_mux0000<30 : 0> on
+   block GivenRam is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file GivenRam.edif ...
+ngc2edif: Total memory usage is 81864 kilobytes
+

@@ -1,0 +1,868 @@
+V3 422
+FL "C:/A Miniscule Computer/Final1/ABCRegisters.vhf" 2018/05/16.12:39:27 P.20131013
+EN work/FD8CE_MXILINX_ABCRegisters 1526503791 \
+      FL "C:/A Miniscule Computer/Final1/ABCRegisters.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FD8CE_MXILINX_ABCRegisters/BEHAVIORAL 1526503792 \
+      FL "C:/A Miniscule Computer/Final1/ABCRegisters.vhf" \
+      EN work/FD8CE_MXILINX_ABCRegisters 1526503791 CP FDCE
+EN work/ABCRegisters 1526503793 \
+      FL "C:/A Miniscule Computer/Final1/ABCRegisters.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ABCRegisters/BEHAVIORAL 1526503794 \
+      FL "C:/A Miniscule Computer/Final1/ABCRegisters.vhf" EN work/ABCRegisters 1526503793 \
+      CP FD8CE_MXILINX_ABCRegisters
+FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" 2018/05/16.12:39:36 P.20131013
+EN work/M2_1_MXILINX_ALUPico 1526503795 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_ALUPico/BEHAVIORAL 1526503796 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" \
+      EN work/M2_1_MXILINX_ALUPico 1526503795 CP AND2B1 CP OR2 CP AND2
+EN work/eightBitMux_MUSER_ALUPico 1526503797 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux_MUSER_ALUPico/BEHAVIORAL 1526503798 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" \
+      EN work/eightBitMux_MUSER_ALUPico 1526503797 CP M2_1_MXILINX_ALUPico
+EN work/ADSU8_MXILINX_ALUPico 1526503799 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADSU8_MXILINX_ALUPico/BEHAVIORAL 1526503800 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" \
+      EN work/ADSU8_MXILINX_ALUPico 1526503799 CP FMAP CP XOR3 CP MUXCY_L CP MUXCY \
+      CP XORCY CP MUXCY_D CP INV CP XOR2
+EN work/ADD8_MXILINX_ALUPico 1526503801 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADD8_MXILINX_ALUPico/BEHAVIORAL 1526503802 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" \
+      EN work/ADD8_MXILINX_ALUPico 1526503801 CP FMAP CP MUXCY_L CP MUXCY CP XORCY \
+      CP MUXCY_D CP XOR2
+EN work/SignedToTwosComp_MUSER_ALUPico 1526503803 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/SignedToTwosComp_MUSER_ALUPico/BEHAVIORAL 1526503804 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" \
+      EN work/SignedToTwosComp_MUSER_ALUPico 1526503803 CP M2_1_MXILINX_ALUPico \
+      CP INV CP BUF CP ADD8_MXILINX_ALUPico
+EN work/ALUPico 1526503805 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ALUPico/BEHAVIORAL 1526503806 \
+      FL "C:/A Miniscule Computer/Final1/ALUPico.vhf" EN work/ALUPico 1526503805 \
+      CP ADSU8_MXILINX_ALUPico CP INV CP SignedToTwosComp_MUSER_ALUPico \
+      CP eightBitMux_MUSER_ALUPico CP M2_1_MXILINX_ALUPico CP XOR2 CP OR2 CP NOR2 \
+      CP NOR2B1 CP AND2
+FL "C:/A Miniscule Computer/Final1/bin2BCD3en.vhd" 2018/02/27.11:32:14 P.20131013
+EN work/bin2BCD3en 1526503629 FL "C:/A Miniscule Computer/Final1/bin2BCD3en.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/bin2BCD3en/Behavioral 1526503630 \
+      FL "C:/A Miniscule Computer/Final1/bin2BCD3en.vhd" EN work/bin2BCD3en 1526503629
+FL "C:/A Miniscule Computer/Final1/CRenc4bin.vhd" 2017/04/25.11:38:38 P.20131013
+EN work/CRenc4bin 1526503623 FL "C:/A Miniscule Computer/Final1/CRenc4bin.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CRenc4bin/Behavioral 1526503624 \
+      FL "C:/A Miniscule Computer/Final1/CRenc4bin.vhd" EN work/CRenc4bin 1526503623
+FL "C:/A Miniscule Computer/Final1/DCM_50M.vhd" 2018/02/27.11:32:22 P.20131013
+EN work/DCM_50M 1526503639 FL "C:/A Miniscule Computer/Final1/DCM_50M.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/DCM_50M/Behavioral 1526503640 \
+      FL "C:/A Miniscule Computer/Final1/DCM_50M.vhd" EN work/DCM_50M 1526503639
+FL "C:/A Miniscule Computer/Final1/demux4.vhf" 2018/05/16.12:39:33 P.20131013
+EN work/oneBitDemux_MUSER_demux4 1526503807 \
+      FL "C:/A Miniscule Computer/Final1/demux4.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitDemux_MUSER_demux4/BEHAVIORAL 1526503808 \
+      FL "C:/A Miniscule Computer/Final1/demux4.vhf" \
+      EN work/oneBitDemux_MUSER_demux4 1526503807 CP INV CP AND2
+EN work/demux4 1526503809 \
+      FL "C:/A Miniscule Computer/Final1/demux4.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/demux4/BEHAVIORAL 1526503810 \
+      FL "C:/A Miniscule Computer/Final1/demux4.vhf" EN work/demux4 1526503809 \
+      CP oneBitDemux_MUSER_demux4
+FL "C:/A Miniscule Computer/Final1/eightBitMux.vhf" 2018/05/16.12:39:37 P.20131013
+EN work/M2_1_MXILINX_eightBitMux 1526503841 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_eightBitMux/BEHAVIORAL 1526503842 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux.vhf" \
+      EN work/M2_1_MXILINX_eightBitMux 1526503841 CP AND2B1 CP OR2 CP AND2
+EN work/eightBitMux 1526503843 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux/BEHAVIORAL 1526503844 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux.vhf" EN work/eightBitMux 1526503843 \
+      CP M2_1_MXILINX_eightBitMux
+FL "C:/A Miniscule Computer/Final1/eightBitMux4Way.vhf" 2018/05/16.12:39:29 P.20131013
+EN work/M2_1_MXILINX_eightBitMux4Way 1526503811 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux4Way.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_eightBitMux4Way/BEHAVIORAL 1526503812 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux4Way.vhf" \
+      EN work/M2_1_MXILINX_eightBitMux4Way 1526503811 CP AND2B1 CP OR2 CP AND2
+EN work/eightBitMux_MUSER_eightBitMux4Way 1526503813 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux4Way.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux_MUSER_eightBitMux4Way/BEHAVIORAL 1526503814 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux4Way.vhf" \
+      EN work/eightBitMux_MUSER_eightBitMux4Way 1526503813 \
+      CP M2_1_MXILINX_eightBitMux4Way
+EN work/eightBitMux4Way 1526503815 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux4Way.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux4Way/BEHAVIORAL 1526503816 \
+      FL "C:/A Miniscule Computer/Final1/eightBitMux4Way.vhf" \
+      EN work/eightBitMux4Way 1526503815 CP eightBitMux_MUSER_eightBitMux4Way
+FL "C:/A Miniscule Computer/Final1/fiveBitMux.vhf" 2018/05/16.12:39:34 P.20131013
+EN work/oneBitMux_MUSER_fiveBitMux 1526503817 \
+      FL "C:/A Miniscule Computer/Final1/fiveBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux_MUSER_fiveBitMux/BEHAVIORAL 1526503818 \
+      FL "C:/A Miniscule Computer/Final1/fiveBitMux.vhf" \
+      EN work/oneBitMux_MUSER_fiveBitMux 1526503817 CP NAND2
+EN work/fourBitMux_MUSER_fiveBitMux 1526503819 \
+      FL "C:/A Miniscule Computer/Final1/fiveBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fourBitMux_MUSER_fiveBitMux/BEHAVIORAL 1526503820 \
+      FL "C:/A Miniscule Computer/Final1/fiveBitMux.vhf" \
+      EN work/fourBitMux_MUSER_fiveBitMux 1526503819 \
+      CP oneBitMux_MUSER_fiveBitMux
+EN work/fiveBitMux 1526503821 \
+      FL "C:/A Miniscule Computer/Final1/fiveBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fiveBitMux/BEHAVIORAL 1526503822 \
+      FL "C:/A Miniscule Computer/Final1/fiveBitMux.vhf" EN work/fiveBitMux 1526503821 \
+      CP fourBitMux_MUSER_fiveBitMux CP oneBitMux_MUSER_fiveBitMux
+FL "C:/A Miniscule Computer/Final1/fourBitMux.vhf" 2018/05/16.12:39:34 P.20131013
+EN work/oneBitMux_MUSER_fourBitMux 1526503845 \
+      FL "C:/A Miniscule Computer/Final1/fourBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux_MUSER_fourBitMux/BEHAVIORAL 1526503846 \
+      FL "C:/A Miniscule Computer/Final1/fourBitMux.vhf" \
+      EN work/oneBitMux_MUSER_fourBitMux 1526503845 CP NAND2
+EN work/fourBitMux 1526503847 \
+      FL "C:/A Miniscule Computer/Final1/fourBitMux.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fourBitMux/BEHAVIORAL 1526503848 \
+      FL "C:/A Miniscule Computer/Final1/fourBitMux.vhf" EN work/fourBitMux 1526503847 \
+      CP oneBitMux_MUSER_fourBitMux
+FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" 2018/05/16.13:46:59 P.20131013
+AR work/CB2CLE_MXILINX_GivenRam/BEHAVIORAL 1526499665 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/CB2CLE_MXILINX_GivenRam 1526499664 CP FTCLEX_MXILINX_GivenRam \
+      CP AND2 CP VCC CP OR2
+AR work/CB4CLE_MXILINX_GivenRam/BEHAVIORAL 1526499667 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/CB4CLE_MXILINX_GivenRam 1526499666 CP FTCLEX_MXILINX_GivenRam CP VCC \
+      CP AND4 CP AND2 CP AND3 CP OR2
+AR work/ProgramCounter_MUSER_GivenRam/BEHAVIORAL 1526499669 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/ProgramCounter_MUSER_GivenRam 1526499668 CP CB4CLE_MXILINX_GivenRam \
+      CP CB2CLE_MXILINX_GivenRam
+EN work/M2_1_MXILINX_GivenRam 1526503641 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_GivenRam/BEHAVIORAL 1526503642 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/M2_1_MXILINX_GivenRam 1526503641 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_GivenRam 1526503643 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_GivenRam/BEHAVIORAL 1526503644 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/FTCLEX_MXILINX_GivenRam 1526503643 CP M2_1_MXILINX_GivenRam CP XOR2 \
+      CP FDCE
+EN work/CB8CLE_MXILINX_GivenRam 1526503645 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB8CLE_MXILINX_GivenRam/BEHAVIORAL 1526503646 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/CB8CLE_MXILINX_GivenRam 1526503645 CP FTCLEX_MXILINX_GivenRam \
+      CP AND3 CP AND2 CP VCC CP AND4 CP AND5 CP OR2
+EN work/ProgramCounter8_MUSER_GivenRam 1526503647 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ProgramCounter8_MUSER_GivenRam/BEHAVIORAL 1526503648 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/ProgramCounter8_MUSER_GivenRam 1526503647 \
+      CP CB8CLE_MXILINX_GivenRam CP BUF
+EN work/oneBitMux_MUSER_GivenRam 1526503649 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux_MUSER_GivenRam/BEHAVIORAL 1526503650 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/oneBitMux_MUSER_GivenRam 1526503649 CP NAND2
+EN work/fourBitMux_MUSER_GivenRam 1526503651 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fourBitMux_MUSER_GivenRam/BEHAVIORAL 1526503652 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/fourBitMux_MUSER_GivenRam 1526503651 CP oneBitMux_MUSER_GivenRam
+EN work/fiveBitMux_MUSER_GivenRam 1526503653 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fiveBitMux_MUSER_GivenRam/BEHAVIORAL 1526503654 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/fiveBitMux_MUSER_GivenRam 1526503653 CP fourBitMux_MUSER_GivenRam \
+      CP oneBitMux_MUSER_GivenRam
+EN work/FTRSE_MXILINX_GivenRam 1526503655 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTRSE_MXILINX_GivenRam/BEHAVIORAL 1526503656 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/FTRSE_MXILINX_GivenRam 1526503655 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_GivenRam 1526503657 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2RE_MXILINX_GivenRam/BEHAVIORAL 1526503658 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/CB2RE_MXILINX_GivenRam 1526503657 CP FTRSE_MXILINX_GivenRam CP AND2 \
+      CP VCC CP GND
+EN work/MemWrite_MUSER_GivenRam 1526503659 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MemWrite_MUSER_GivenRam/BEHAVIORAL 1526503660 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/MemWrite_MUSER_GivenRam 1526503659 CP NOR2 CP CB2RE_MXILINX_GivenRam \
+      CP OR2
+EN work/oneBitDemux_MUSER_GivenRam 1526503661 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitDemux_MUSER_GivenRam/BEHAVIORAL 1526503662 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/oneBitDemux_MUSER_GivenRam 1526503661 CP INV CP AND2
+EN work/keypad_MUSER_GivenRam 1526503663 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/keypad_MUSER_GivenRam/BEHAVIORAL 1526503664 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/keypad_MUSER_GivenRam 1526503663 CP PULLDOWN CP keyCR4b CP FD CP INV
+EN work/GivenRamC_MUSER_GivenRam 1526503665 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/GivenRamC_MUSER_GivenRam/BEHAVIORAL 1526503666 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/GivenRamC_MUSER_GivenRam 1526503665 CP keypad_MUSER_GivenRam \
+      CP oneshot CP oneBitDemux_MUSER_GivenRam CP shiftreg_hex2D CP BUF CP PULLUP \
+      CP INV CP AND2B1 CP MemWrite_MUSER_GivenRam CP fiveBitMux_MUSER_GivenRam \
+      CP OR3 CP sRAM32x8_pgmC_data CP sRAM32x8_pgmC_instr
+EN work/FTCE_MXILINX_GivenRam 1526503667 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_GivenRam/BEHAVIORAL 1526503668 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/FTCE_MXILINX_GivenRam 1526503667 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_GivenRam 1526503669 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_GivenRam/BEHAVIORAL 1526503670 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/CB4CE_MXILINX_GivenRam 1526503669 CP FTCE_MXILINX_GivenRam CP AND4 \
+      CP AND3 CP AND2 CP VCC
+EN work/TickerTocker_MUSER_GivenRam 1526503671 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TickerTocker_MUSER_GivenRam/BEHAVIORAL 1526503672 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/TickerTocker_MUSER_GivenRam 1526503671 CP CB4CE_MXILINX_GivenRam \
+      CP AND3B3 CP AND3B2 CP AND3 CP AND3B1 CP BUF
+EN work/FJKCE_MXILINX_GivenRam 1526503673 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FJKCE_MXILINX_GivenRam/BEHAVIORAL 1526503674 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/FJKCE_MXILINX_GivenRam 1526503673 CP FDCE CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/eightBitMux_MUSER_GivenRam 1526503675 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux_MUSER_GivenRam/BEHAVIORAL 1526503676 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/eightBitMux_MUSER_GivenRam 1526503675 CP M2_1_MXILINX_GivenRam
+EN work/TickSplit_MUSER_GivenRam 1526503677 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TickSplit_MUSER_GivenRam/BEHAVIORAL 1526503678 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/TickSplit_MUSER_GivenRam 1526503677 CP BUF
+EN work/demux4_MUSER_GivenRam 1526503679 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/demux4_MUSER_GivenRam/BEHAVIORAL 1526503680 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/demux4_MUSER_GivenRam 1526503679 CP oneBitDemux_MUSER_GivenRam
+EN work/FD8CE_MXILINX_GivenRam 1526503681 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FD8CE_MXILINX_GivenRam/BEHAVIORAL 1526503682 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/FD8CE_MXILINX_GivenRam 1526503681 CP FDCE
+EN work/ABCRegisters_MUSER_GivenRam 1526503683 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ABCRegisters_MUSER_GivenRam/BEHAVIORAL 1526503684 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/ABCRegisters_MUSER_GivenRam 1526503683 CP FD8CE_MXILINX_GivenRam
+EN work/eightBitMux4Way_MUSER_GivenRam 1526503685 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux4Way_MUSER_GivenRam/BEHAVIORAL 1526503686 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/eightBitMux4Way_MUSER_GivenRam 1526503685 \
+      CP eightBitMux_MUSER_GivenRam
+EN work/StatusRegWriter_MUSER_GivenRam 1526503687 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/StatusRegWriter_MUSER_GivenRam/BEHAVIORAL 1526503688 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/StatusRegWriter_MUSER_GivenRam 1526503687 CP BUF
+EN work/ADSU8_MXILINX_GivenRam 1526503689 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADSU8_MXILINX_GivenRam/BEHAVIORAL 1526503690 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/ADSU8_MXILINX_GivenRam 1526503689 CP FMAP CP XOR3 CP MUXCY_L CP MUXCY \
+      CP XORCY CP MUXCY_D CP INV CP XOR2
+EN work/ADD8_MXILINX_GivenRam 1526503691 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADD8_MXILINX_GivenRam/BEHAVIORAL 1526503692 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/ADD8_MXILINX_GivenRam 1526503691 CP FMAP CP MUXCY_L CP MUXCY CP XORCY \
+      CP MUXCY_D CP XOR2
+EN work/SignedToTwosComp_MUSER_GivenRam 1526503693 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/SignedToTwosComp_MUSER_GivenRam/BEHAVIORAL 1526503694 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/SignedToTwosComp_MUSER_GivenRam 1526503693 CP M2_1_MXILINX_GivenRam \
+      CP INV CP BUF CP ADD8_MXILINX_GivenRam
+EN work/ALUPico_MUSER_GivenRam 1526503695 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ALUPico_MUSER_GivenRam/BEHAVIORAL 1526503696 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/ALUPico_MUSER_GivenRam 1526503695 CP ADSU8_MXILINX_GivenRam CP INV \
+      CP SignedToTwosComp_MUSER_GivenRam CP eightBitMux_MUSER_GivenRam \
+      CP M2_1_MXILINX_GivenRam CP XOR2 CP OR2 CP NOR2 CP NOR2B1 CP AND2
+EN work/D4_16E_MXILINX_GivenRam 1526503697 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D4_16E_MXILINX_GivenRam/BEHAVIORAL 1526503698 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/D4_16E_MXILINX_GivenRam 1526503697 CP AND5B3 CP AND5B2 CP AND5B1 \
+      CP AND5 CP AND5B4
+EN work/InsDecoder_MUSER_GivenRam 1526503699 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/InsDecoder_MUSER_GivenRam/BEHAVIORAL 1526503700 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/InsDecoder_MUSER_GivenRam 1526503699 CP AND2 \
+      CP D4_16E_MXILINX_GivenRam CP PULLUP
+EN work/StatusRegReader_MUSER_GivenRam 1526503701 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/StatusRegReader_MUSER_GivenRam/BEHAVIORAL 1526503702 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/StatusRegReader_MUSER_GivenRam 1526503701 CP BUF
+EN work/picocpu_MUSER_GivenRam 1526503703 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/picocpu_MUSER_GivenRam/BEHAVIORAL 1526503704 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/picocpu_MUSER_GivenRam 1526503703 CP InsDecoder_MUSER_GivenRam \
+      CP ALUPico_MUSER_GivenRam CP ABCRegisters_MUSER_GivenRam \
+      CP StatusRegWriter_MUSER_GivenRam CP StatusRegReader_MUSER_GivenRam CP INV \
+      CP OR3 CP OR4 CP OR2 CP AND2 CP eightBitMux4Way_MUSER_GivenRam \
+      CP demux4_MUSER_GivenRam CP TickSplit_MUSER_GivenRam \
+      CP eightBitMux_MUSER_GivenRam
+EN work/TickCombine_MUSER_GivenRam 1526503705 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TickCombine_MUSER_GivenRam/BEHAVIORAL 1526503706 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/TickCombine_MUSER_GivenRam 1526503705 CP BUF
+EN work/IrDrRegisters_MUSER_GivenRam 1526503707 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/IrDrRegisters_MUSER_GivenRam/BEHAVIORAL 1526503708 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/IrDrRegisters_MUSER_GivenRam 1526503707 CP FD8CE_MXILINX_GivenRam
+EN work/NegSeg_MUSER_GivenRam 1526503709 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/NegSeg_MUSER_GivenRam/BEHAVIORAL 1526503710 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" \
+      EN work/NegSeg_MUSER_GivenRam 1526503709 CP PULLUP CP PULLDOWN \
+      CP eightBitMux_MUSER_GivenRam CP sseg_mux4D CP bin2BCD3en CP BUF CP AND2B1 \
+      CP M2_1_MXILINX_GivenRam CP AND2
+EN work/GivenRam 1526503711 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/GivenRam/BEHAVIORAL 1526503712 \
+      FL "C:/A Miniscule Computer/Final1/GivenRam.vhf" EN work/GivenRam 1526503711 \
+      CP DCM_50M CP NegSeg_MUSER_GivenRam CP IrDrRegisters_MUSER_GivenRam \
+      CP TickCombine_MUSER_GivenRam CP INV CP BUF CP eightBitMux_MUSER_GivenRam \
+      CP AND2 CP OR2 CP picocpu_MUSER_GivenRam CP PULLUP CP FJKCE_MXILINX_GivenRam \
+      CP AND2B1 CP TickerTocker_MUSER_GivenRam CP GivenRamC_MUSER_GivenRam \
+      CP ProgramCounter8_MUSER_GivenRam
+FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" 2018/05/16.12:39:20 P.20131013
+EN work/oneBitMux_MUSER_GivenRamC 1526503713 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux_MUSER_GivenRamC/BEHAVIORAL 1526503714 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" \
+      EN work/oneBitMux_MUSER_GivenRamC 1526503713 CP NAND2
+EN work/fourBitMux_MUSER_GivenRamC 1526503715 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fourBitMux_MUSER_GivenRamC/BEHAVIORAL 1526503716 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" \
+      EN work/fourBitMux_MUSER_GivenRamC 1526503715 CP oneBitMux_MUSER_GivenRamC
+EN work/fiveBitMux_MUSER_GivenRamC 1526503717 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fiveBitMux_MUSER_GivenRamC/BEHAVIORAL 1526503718 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" \
+      EN work/fiveBitMux_MUSER_GivenRamC 1526503717 CP fourBitMux_MUSER_GivenRamC \
+      CP oneBitMux_MUSER_GivenRamC
+EN work/FTRSE_MXILINX_GivenRamC 1526503719 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTRSE_MXILINX_GivenRamC/BEHAVIORAL 1526503720 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" \
+      EN work/FTRSE_MXILINX_GivenRamC 1526503719 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_GivenRamC 1526503721 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2RE_MXILINX_GivenRamC/BEHAVIORAL 1526503722 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" \
+      EN work/CB2RE_MXILINX_GivenRamC 1526503721 CP FTRSE_MXILINX_GivenRamC \
+      CP AND2 CP VCC CP GND
+EN work/MemWrite_MUSER_GivenRamC 1526503723 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MemWrite_MUSER_GivenRamC/BEHAVIORAL 1526503724 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" \
+      EN work/MemWrite_MUSER_GivenRamC 1526503723 CP NOR2 \
+      CP CB2RE_MXILINX_GivenRamC CP OR2
+EN work/oneBitDemux_MUSER_GivenRamC 1526503725 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitDemux_MUSER_GivenRamC/BEHAVIORAL 1526503726 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" \
+      EN work/oneBitDemux_MUSER_GivenRamC 1526503725 CP INV CP AND2
+EN work/keypad_MUSER_GivenRamC 1526503727 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/keypad_MUSER_GivenRamC/BEHAVIORAL 1526503728 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" \
+      EN work/keypad_MUSER_GivenRamC 1526503727 CP PULLDOWN CP keyCR4b CP FD CP INV
+EN work/GivenRamC 1526503729 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/GivenRamC/BEHAVIORAL 1526503730 \
+      FL "C:/A Miniscule Computer/Final1/GivenRamC.vhf" EN work/GivenRamC 1526503729 \
+      CP keypad_MUSER_GivenRamC CP oneshot CP oneBitDemux_MUSER_GivenRamC \
+      CP shiftreg_hex2D CP BUF CP PULLUP CP INV CP AND2B1 CP MemWrite_MUSER_GivenRamC \
+      CP fiveBitMux_MUSER_GivenRamC CP OR3 CP sRAM32x8_pgmC_data \
+      CP sRAM32x8_pgmC_instr
+FL "C:/A Miniscule Computer/Final1/InsDecoder.vhf" 2018/05/16.12:39:19 P.20131013
+EN work/D4_16E_MXILINX_InsDecoder 1526503823 \
+      FL "C:/A Miniscule Computer/Final1/InsDecoder.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D4_16E_MXILINX_InsDecoder/BEHAVIORAL 1526503824 \
+      FL "C:/A Miniscule Computer/Final1/InsDecoder.vhf" \
+      EN work/D4_16E_MXILINX_InsDecoder 1526503823 CP AND5B3 CP AND5B2 CP AND5B1 \
+      CP AND5 CP AND5B4
+EN work/InsDecoder 1526503825 \
+      FL "C:/A Miniscule Computer/Final1/InsDecoder.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/InsDecoder/BEHAVIORAL 1526503826 \
+      FL "C:/A Miniscule Computer/Final1/InsDecoder.vhf" EN work/InsDecoder 1526503825 \
+      CP AND2 CP D4_16E_MXILINX_InsDecoder CP PULLUP
+FL "C:/A Miniscule Computer/Final1/IrDrRegisters.vhf" 2018/05/16.12:39:28 P.20131013
+EN work/FD8CE_MXILINX_IrDrRegisters 1526503731 \
+      FL "C:/A Miniscule Computer/Final1/IrDrRegisters.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD8CE_MXILINX_IrDrRegisters/BEHAVIORAL 1526503732 \
+      FL "C:/A Miniscule Computer/Final1/IrDrRegisters.vhf" \
+      EN work/FD8CE_MXILINX_IrDrRegisters 1526503731 CP FDCE
+EN work/IrDrRegisters 1526503733 \
+      FL "C:/A Miniscule Computer/Final1/IrDrRegisters.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/IrDrRegisters/BEHAVIORAL 1526503734 \
+      FL "C:/A Miniscule Computer/Final1/IrDrRegisters.vhf" EN work/IrDrRegisters 1526503733 \
+      CP FD8CE_MXILINX_IrDrRegisters
+FL "C:/A Miniscule Computer/Final1/keyCR4b.vhd" 2017/04/25.11:47:52 P.20131013
+EN work/keyCR4b 1526503625 FL "C:/A Miniscule Computer/Final1/keyCR4b.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/keyCR4b/Behavioral 1526503626 \
+      FL "C:/A Miniscule Computer/Final1/keyCR4b.vhd" EN work/keyCR4b 1526503625 \
+      CP CRenc4bin
+FL "C:/A Miniscule Computer/Final1/keypad.vhf" 2018/05/16.12:39:34 P.20131013
+EN work/keypad 1526503827 FL "C:/A Miniscule Computer/Final1/keypad.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/keypad/BEHAVIORAL 1526503828 \
+      FL "C:/A Miniscule Computer/Final1/keypad.vhf" EN work/keypad 1526503827 \
+      CP PULLDOWN CP keyCR4b CP FD CP INV
+FL "C:/A Miniscule Computer/Final1/MemWrite.vhf" 2018/05/16.12:39:28 P.20131013
+EN work/FTRSE_MXILINX_MemWrite 1526503829 \
+      FL "C:/A Miniscule Computer/Final1/MemWrite.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTRSE_MXILINX_MemWrite/BEHAVIORAL 1526503830 \
+      FL "C:/A Miniscule Computer/Final1/MemWrite.vhf" \
+      EN work/FTRSE_MXILINX_MemWrite 1526503829 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_MemWrite 1526503831 \
+      FL "C:/A Miniscule Computer/Final1/MemWrite.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2RE_MXILINX_MemWrite/BEHAVIORAL 1526503832 \
+      FL "C:/A Miniscule Computer/Final1/MemWrite.vhf" \
+      EN work/CB2RE_MXILINX_MemWrite 1526503831 CP FTRSE_MXILINX_MemWrite CP AND2 \
+      CP VCC CP GND
+EN work/MemWrite 1526503833 \
+      FL "C:/A Miniscule Computer/Final1/MemWrite.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/MemWrite/BEHAVIORAL 1526503834 \
+      FL "C:/A Miniscule Computer/Final1/MemWrite.vhf" EN work/MemWrite 1526503833 \
+      CP NOR2 CP CB2RE_MXILINX_MemWrite CP OR2
+FL "C:/A Miniscule Computer/Final1/NegSeg.vhf" 2018/05/16.12:39:38 P.20131013
+EN work/M2_1_MXILINX_NegSeg 1526503735 \
+      FL "C:/A Miniscule Computer/Final1/NegSeg.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_NegSeg/BEHAVIORAL 1526503736 \
+      FL "C:/A Miniscule Computer/Final1/NegSeg.vhf" EN work/M2_1_MXILINX_NegSeg 1526503735 \
+      CP AND2B1 CP OR2 CP AND2
+EN work/eightBitMux_MUSER_NegSeg 1526503737 \
+      FL "C:/A Miniscule Computer/Final1/NegSeg.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux_MUSER_NegSeg/BEHAVIORAL 1526503738 \
+      FL "C:/A Miniscule Computer/Final1/NegSeg.vhf" \
+      EN work/eightBitMux_MUSER_NegSeg 1526503737 CP M2_1_MXILINX_NegSeg
+EN work/NegSeg 1526503739 \
+      FL "C:/A Miniscule Computer/Final1/NegSeg.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/NegSeg/BEHAVIORAL 1526503740 \
+      FL "C:/A Miniscule Computer/Final1/NegSeg.vhf" EN work/NegSeg 1526503739 \
+      CP PULLUP CP PULLDOWN CP eightBitMux_MUSER_NegSeg CP sseg_mux4D CP bin2BCD3en \
+      CP BUF CP AND2B1 CP M2_1_MXILINX_NegSeg CP AND2
+FL "C:/A Miniscule Computer/Final1/oneBitDemux.vhf" 2018/05/16.12:39:33 P.20131013
+EN work/oneBitDemux 1526503849 \
+      FL "C:/A Miniscule Computer/Final1/oneBitDemux.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitDemux/BEHAVIORAL 1526503850 \
+      FL "C:/A Miniscule Computer/Final1/oneBitDemux.vhf" EN work/oneBitDemux 1526503849 \
+      CP INV CP AND2
+FL "C:/A Miniscule Computer/Final1/oneBitMux.vhf" 2018/05/16.12:39:38 P.20131013
+EN work/oneBitMux 1526503857 FL "C:/A Miniscule Computer/Final1/oneBitMux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitMux/BEHAVIORAL 1526503858 \
+      FL "C:/A Miniscule Computer/Final1/oneBitMux.vhf" EN work/oneBitMux 1526503857 \
+      CP NAND2
+FL "C:/A Miniscule Computer/Final1/oneshot.vhd" 2018/04/26.11:21:10 P.20131013
+EN work/oneshot 1526503631 FL "C:/A Miniscule Computer/Final1/oneshot.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177
+AR work/oneshot/Behavioral 1526503632 \
+      FL "C:/A Miniscule Computer/Final1/oneshot.vhd" EN work/oneshot 1526503631
+FL "C:/A Miniscule Computer/Final1/picocpu.vhf" 2018/05/16.12:39:33 P.20131013
+EN work/M2_1_MXILINX_picocpu 1526503741 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_picocpu/BEHAVIORAL 1526503742 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/M2_1_MXILINX_picocpu 1526503741 CP AND2B1 CP OR2 CP AND2
+EN work/eightBitMux_MUSER_picocpu 1526503743 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux_MUSER_picocpu/BEHAVIORAL 1526503744 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/eightBitMux_MUSER_picocpu 1526503743 CP M2_1_MXILINX_picocpu
+EN work/TickSplit_MUSER_picocpu 1526503745 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TickSplit_MUSER_picocpu/BEHAVIORAL 1526503746 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/TickSplit_MUSER_picocpu 1526503745 CP BUF
+EN work/oneBitDemux_MUSER_picocpu 1526503747 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneBitDemux_MUSER_picocpu/BEHAVIORAL 1526503748 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/oneBitDemux_MUSER_picocpu 1526503747 CP INV CP AND2
+EN work/demux4_MUSER_picocpu 1526503749 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/demux4_MUSER_picocpu/BEHAVIORAL 1526503750 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/demux4_MUSER_picocpu 1526503749 CP oneBitDemux_MUSER_picocpu
+EN work/FD8CE_MXILINX_picocpu 1526503751 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FD8CE_MXILINX_picocpu/BEHAVIORAL 1526503752 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/FD8CE_MXILINX_picocpu 1526503751 CP FDCE
+EN work/ABCRegisters_MUSER_picocpu 1526503753 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ABCRegisters_MUSER_picocpu/BEHAVIORAL 1526503754 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/ABCRegisters_MUSER_picocpu 1526503753 CP FD8CE_MXILINX_picocpu
+EN work/eightBitMux4Way_MUSER_picocpu 1526503755 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightBitMux4Way_MUSER_picocpu/BEHAVIORAL 1526503756 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/eightBitMux4Way_MUSER_picocpu 1526503755 \
+      CP eightBitMux_MUSER_picocpu
+EN work/StatusRegWriter_MUSER_picocpu 1526503757 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/StatusRegWriter_MUSER_picocpu/BEHAVIORAL 1526503758 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/StatusRegWriter_MUSER_picocpu 1526503757 CP BUF
+EN work/ADSU8_MXILINX_picocpu 1526503759 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADSU8_MXILINX_picocpu/BEHAVIORAL 1526503760 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/ADSU8_MXILINX_picocpu 1526503759 CP FMAP CP XOR3 CP MUXCY_L CP MUXCY \
+      CP XORCY CP MUXCY_D CP INV CP XOR2
+EN work/ADD8_MXILINX_picocpu 1526503761 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADD8_MXILINX_picocpu/BEHAVIORAL 1526503762 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/ADD8_MXILINX_picocpu 1526503761 CP FMAP CP MUXCY_L CP MUXCY CP XORCY \
+      CP MUXCY_D CP XOR2
+EN work/SignedToTwosComp_MUSER_picocpu 1526503763 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/SignedToTwosComp_MUSER_picocpu/BEHAVIORAL 1526503764 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/SignedToTwosComp_MUSER_picocpu 1526503763 CP M2_1_MXILINX_picocpu \
+      CP INV CP BUF CP ADD8_MXILINX_picocpu
+EN work/ALUPico_MUSER_picocpu 1526503765 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ALUPico_MUSER_picocpu/BEHAVIORAL 1526503766 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/ALUPico_MUSER_picocpu 1526503765 CP ADSU8_MXILINX_picocpu CP INV \
+      CP SignedToTwosComp_MUSER_picocpu CP eightBitMux_MUSER_picocpu \
+      CP M2_1_MXILINX_picocpu CP XOR2 CP OR2 CP NOR2 CP NOR2B1 CP AND2
+EN work/D4_16E_MXILINX_picocpu 1526503767 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D4_16E_MXILINX_picocpu/BEHAVIORAL 1526503768 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/D4_16E_MXILINX_picocpu 1526503767 CP AND5B3 CP AND5B2 CP AND5B1 \
+      CP AND5 CP AND5B4
+EN work/InsDecoder_MUSER_picocpu 1526503769 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/InsDecoder_MUSER_picocpu/BEHAVIORAL 1526503770 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/InsDecoder_MUSER_picocpu 1526503769 CP AND2 \
+      CP D4_16E_MXILINX_picocpu CP PULLUP
+EN work/StatusRegReader_MUSER_picocpu 1526503771 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/StatusRegReader_MUSER_picocpu/BEHAVIORAL 1526503772 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" \
+      EN work/StatusRegReader_MUSER_picocpu 1526503771 CP BUF
+EN work/picocpu 1526503773 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/picocpu/BEHAVIORAL 1526503774 \
+      FL "C:/A Miniscule Computer/Final1/picocpu.vhf" EN work/picocpu 1526503773 \
+      CP InsDecoder_MUSER_picocpu CP ALUPico_MUSER_picocpu \
+      CP ABCRegisters_MUSER_picocpu CP StatusRegWriter_MUSER_picocpu \
+      CP StatusRegReader_MUSER_picocpu CP INV CP OR3 CP OR4 CP OR2 CP AND2 \
+      CP eightBitMux4Way_MUSER_picocpu CP demux4_MUSER_picocpu \
+      CP TickSplit_MUSER_picocpu CP eightBitMux_MUSER_picocpu
+FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" 2018/05/16.12:39:38 P.20131013
+EN work/M2_1_MXILINX_ProgramCounter 1526499738 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_ProgramCounter/BEHAVIORAL 1526499739 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      EN work/M2_1_MXILINX_ProgramCounter 1526499738 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_ProgramCounter 1526499740 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_ProgramCounter/BEHAVIORAL 1526499741 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      EN work/FTCLEX_MXILINX_ProgramCounter 1526499740 \
+      CP M2_1_MXILINX_ProgramCounter CP XOR2 CP FDCE
+EN work/CB2CLE_MXILINX_ProgramCounter 1526499742 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB2CLE_MXILINX_ProgramCounter/BEHAVIORAL 1526499743 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      EN work/CB2CLE_MXILINX_ProgramCounter 1526499742 \
+      CP FTCLEX_MXILINX_ProgramCounter CP AND2 CP VCC CP OR2
+EN work/CB4CLE_MXILINX_ProgramCounter 1526499744 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLE_MXILINX_ProgramCounter/BEHAVIORAL 1526499745 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      EN work/CB4CLE_MXILINX_ProgramCounter 1526499744 \
+      CP FTCLEX_MXILINX_ProgramCounter CP VCC CP AND4 CP AND2 CP AND3 CP OR2
+EN work/ProgramCounter 1526499746 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ProgramCounter/BEHAVIORAL 1526499747 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter.vhf" \
+      EN work/ProgramCounter 1526499746 CP CB4CLE_MXILINX_ProgramCounter \
+      CP CB2CLE_MXILINX_ProgramCounter
+FL "C:/A Miniscule Computer/Final1/ProgramCounter8.vhf" 2018/05/16.13:46:53 P.20131013
+EN work/M2_1_MXILINX_ProgramCounter8 1526503775 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter8.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_ProgramCounter8/BEHAVIORAL 1526503776 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter8.vhf" \
+      EN work/M2_1_MXILINX_ProgramCounter8 1526503775 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_ProgramCounter8 1526503777 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter8.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_ProgramCounter8/BEHAVIORAL 1526503778 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter8.vhf" \
+      EN work/FTCLEX_MXILINX_ProgramCounter8 1526503777 \
+      CP M2_1_MXILINX_ProgramCounter8 CP XOR2 CP FDCE
+EN work/CB8CLE_MXILINX_ProgramCounter8 1526503779 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter8.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB8CLE_MXILINX_ProgramCounter8/BEHAVIORAL 1526503780 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter8.vhf" \
+      EN work/CB8CLE_MXILINX_ProgramCounter8 1526503779 \
+      CP FTCLEX_MXILINX_ProgramCounter8 CP AND3 CP AND2 CP VCC CP AND4 CP AND5 CP OR2
+EN work/ProgramCounter8 1526503781 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter8.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ProgramCounter8/BEHAVIORAL 1526503782 \
+      FL "C:/A Miniscule Computer/Final1/ProgramCounter8.vhf" \
+      EN work/ProgramCounter8 1526503781 CP CB8CLE_MXILINX_ProgramCounter8 CP BUF
+FL "C:/A Miniscule Computer/Final1/shiftreg_hex2D.vhd" 2017/10/10.10:41:20 P.20131013
+EN work/shiftreg_hex2D 1526503633 \
+      FL "C:/A Miniscule Computer/Final1/shiftreg_hex2D.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/shiftreg_hex2D/Behavioral 1526503634 \
+      FL "C:/A Miniscule Computer/Final1/shiftreg_hex2D.vhd" \
+      EN work/shiftreg_hex2D 1526503633
+FL "C:/A Miniscule Computer/Final1/SignedToTwosComp.vhf" 2018/05/16.12:39:37 P.20131013
+EN work/ADD8_MXILINX_SignedToTwosComp 1526503851 \
+      FL "C:/A Miniscule Computer/Final1/SignedToTwosComp.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD8_MXILINX_SignedToTwosComp/BEHAVIORAL 1526503852 \
+      FL "C:/A Miniscule Computer/Final1/SignedToTwosComp.vhf" \
+      EN work/ADD8_MXILINX_SignedToTwosComp 1526503851 CP FMAP CP MUXCY_L CP MUXCY \
+      CP XORCY CP MUXCY_D CP XOR2
+EN work/M2_1_MXILINX_SignedToTwosComp 1526503853 \
+      FL "C:/A Miniscule Computer/Final1/SignedToTwosComp.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_SignedToTwosComp/BEHAVIORAL 1526503854 \
+      FL "C:/A Miniscule Computer/Final1/SignedToTwosComp.vhf" \
+      EN work/M2_1_MXILINX_SignedToTwosComp 1526503853 CP AND2B1 CP OR2 CP AND2
+EN work/SignedToTwosComp 1526503855 \
+      FL "C:/A Miniscule Computer/Final1/SignedToTwosComp.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/SignedToTwosComp/BEHAVIORAL 1526503856 \
+      FL "C:/A Miniscule Computer/Final1/SignedToTwosComp.vhf" \
+      EN work/SignedToTwosComp 1526503855 CP M2_1_MXILINX_SignedToTwosComp CP INV \
+      CP BUF CP ADD8_MXILINX_SignedToTwosComp
+FL "C:/A Miniscule Computer/Final1/sRAM32x8_pgmC_data.vhd" 2017/12/14.11:06:18 P.20131013
+EN work/sRAM32x8_pgmC_data 1526503635 \
+      FL "C:/A Miniscule Computer/Final1/sRAM32x8_pgmC_data.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/sRAM32x8_pgmC_data/Behavioral 1526503636 \
+      FL "C:/A Miniscule Computer/Final1/sRAM32x8_pgmC_data.vhd" \
+      EN work/sRAM32x8_pgmC_data 1526503635
+FL "C:/A Miniscule Computer/Final1/sRAM32x8_pgmC_instr.vhd" 2017/12/13.21:07:54 P.20131013
+EN work/sRAM32x8_pgmC_instr 1526503637 \
+      FL "C:/A Miniscule Computer/Final1/sRAM32x8_pgmC_instr.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/sRAM32x8_pgmC_instr/Behavioral 1526503638 \
+      FL "C:/A Miniscule Computer/Final1/sRAM32x8_pgmC_instr.vhd" \
+      EN work/sRAM32x8_pgmC_instr 1526503637
+FL "C:/A Miniscule Computer/Final1/sseg_mux4D.vhd" 2018/03/27.10:01:04 P.20131013
+EN work/sseg_mux4D 1526503627 FL "C:/A Miniscule Computer/Final1/sseg_mux4D.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sseg_mux4D/Behavioral 1526503628 \
+      FL "C:/A Miniscule Computer/Final1/sseg_mux4D.vhd" EN work/sseg_mux4D 1526503627
+FL "C:/A Miniscule Computer/Final1/StatusRegReader.vhf" 2018/05/16.12:39:28 P.20131013
+EN work/StatusRegReader 1526503835 \
+      FL "C:/A Miniscule Computer/Final1/StatusRegReader.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/StatusRegReader/BEHAVIORAL 1526503836 \
+      FL "C:/A Miniscule Computer/Final1/StatusRegReader.vhf" \
+      EN work/StatusRegReader 1526503835 CP BUF
+FL "C:/A Miniscule Computer/Final1/StatusRegWriter.vhf" 2018/05/16.12:39:28 P.20131013
+EN work/StatusRegWriter 1526503837 \
+      FL "C:/A Miniscule Computer/Final1/StatusRegWriter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/StatusRegWriter/BEHAVIORAL 1526503838 \
+      FL "C:/A Miniscule Computer/Final1/StatusRegWriter.vhf" \
+      EN work/StatusRegWriter 1526503837 CP BUF
+FL "C:/A Miniscule Computer/Final1/TickCombine.vhf" 2018/05/16.12:39:33 P.20131013
+EN work/TickCombine 1526503783 \
+      FL "C:/A Miniscule Computer/Final1/TickCombine.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TickCombine/BEHAVIORAL 1526503784 \
+      FL "C:/A Miniscule Computer/Final1/TickCombine.vhf" EN work/TickCombine 1526503783 \
+      CP BUF
+FL "C:/A Miniscule Computer/Final1/TickerTocker.vhf" 2018/05/16.12:39:27 P.20131013
+EN work/FTCE_MXILINX_TickerTocker 1526503785 \
+      FL "C:/A Miniscule Computer/Final1/TickerTocker.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_TickerTocker/BEHAVIORAL 1526503786 \
+      FL "C:/A Miniscule Computer/Final1/TickerTocker.vhf" \
+      EN work/FTCE_MXILINX_TickerTocker 1526503785 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_TickerTocker 1526503787 \
+      FL "C:/A Miniscule Computer/Final1/TickerTocker.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_TickerTocker/BEHAVIORAL 1526503788 \
+      FL "C:/A Miniscule Computer/Final1/TickerTocker.vhf" \
+      EN work/CB4CE_MXILINX_TickerTocker 1526503787 CP FTCE_MXILINX_TickerTocker \
+      CP AND4 CP AND3 CP AND2 CP VCC
+EN work/TickerTocker 1526503789 \
+      FL "C:/A Miniscule Computer/Final1/TickerTocker.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TickerTocker/BEHAVIORAL 1526503790 \
+      FL "C:/A Miniscule Computer/Final1/TickerTocker.vhf" EN work/TickerTocker 1526503789 \
+      CP CB4CE_MXILINX_TickerTocker CP AND3B3 CP AND3B2 CP AND3 CP AND3B1 CP BUF
+FL "C:/A Miniscule Computer/Final1/TickSplit.vhf" 2018/05/16.12:39:34 P.20131013
+EN work/TickSplit 1526503839 FL "C:/A Miniscule Computer/Final1/TickSplit.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/TickSplit/BEHAVIORAL 1526503840 \
+      FL "C:/A Miniscule Computer/Final1/TickSplit.vhf" EN work/TickSplit 1526503839 \
+      CP BUF
