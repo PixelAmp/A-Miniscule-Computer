@@ -1,5 +1,0 @@
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl GivenRamC_drc.vhf -w {C:/A Miniscule Computer/Final1/GivenRamC.sch} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl GivenRamC_drc.vhf -w {C:/A Miniscule Computer/Final1/GivenRamC.sch} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl GivenRamC_drc.vhf -w {C:/A Miniscule Computer/Final1/GivenRamC.sch} 
-sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl GivenRamC_drc.vhf -w {C:/A Miniscule Computer/Final1/GivenRamC.sch} 
-sch2sym -intstyle ise -family spartan3e -w -refsym GivenRamC {C:/A Miniscule Computer/Final1/GivenRamC.sch} {C:/A Miniscule Computer/Final1/GivenRamC.sym} 

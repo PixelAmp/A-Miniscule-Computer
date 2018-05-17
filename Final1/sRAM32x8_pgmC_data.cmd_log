@@ -1,2 +1,2 @@
-vhdtdtfi -lib work sRAM32x8_pgmC_data.vhd -prj Final1 -o sRAM32x8_pgmC_data.spl -module sRAM32x8_pgmC_data -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e -w sRAM32x8_pgmC_data.spl {C:/A Miniscule Computer/Final1/sRAM32x8_pgmC_data.sym} 
+vhdtdtfi -lib work sRAM32x8_pgmC_data.vhd -prj Final1 -o sRAM32x8_pgmC_data.spl -module sRAM32x8_pgmC_data -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w sRAM32x8_pgmC_data.spl D:/Judah/Documents/School/PhysicsStuff/Final1/sRAM32x8_pgmC_data.sym 

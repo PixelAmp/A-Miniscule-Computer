@@ -8,19 +8,38 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/ALUPico D:|Judah|Documents|School|PhysicsStuff|Final1|ALUPico.sch</ClosedNode>
-         <ClosedNode>/Demux8bit C:|A Miniscule Computer|Final1|Demux8bit.sch</ClosedNode>
-         <ClosedNode>/HardInstructions C:|A Miniscule Computer|Final1|HardInstructions.sch</ClosedNode>
-         <ClosedNode>/TinyTester C:|A Miniscule Computer|Final1|TinyTester.sch</ClosedNode>
+         <ClosedNode>/Demux8bit D:|Judah|Documents|School|PhysicsStuff|Final1|Demux8bit.sch</ClosedNode>
+         <ClosedNode>/HardInstructions D:|Judah|Documents|School|PhysicsStuff|Final1|HardInstructions.sch</ClosedNode>
+         <ClosedNode>/KeyAndMemory D:|Judah|Documents|School|PhysicsStuff|Final1|KeyAndMemory.sch</ClosedNode>
+         <ClosedNode>/KeyAndMemory D:|Judah|Documents|School|PhysicsStuff|Final1|KeyAndMemory.sch/XLXI_24 - fiveBitMux</ClosedNode>
+         <ClosedNode>/TinyTester D:|Judah|Documents|School|PhysicsStuff|Final1|TinyTester.sch</ClosedNode>
          <ClosedNode>/TinyTester D:|Judah|Documents|School|PhysicsStuff|Final1|TinyTester.sch/XLXI_3 - ALUPico</ClosedNode>
          <ClosedNode>/TinyTester D:|Judah|Documents|School|PhysicsStuff|Final1|TinyTester.sch/XLXI_6 - NegSeg</ClosedNode>
-         <ClosedNode>/picocomputer C:|A Miniscule Computer|Final1|picocomputer.sch</ClosedNode>
+         <ClosedNode>/demux4 D:|Judah|Documents|School|PhysicsStuff|Final1|demux4.sch</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_104 - picocpu/XLXI_10 - ALUPico</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_104 - picocpu/XLXI_65 - eightBitMux4Way</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_104 - picocpu/XLXI_68 - demux4</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_107 - HardInstructions</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_121 - picocpu</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_122 - KeyAndMemory</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_29 - HardInstructions</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_3 - ALUPico</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_6 - NegSeg</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_65 - eightBitMux4Way</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_68 - demux4</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_73 - picocpu/XLXI_10 - ALUPico</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_73 - picocpu/XLXI_65 - eightBitMux4Way</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_73 - picocpu/XLXI_68 - demux4</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_95 - KeyAndMemory</ClosedNode>
+         <ClosedNode>/picocomputer D:|Judah|Documents|School|PhysicsStuff|Final1|picocomputer.sch/XLXI_96 - KeyAndMemory</ClosedNode>
+         <ClosedNode>/picocpu D:|Judah|Documents|School|PhysicsStuff|Final1|picocpu.sch</ClosedNode>
       </ClosedNodes>
       <SelectedItems/>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >8</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000011e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000011e0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f30000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>picocomputer (C:/A Miniscule Computer/Final1/picocomputer.sch)</CurrentItem>
+      <CurrentItem>XLXI_123 - KeyAndMemory (D:/Judah/Documents/School/PhysicsStuff/Final1/KeyAndMemory.sch)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -32,7 +51,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000143000000010000000100000000000000000000000064ffffffff000000810000000000000001000001430000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000010000000100000000000000000000000064ffffffff000000810000000000000001000001340000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -43,7 +62,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000252000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000001970000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000123000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000000680000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>ALUPico.sch</CurrentItem>
    </ItemView>
@@ -68,13 +87,13 @@
          <ClosedNode>Synthesize - XST</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Generate Programming File</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000132000000010000000100000000000000000000000064ffffffff000000810000000000000001000001320000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000010000000100000000000000000000000064ffffffff000000810000000000000001000001340000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Generate Programming File</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
@@ -88,7 +107,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000133000000010000000100000000000000000000000064ffffffff000000810000000000000001000001330000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000010000000100000000000000000000000064ffffffff000000810000000000000001000001340000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
    </ItemView>
@@ -101,7 +120,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000133000000010000000100000000000000000000000064ffffffff000000810000000000000001000001330000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000010000000100000000000000000000000064ffffffff000000810000000000000001000001340000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Create Schematic Symbol</CurrentItem>
    </ItemView>

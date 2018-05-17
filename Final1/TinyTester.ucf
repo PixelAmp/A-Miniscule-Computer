@@ -30,6 +30,7 @@ NET "ClockIn" LOC = B8;
 
 NET "DebugMode" CLOCK_DEDICATED_ROUTE = FALSE;
 NET "DebugMode" LOC = L3;
+NET "ACPeek" LOC = K3;
 
 NET "WriteMem" LOC = A7;
 NET "ReadMem" LOC = M4;
@@ -41,9 +42,9 @@ NET "TickOut[7]" LOC = G1;
   
 NET "NegFlag" LOC = P7;
 NET "DebugOut" LOC = M11;
-NET "DrOut[0]" LOC = M5;
+NET "OverflowV" LOC = M5;
 
 NET "Lda" LOC = P4;
-NET "Lca" LOC = N4;
+NET "Clr" LOC = N4;
 NET "Adi" LOC = N5;
 NET "Nop" LOC = P6;

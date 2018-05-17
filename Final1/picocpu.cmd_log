@@ -14,3 +14,13 @@ sch2sym -intstyle ise -family spartan3e -w -refsym picocpu D:/Judah/Documents/Sc
 sch2sym -intstyle ise -family spartan3e -w -refsym picocpu D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sym 
 sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl picocpu_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch 
 sch2sym -intstyle ise -family spartan3e -w -refsym picocpu D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym picocpu D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym picocpu D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym picocpu D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl picocpu_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl picocpu_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym picocpu D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl picocpu_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym picocpu D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl picocpu_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym picocpu D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sch D:/Judah/Documents/School/PhysicsStuff/Final1/picocpu.sym 

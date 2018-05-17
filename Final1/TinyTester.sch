@@ -109,7 +109,8 @@
             <rect width="256" x="64" y="-384" height="704" />
         </blockdef>
         <blockdef name="TickerTocker">
-            <timestamp>2018-5-1T18:1:30</timestamp>
+            <timestamp>2018-5-14T2:5:11</timestamp>
+            <line x2="0" y1="96" y2="96" x1="64" />
             <line x2="384" y1="32" y2="32" x1="320" />
             <line x2="0" y1="-480" y2="-480" x1="64" />
             <line x2="0" y1="-32" y2="-32" x1="64" />
@@ -121,7 +122,7 @@
             <line x2="384" y1="-160" y2="-160" x1="320" />
             <line x2="384" y1="-96" y2="-96" x1="320" />
             <line x2="384" y1="-32" y2="-32" x1="320" />
-            <rect width="256" x="64" y="-512" height="576" />
+            <rect width="256" x="64" y="-512" height="640" />
         </blockdef>
         <blockdef name="pullup">
             <timestamp>2000-1-1T10:10:10</timestamp>
@@ -141,13 +142,16 @@
             <line x2="32" y1="-128" y2="-128" x1="96" />
         </blockdef>
         <blockdef name="ProgramCounter">
-            <timestamp>2018-5-12T22:56:3</timestamp>
+            <timestamp>2018-5-14T1:39:45</timestamp>
+            <rect width="64" x="0" y="84" height="24" />
+            <line x2="0" y1="96" y2="96" x1="64" />
+            <line x2="0" y1="160" y2="160" x1="64" />
             <line x2="0" y1="32" y2="32" x1="64" />
             <line x2="0" y1="-96" y2="-96" x1="64" />
             <line x2="0" y1="-32" y2="-32" x1="64" />
             <rect width="64" x="384" y="-108" height="24" />
             <line x2="448" y1="-96" y2="-96" x1="384" />
-            <rect width="320" x="64" y="-128" height="192" />
+            <rect width="320" x="64" y="-128" height="320" />
         </blockdef>
         <blockdef name="ABCRegisters">
             <timestamp>2018-5-8T16:36:18</timestamp>
@@ -291,15 +295,18 @@
             <blockpin signalname="S6" name="S6" />
             <blockpin signalname="S7" name="S7" />
             <blockpin name="TickOut" />
+            <blockpin name="ClearIn" />
         </block>
         <block symbolname="pullup" name="XLXI_9">
             <blockpin signalname="XLXN_53" name="O" />
         </block>
         <block symbolname="ProgramCounter" name="XLXI_11">
             <blockpin name="ClockIn" />
-            <blockpin name="ClockEnable" />
-            <blockpin name="CounterOut(4:0)" />
             <blockpin name="ClearIn" />
+            <blockpin name="ClockEnable" />
+            <blockpin name="CountLoad(4:0)" />
+            <blockpin name="PushLoad" />
+            <blockpin name="CounterOut(4:0)" />
         </block>
         <block symbolname="ABCRegisters" name="XLXI_15">
             <blockpin name="Cin(7:0)" />

@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl picoCpu2_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/picoCpu2.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym picoCpu2 D:/Judah/Documents/School/PhysicsStuff/Final1/picoCpu2.sch D:/Judah/Documents/School/PhysicsStuff/Final1/picoCpu2.sym 

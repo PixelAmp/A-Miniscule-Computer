@@ -1,2 +1,5 @@
 sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl KeyAndMemory_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/KeyAndMemory.sch 
 sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory D:/Judah/Documents/School/PhysicsStuff/Final1/KeyAndMemory.sch D:/Judah/Documents/School/PhysicsStuff/Final1/KeyAndMemory.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory D:/Judah/Documents/School/PhysicsStuff/Final1/KeyAndMemory.sch D:/Judah/Documents/School/PhysicsStuff/Final1/KeyAndMemory.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl KeyAndMemory_drc.vhf -w D:/Judah/Documents/School/PhysicsStuff/Final1/KeyAndMemory.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym KeyAndMemory D:/Judah/Documents/School/PhysicsStuff/Final1/KeyAndMemory.sch D:/Judah/Documents/School/PhysicsStuff/Final1/KeyAndMemory.sym 
