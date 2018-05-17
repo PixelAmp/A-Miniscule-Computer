@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\A Miniscule Computer\MemMaker\TestArea.ncd
-OUTFILE=C:\A Miniscule Computer\MemMaker\TestArea.bit
-FAMILY=Spartan3E
-PART=xc3s100e-4cp132
-WORKINGDIR=C:\A Miniscule Computer\MemMaker
-LICENSE=WebPack
-USER_INFO=174218040_0_0_110

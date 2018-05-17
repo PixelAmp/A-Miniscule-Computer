@@ -1,2 +1,0 @@
-vhdtdtfi -lib work oneshot.vhd -prj IRDRMaker -o oneshot.spl -module oneshot -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e oneshot.spl {C:/A Miniscule Computer/IRDRMaker/oneshot.sym} 

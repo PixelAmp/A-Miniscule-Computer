@@ -1,5 +1,0 @@
-MODULE eightBitMux
-	SUBMODULE fourBitMux
-		INSTANCE XLXI_1
-	SUBMODULE fourBitMux
-		INSTANCE XLXI_2

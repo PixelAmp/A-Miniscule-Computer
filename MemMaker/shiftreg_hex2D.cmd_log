@@ -1,2 +1,0 @@
-vhdtdtfi -lib work shiftreg_hex2D.vhd -prj MemMaker -o shiftreg_hex2D.spl -module shiftreg_hex2D -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e -w shiftreg_hex2D.spl {C:/A Miniscule Computer/MemMaker/shiftreg_hex2D.sym} 

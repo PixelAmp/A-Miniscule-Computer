@@ -1,1 +1,0 @@
-sch2sym -intstyle ise -family spartan3e -w -refsym MemWrite {C:/A Miniscule Computer/MemMaker/MemWrite.sch} {C:/A Miniscule Computer/MemMaker/MemWrite.sym} 

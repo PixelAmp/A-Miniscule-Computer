@@ -1,2 +1,0 @@
-sch2sym -intstyle ise -family spartan3e -refsym oneBitDemux {C:/A Miniscule Computer/MemMaker/oneBitDemux.sch} {C:/A Miniscule Computer/MemMaker/oneBitDemux.sym} 
-sch2sym -intstyle ise -family spartan3e -w -refsym oneBitDemux {C:/A Miniscule Computer/MemMaker/oneBitDemux.sch} {C:/A Miniscule Computer/MemMaker/oneBitDemux.sym} 
