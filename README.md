@@ -1,1 +1,1 @@
-A Miniscule Computer
+Digital Electronics Final Project
